@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-10-08T12:50:39.972985+00:00",
+  "checks": [
+    {
+      "host": "www.wpi.edu",
+      "port": 443,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    {
+      "host": "www.openai.com",
+      "port": 443,
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    }
+  ],
+  "credentials_sent": false,
+  "content_requested": false
+}

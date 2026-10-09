@@ -1,0 +1,176 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "job_analysis",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "JOB01",
+      "version": "1.0.0",
+      "principle": "Separate responsibilities, required qualifications, preferred qualifications and employment conditions.",
+      "provenance": [
+        {
+          "source_id": "S22",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/requirements"
+        },
+        {
+          "source_id": "S29",
+          "source_url": "https://hr.uw.edu/comp/classified-staff/create-position-checklist/"
+        },
+        {
+          "source_id": "S30",
+          "source_url": "https://careers.microsoft.com/v2/global/en/locations/hyderabad.html"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Each extracted atom retains modality and source span.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "JOB02",
+      "version": "1.0.0",
+      "principle": "Preserve exact numeric thresholds and logical alternatives in qualifications.",
+      "provenance": [
+        {
+          "source_id": "S23",
+          "source_url": "https://help.usajobs.gov/faq/application/eligibility/difference-from-qualifications"
+        },
+        {
+          "source_id": "S30",
+          "source_url": "https://careers.microsoft.com/v2/global/en/locations/hyderabad.html"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Years, operators, degree alternatives and AND/OR groups round-trip to source.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "JOB03",
+      "version": "1.0.0",
+      "principle": "Record location, remote work, hybrid/telework, travel and relocation reimbursement separately.",
+      "provenance": [
+        {
+          "source_id": "S24",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/overview"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "No reimbursement-to-willingness or hybrid-to-remote substitution.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "JOB04",
+      "version": "1.0.0",
+      "principle": "Keep eligibility constraints distinct from demonstrated qualifications.",
+      "provenance": [
+        {
+          "source_id": "S23",
+          "source_url": "https://help.usajobs.gov/faq/application/eligibility/difference-from-qualifications"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Eligibility is not a skill label; missing candidate eligibility requires trusted data.",
+      "exceptions_or_limits": [
+        "Federal hiring-path definitions are not imposed on private-sector jobs."
+      ]
+    },
+    {
+      "principle_id": "JOB05",
+      "version": "1.0.0",
+      "principle": "Do not infer an unstated technology, provider, credential or seniority from a broad phrase.",
+      "provenance": [
+        {
+          "source_id": "S22",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/requirements"
+        },
+        {
+          "source_id": "S29",
+          "source_url": "https://hr.uw.edu/comp/classified-staff/create-position-checklist/"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Unstated/ambiguous values remain null or explicit ambiguity.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "JOB06",
+      "version": "1.0.0",
+      "principle": "Read application instructions and required documents as part of the job context.",
+      "provenance": [
+        {
+          "source_id": "S25",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/how-to-apply"
+        },
+        {
+          "source_id": "S26",
+          "source_url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Explicit constraints are retained; conditional instructions remain conditional.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "JOB07",
+      "version": "1.0.0",
+      "principle": "Treat repetition and position within a posting as relevance hints, not proof of mandatory status.",
+      "provenance": [
+        {
+          "source_id": "S07",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-crafting-an-effective-resume/"
+        },
+        {
+          "source_id": "S22",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/requirements"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Priority hints never change preferred to required.",
+      "exceptions_or_limits": [
+        "Source advising suggests order can signal emphasis; posting structure can be noisy."
+      ]
+    },
+    {
+      "principle_id": "JOB08",
+      "version": "1.0.0",
+      "principle": "Keep job-derived facts separate from candidate facts and company assumptions.",
+      "provenance": [
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        },
+        {
+          "source_id": "S21",
+          "source_url": "https://careers.microsoft.com/v2/global/en/hiring-tips"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "A JD requirement cannot become evidence that the candidate has it.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

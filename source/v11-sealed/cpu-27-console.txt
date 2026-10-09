@@ -1,0 +1,6 @@
+usage: run_tests.py [-h] --root ROOT --kb KB --job-file JOB_FILE
+                    --profile-file PROFILE_FILE --output OUTPUT
+run_tests.py: error: cannot create fresh output: [Errno 17] File exists: '/var/folders/15/j9hk7hh10ls8sg7hp74slgf40000gn/T/tmp9jttt0ty/result.json'
+FAILED
+FAILED
+{'tests_run': 578, 'failures': 0, 'errors': 3, 'skipped': 46, 'protected_reads_denied': 3, 'seconds': 1.1961797080002725, 'passed': 529}

@@ -1,0 +1,218 @@
+{
+  "version": "stage4c0-task-rubric-v1",
+  "task": "MAP_JOB_TO_CANDIDATE",
+  "common_gate_version": "stage4c0-v1",
+  "common_rubric_sha256": "bd6a0163778b908be4ecdde5febf8df0a84ce3e185803be9b686c24f3c223b2b",
+  "dimensions": {
+    "grounding": {
+      "weight": 0,
+      "minimum": 4,
+      "hard_gate": true,
+      "principle_ids": [
+        "TRUTH01",
+        "TRUTH02",
+        "TRUTH03",
+        "TRUTH04",
+        "RES07",
+        "TECH05"
+      ],
+      "anchor_4": "Every factual atom entailed by visible same-scope sources; exact fields match; uncertainty and provenance preserved.",
+      "anchor_2": "At least one material unsupported or stronger-than-source fact; automatic rejection regardless of prose."
+    },
+    "task_completion": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "JOB06",
+        "APP01",
+        "APP04",
+        "CONV02"
+      ],
+      "anchor_4": "All applicable requested components, explicit constraints and output routing satisfied.",
+      "anchor_2": "Missing substantive section, question component, requirement or required user input."
+    },
+    "job_relevance": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES01",
+        "ATS04",
+        "CL02",
+        "OUT05"
+      ],
+      "anchor_4": "Strongest supported content prioritized against actual posting requirements without keyword stuffing.",
+      "anchor_2": "Generic or weak selection despite available relevant evidence."
+    },
+    "specificity": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES02",
+        "TECH01",
+        "TECH02",
+        "APP03",
+        "CONV01"
+      ],
+      "anchor_4": "Concrete role, contribution, context and supported result/purpose; qualitative impact accepted.",
+      "anchor_2": "Vague duties or technology list without contribution/context where evidence permits it."
+    },
+    "writing": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES04",
+        "RES08",
+        "CL01",
+        "CL06",
+        "OUT02"
+      ],
+      "anchor_4": "Natural professional voice, strong precise verbs, readable syntax and accurate tense; no filler.",
+      "anchor_2": "Boilerplate, awkward repetition, generic flattery or inconsistent tense obscures substance."
+    },
+    "structure_coherence": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES09",
+        "RES11",
+        "ATS01",
+        "ATS02",
+        "ACC01",
+        "ACC02",
+        "CL02"
+      ],
+      "anchor_4": "Ordered complete artifact; sections complement one another; chronology and terms consistent; minimal redundant events.",
+      "anchor_2": "Locally fluent fragments form an incomplete, repetitive or incoherent artifact."
+    },
+    "uncertainty_handling": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "APP02",
+        "APP05",
+        "APP07",
+        "APP08",
+        "JOB04",
+        "TRUTH02"
+      ],
+      "anchor_4": "Material missing facts/preferences/conflicts identified precisely; optional omissions do not force unnecessary blocking.",
+      "anchor_2": "Unnecessary blocking or incomplete gap requests; any guessed material answer also fails grounding."
+    },
+    "downstream_usability": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "ATS03",
+        "ATS05",
+        "ATS06",
+        "ACC03",
+        "ACC04",
+        "CONV03"
+      ],
+      "anchor_4": "Strict schema, directly renderable content, exact identifiable fields, actionable gap requests, no false ATS/accessibility guarantee.",
+      "anchor_2": "Requires substantive repair before renderer/application can use it."
+    }
+  },
+  "scale": {
+    "0": "Unusable or harmful",
+    "1": "Major defects",
+    "2": "Material revision needed",
+    "3": "Professional and usable with minor optional edits",
+    "4": "Specific, concise, coherent and publication-ready content"
+  },
+  "professional_mean_minimum": 3.5,
+  "task_specific_anchor_4": [
+    "Cover every supplied requirement once, preserving required/preferred distinctions and compound logic.",
+    "Use SUPPORTED, PARTIALLY_SUPPORTED, UNSUPPORTED and UNKNOWN according to full, partial, contradictory and absent evidence respectively.",
+    "Each supported subclaim preserves candidate/event/action/technology/provenance scope; gaps identify exact missing predicates."
+  ],
+  "task_specific_anchor_2": "A material failure of any task-specific anchor requires revision; unsupported facts fail regardless of stylistic quality.",
+  "principles": [
+    {
+      "principle_id": "JOB02",
+      "version": "1.0.0",
+      "source_ids": [
+        "S23",
+        "S30"
+      ]
+    },
+    {
+      "principle_id": "JOB04",
+      "version": "1.0.0",
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "principle_id": "JOB05",
+      "version": "1.0.0",
+      "source_ids": [
+        "S22",
+        "S29"
+      ]
+    },
+    {
+      "principle_id": "JOB08",
+      "version": "1.0.0",
+      "source_ids": [
+        "S10",
+        "S21"
+      ]
+    },
+    {
+      "principle_id": "ATS04",
+      "version": "1.0.0",
+      "source_ids": [
+        "S07",
+        "S10"
+      ]
+    },
+    {
+      "principle_id": "RES01",
+      "version": "1.0.0",
+      "source_ids": [
+        "S03"
+      ]
+    },
+    {
+      "principle_id": "TECH07",
+      "version": "1.0.0",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "principle_id": "TRUTH01",
+      "version": "1.0.0",
+      "source_ids": [
+        "S16",
+        "S10"
+      ]
+    },
+    {
+      "principle_id": "TRUTH02",
+      "version": "1.0.0",
+      "source_ids": [
+        "S16",
+        "S17"
+      ]
+    },
+    {
+      "principle_id": "TRUTH03",
+      "version": "1.0.0",
+      "source_ids": [
+        "S17"
+      ]
+    },
+    {
+      "principle_id": "TRUTH04",
+      "version": "1.0.0",
+      "source_ids": [
+        "S10",
+        "S17"
+      ]
+    }
+  ],
+  "thresholds_changed": false,
+  "pilot_requests_retroactively_modified": false
+}

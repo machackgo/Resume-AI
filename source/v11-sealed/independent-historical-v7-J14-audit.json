@@ -1,0 +1,34 @@
+{
+  "case": "J14",
+  "raw_sha256": "ca499118684aacd7aed5e5fa9c387ff158d23c46107130a0d8db8424f1f53718",
+  "historical_failure_reproduced": false,
+  "claims": [
+    {
+      "claim_id": "resume_claim_62eaf342fc40a06db11a20dc5d6c6c3b60cb53444d6ead1bb4c479eed1dd3956",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        114,
+        187
+      ],
+      "rationale": "Canonical model.py implements separate state_cnn and buttons_cnn branches and concatenates their outputs. The exact docstring describes numeric state/features and button history. Final links are limited to two-branch CNN implementation; image-processing and PPO training links are absent/rejected. Project attribution stays qualified; no personal authorship is added."
+    },
+    {
+      "claim_id": "resume_claim_dfe6cef4cf0e48ecd1f2b3411d34f2b3912f206c5d514b058b59c94f7622d6bf",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        2025,
+        2098
+      ],
+      "rationale": "Canonical model.py implements separate state_cnn and buttons_cnn branches and concatenates their outputs. The exact docstring describes numeric state/features and button history. Final links are limited to two-branch CNN implementation; image-processing and PPO training links are absent/rejected. Project attribution stays qualified; no personal authorship is added."
+    }
+  ],
+  "minor_issue": "Two identical source-authored architecture sentences occur at distinct spans in the same project and are emitted twice; repetition is a style issue, not separate achievements."
+}

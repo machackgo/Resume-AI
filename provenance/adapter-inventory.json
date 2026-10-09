@@ -1,0 +1,695 @@
+{
+ "adapters/stage4b_smoke": {
+  "checksums": {
+   "README.md": {
+    "sha256": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+    "size": 5262
+   },
+   "adapter_config.json": {
+    "sha256": "81726a930585eda2394a0ec8f2cf5ad8dc3990f11d4ea4646205d0440e8e33e5",
+    "size": 1160
+   },
+   "adapter_model.safetensors": {
+    "sha256": "9db4e1f0096537822af6c22949b3b828300ac1d8cb3909d7d2eee2227ea6839f",
+    "size": 20988576
+   },
+   "config.json": {
+    "sha256": "4a9c67e6cec30f58063c85ca806feb89ac85269706867bd36cf584d4dccab051",
+    "size": 2636
+   },
+   "environment-cpu.json": {
+    "sha256": "11e3b18891b909ffcda8da8069fb2dbf96037492fe2f1bf6287454d3d81dd567",
+    "size": 501
+   },
+   "environment-train.json": {
+    "sha256": "2cc65a32173cdddd35e22c633ffe5ebf6ccdeb1d702deb545e00aae92ccbcdc6",
+    "size": 1851
+   },
+   "subset_manifest.json": {
+    "sha256": "0b4595b63a7298b3d6c1380e35a36031b15d900e41d8fd41778b030e4eef6dfe",
+    "size": 14473
+   }
+  },
+  "files": {
+   "README.md": 5262,
+   "subset_manifest.json": 14473,
+   "config.json": 2636,
+   "environment-cpu.json": 501,
+   "adapter_config.json": 1160,
+   "checksums.json": 917,
+   "adapter_model.safetensors": 20988576,
+   "environment-train.json": 1851
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000000": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "641d932d2b3b46d907ad1345facbc73f75b74743bf0f55c99893e4f4643005d8",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "d08dc8dd101f63e3a1d0ee5bcb3ce0659f17dbaff91a48822f63126558efa0a6",
+   "trajectory.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11933,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 3,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000010": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "38a23150118de45bd80c8eec6617810196666f96b38febeadfb2c9b7568b796a",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "49f478645fc5a3951a92917cd39744840b1e7e39a52790c5693a14d6681fb293",
+   "trajectory.json": "eca1c17e5c16be6a1f36d533a4b44c2ac7bc12d3aa34dc6da82693d6b3d17bfd"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 10815357,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 7092,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000020": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "473e59d2a91265070a1d4e35e96c7b6db1f18ee212521fee7e1e9114e05b79db",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "bbd274ddf734c2034f38c647c996885a433b46c03fae78df5c77df1d080660c9",
+   "trajectory.json": "ecd648fe5152aafa0db0f1a6820028e9326eb39d550612a6244fbb5212801f81"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 14193,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000030": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "9744bb44998371ad4e49ac39d3985f1077ca71afd8d29f347528f0e2e0c0253a",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "eb1ebded8dfbe6bc0301e91aa768e75d640861cd4cf48f13d76dc023ac025a70",
+   "trajectory.json": "62805273eb8e463c13cd42588d0a4b6c49bd32b7a3f7ef1e19210d6f85bcb608"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 21291,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000040": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "2c8edcabaa743a1d3b958b3b8c8290c8324924f32f9096c42a69d7124d00c82d",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "f2022b0902b97e2f447257ad60e7f048d6424e47c5c0f217221a923c72f5b6ea",
+   "trajectory.json": "c46874abaddc9c0b0016532579b3e346c559131303e89fe37caa4566a45a4077"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 28409,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000050": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "b6c2a6dc5b2b6b975f7f0196a68574ab5e194bbc1237f984c833f3ef121fc2b9",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "b6cbdbdad4bf2f76a0eaec1159cba444a3b4f250d9ceb6fab3d4e68df543e9f2",
+   "trajectory.json": "e50e440c45ace4c3134f292ffc8d053da06777eaa53acb9a267ff7939c47af2b"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 35521,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000060": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "f1869ec811a5060c23eb8bd06e7b91e4913c76a34b93ea003c75214484c913dd",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "501dbca8d7f147a713164d4f71755020b23288bd92589fbcbff42c870e79e073",
+   "trajectory.json": "3f6457b498a8b0505f6adeb9ae4abe0a8049ba2f9e0d4ef744317b76f3daa332"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 42648,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000065": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "53731da751a469e118fbe3e6f504663319e2eded7ca1434f481fe888c7bc8ff6",
+   "adapter_model.safetensors": "39cf4b25deead9764c89864da844cb80d20ad89d63c9c36f43c6ca3e81dbb4c4",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "3b443fdf53046edd7dd9b61d085612305afe2b1005b3673c83b6b8d111bf7431",
+   "trajectory.json": "bbae6f126a5a7878af21771014b95cbab6b06a0f4cc68606957336e24d78e3ae"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 46213,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000070": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "8ad9332cfac850f0fce737321bc4c23856f4392267a9b60a9a11f75ecd1d1927",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "2e016d0d465890b2e8eed656cc6654f4664184ce14137dcba7451797654d4db4",
+   "trajectory.json": "071fd6124934d81dff16c6208e63ec077ae549048dc53982a3f398cce94c214b"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 49789,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000080": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "df64d82a3cbcd28aa1df130af016e209f23a1f786ebef0200510d57d5d7bb9b6",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "6b01d5294a33c0d62a40df877cf92c40465b119b188ef52af9b36775403d6ce0",
+   "trajectory.json": "2cd387c57d3460d7e5b25636cae078f66a37e8ba388c7a33ef15a19f841aa5e6"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 56951,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000090": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "d58660e2190e133cee1fae4d222341780b582227a807d596bffaf03e184b38c9",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "54f31bdff340fe6a97fdf508d5fc920b0bbb6b8f54319c8c91a51ec15bfd2bd9",
+   "trajectory.json": "5880f75195dc14ada9471b91761000b08cfad12e96a8a3ad53b100c922bc8886"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 64103,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000100": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "d38b06906549c2c7cbec1b8b1e4d1d4d74db6acfc71fde047f944282a2ef16a9",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "2c4d0388ec1149a15e0f59939c9b47709388ba3af6b58878fef53d5cbcf9b589",
+   "trajectory.json": "cba6cc1ecf8dc4c34ca8f078e7fbf6b188e800aa6e66aa4841df828bb66d2613"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 71266,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000110": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "aad2ef90b0dddf328864a3e4ae1e9a91d98bdb485613b82eea6a55fce47037b7",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "945be09f6c0d0c88da65abf36b12a00d64cd8a09d441a2132849cace835997e8",
+   "trajectory.json": "c34e2b4315972969557c30b4685ed7eab1dffed152295b03317945beeadc6786"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 78435,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000120": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "71143f90ae5c9c8cf994db0959c30520e6b5bf9e8164c1a399ba428f26d2c09d",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "e9bc560a0233ae535f6fa61c0eabe1b23a0e348d86947ff2ce9e55e107827136",
+   "trajectory.json": "c4b1a635f65530a56dc286e69ea48ef4814afd33524e86ac43312157f67a0f45"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 85613,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000130": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "3478d8d6dacdd0418e17db7ef04e8e62e9db498e28aac3b1fad0a6e2076c7d40",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "9a926dcbdf847bedf55936b4a6b72a5aee96cd3b67dc98751b6838b4ffd0144e",
+   "trajectory.json": "96364b14c41332e62d163106b5a323feac71cfee5f8b833d3aa06e14e2945560"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 92784,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/evidence_only/checkpoint_000131": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "3645a4dff4dbc4434225632879c96f4e2d67c4ec6f8562ffc0646f1df0a83645",
+   "adapter_model.safetensors": "cc4f6195281833948983a9adb6b96ccea46e841dde9296f9fad9c232945d9d45",
+   "mixture.json": "c07e826397d9f8e751919dc32a3d9f20ad8cedb886ca595717e5389ef1c5c14e",
+   "training_config.json": "b864b3d053376b440f9e0ab2a1363d61d56bfa87cd64fe7a32601fa15ed31e49",
+   "training_state.pt": "4320288cba4ac974e80f0dda50c57ac204dc718b697c4ba2505f0a74117b04a3",
+   "trajectory.json": "fa621f9e7d520e0ffbe7c6b216993a11733c96f6b658cce9254cbdf05185a120"
+  },
+  "files": {
+   "training_config.json": 2548,
+   "README.md": 5262,
+   "mixture.json": 55229,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 93504,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000000": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "afc12ecdc0dbf9382e4b55547c5796cc56eb6ecaa6aece4bccd02af3e537649b",
+   "adapter_model.safetensors": "641d932d2b3b46d907ad1345facbc73f75b74743bf0f55c99893e4f4643005d8",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "c199f2ef6af0fb74ba51f8a36f15fc08a1221f989c138958e992dd8d6a8914d7",
+   "trajectory.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11933,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 3,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000010": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "afc12ecdc0dbf9382e4b55547c5796cc56eb6ecaa6aece4bccd02af3e537649b",
+   "adapter_model.safetensors": "1a6ef8846b114b8635de9b15f86bae62d41db2c5649d0482e1b1ddf9e977f82d",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "7247202f0a18a9ba582cef369a75cb83e65e9e09892e3ba56f94dbe45d74cfab",
+   "trajectory.json": "a0be49eca7ba289ab64c77c35f14bb503b72913036cf13a05bea578637abc615"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 10815357,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 7097,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000020": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "0b79f2565617652fe483000c50a1ba129cb19ed2d5de4320f0a7042e3970210c",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "d4ca677f32afaf5255fe48c5726bf2a0610c3c765fff497019792675bf39fb09",
+   "trajectory.json": "3193083ada904b3fe2794a20f603837b8c33f102b12828a515298e250acfb10e"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 14202,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000030": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "179a14224ff53b20f89f832ca03b0f9d11ec657d0cff9825e78403ac4c336156",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "98c9fcfe03c07db50434f47e84f1a65bbdf566e6a3122ac6f53eae7338be4d02",
+   "trajectory.json": "38a19dc679f4c7d58c94c11836984e6fe53ce3f19867ce3278c8277dce7c6174"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 21303,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000040": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "ce97a562b012664adde50c3e1f05a6bc07f03e6e612d82bac722817740d638e5",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "3cc7c7d419832971d9a6d51a526bafa025c2edf8230d9da46566ad18cb7dfe03",
+   "trajectory.json": "86a96dfaec807d08dc336db751770fe2ba59dcd51a216b85040bffd9c5120b49"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 28405,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000050": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "99c7e7ede6db16791b8fdf476b0bf07fad54e0e9791db428f4bac848b4fae273",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "9d37d9d8ea79bdc9d01764eaee6a4777ffab7936ea7c71b6b693d2d904d5f8bb",
+   "trajectory.json": "fed86190052114903033bac82863a4b719d1ccb3130a131d295a9f3a49f043e7"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 35512,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000060": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "a04456368e52b4529098a56fdf7c40cf727025c4f4fb81cae3cbb50644d813d2",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "61190c2781afd99ab77bc24c345f278a47f8d9a78dadadbefe162d114f7e8abf",
+   "trajectory.json": "d42b9ee60011c7718815211cf81c5d97706ce83679462d63ae75a5642ff2d5d5"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 42626,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000062": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "290b2551f6194787301666bd82a7a062849940dc77ff400e2f03286785569827",
+   "adapter_model.safetensors": "4a7659588ddf410c0ebf0a8b076ba17125b3bfc844ded57fe07eca8706688c9e",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "d6985cc863c20afafc1562873c8df1345f2118a831364e6bcf7e66d240fcf8a7",
+   "trajectory.json": "205d20caa2d668b8a13517d294f27de59b6b77d741e8b1ef5637b3a868159b54"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 44049,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000070": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "e48eea2cc9acc20eb1482abb115728abb5a778db2e93ec835c5fecb44cf52e71",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "fb0dde72135d2d4471ba8498bfa694cdb48fab739e13ad8a98a0011cbccee4da",
+   "trajectory.json": "960959bc44df279ff380cac8859dc16c81c73547d7cf6329ac63cdaf98024122"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 49740,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000080": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "9529d9c19af90992542c8d50ab1af2dd0ec0eccf229c2fe1ddc09598fb6ec3fe",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "6ed11e856e85ca67e116ebac9be0c6c6a5423b17c2e91b297a71696f571a1793",
+   "trajectory.json": "fbbaea83c654a089edea10ec626226b46c8a8adc7ae8057ba0af45ed8b8b396a"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 56865,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000090": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "7e350e24e90e73a06bd74d5a2eb693e0ebd9b7cb63cc2c8b6bd251778c0ec6b5",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "7b744179ccce3a764df28b7e3cd4579197e0c320e5a72e9b480938935a70f3bb",
+   "trajectory.json": "bae5ae6e4a141a2f9df7a6a956b80da00ed29e78bdcfc8f7384a56e2d1575d98"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 63984,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000100": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "a2ff1a6e3b2608d2763e03d8a7ed3c4c05cdc64a112782cc486d3cd9ab2ba4f3",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "aa00a13efcb0471a9d6bdd2d14aada1fe327fbf07221de9155a4dc2c2e5210e5",
+   "trajectory.json": "43e3f069abf7e2fda46e760cadeca8b71465bcc779d604abfa078dd48cef3237"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 71111,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000110": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "7806f25bc1d355fd63ad4db2b9616baa983513f00c4bfc4d3583fc38fc580915",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "5c4a9c50815c81a4c7fc383fa36fdc02912f10109ed4ae8def425c9cdacf9fbe",
+   "trajectory.json": "fb9923586e2ae3ccccea77b361a81352783368d2a272cb64c1ed9ab76c02e63c"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 78256,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000120": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "9c77febb519b79a80c228e33645b29afc41382d7c046760f51dc2e033b4e3464",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "d25bba4c56c782a98740968bdfd7b6c69b816eacd784d74a446e24100eb014a8",
+   "trajectory.json": "41ab13c8eab4d0c4fbd3dd7021a0c6ef4e2fd3b8ebb1798d7be75b14295efc0a"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 85401,
+   "adapter_model.safetensors": 20988576
+  }
+ },
+ "adapters/stage4c1/run_430001/interleaved/checkpoint_000124": {
+  "checksums": {
+   "README.md": "9e91d19d3dd256468ca7b772f82cba4fa4597a803b33192529255a298d90e4ce",
+   "adapter_config.json": "c3b01993fb369643dd5f0816fd78f73e4eed5677672a329a6b1b3e36c6558a60",
+   "adapter_model.safetensors": "190ea486a379c8c4a0e4f0a1a4674ee56ea004c46874986343919d2621aec422",
+   "mixture.json": "25819da977257629d608b13605d831bf863cd047ae2d8c4184648630fdca50d2",
+   "training_config.json": "3a7a1fec419f5e0bcd421b2e52b28c394386b4548fb8c6721f115dea84bda21b",
+   "training_state.pt": "34785ed4d1aa3130ef99c8080e3da371885c7b339d9f5df81986b5575252bbad",
+   "trajectory.json": "358ac6d0e52ff1cb2b4b7b1aa2e78e1a1de162bc4f193d4828b9104a7e29260f"
+  },
+  "files": {
+   "training_config.json": 2546,
+   "README.md": 5262,
+   "mixture.json": 51891,
+   "training_state.pt": 11147315,
+   "adapter_config.json": 1160,
+   "checksums.json": 638,
+   "trajectory.json": 88187,
+   "adapter_model.safetensors": 20988576
+  }
+ }
+}

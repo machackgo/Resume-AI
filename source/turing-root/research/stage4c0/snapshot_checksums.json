@@ -1,0 +1,20 @@
+{
+  "version": "stage4c0-research-v1",
+  "sha256": {
+    "accessibility_principles.json": "ffc5c96e826960587fe3f1174d21a844675bf22426f2481aca3b24ce7ecff44a",
+    "application_answer_principles.json": "5c815192e19672356c14e559c1e3c1a90fd53589419dbde7fc65f30cabb12e18",
+    "ats_principles.json": "290ecf9d4315f91bfc804ba294bec5d7ca59ab833c5b58658560e4999454647a",
+    "build_snapshot.py": "713f4596d0542b1c8b3cb552d4ec67b5a0adecf7552a2ae11f0331eed76173ce",
+    "cover_letter_principles.json": "474bcee7badcf82e755125507d6edddafb98754b60df68b2c477bb6698223b49",
+    "current_conventions_principles.json": "b7a99ef86bedc475ee098ba03eb2f07883bbef78d574b132f24fea78eecd94b3",
+    "job_analysis_principles.json": "eb0d5e3ed8731fbc0db732a1c7acdbc3c015d780219f85397d635ec082bab611",
+    "outreach_principles.json": "77bd9e318d09f3b16a95e99095e4cf80d197316e42ecabd425f70a92f4909209",
+    "research_manifest.json": "25984a07053fac1b8c0a8e674d2a73a413c9923f930e5907f58ba3b4f92bbaf0",
+    "research_report.md": "75478b98ea5530e2d4e6349255f51f7d283098d6cf8c489f6033bff5a486730c",
+    "resume_principles.json": "684775db8aaff7901c315806d853aed67d4084759e4b99b86e1bf107e3d59996",
+    "sources.jsonl": "bda013f21169e55819d728724185dc35def01d3a3ec7849f232f8cbb47f30802",
+    "technical_resume_principles.json": "9304ff0395af848269788789e5391f4bcebd9aea8577d006d5940e639c97a0fb",
+    "truthfulness_principles.json": "33842725dc51597d2809796bb09f7c0d6ca58840eeae3db916a89f58ebe2ae3f",
+    "validate_research.py": "8f4c4691be14feb2d3e0ef3eafcb10f6fb5d04563b5b725ae656ed1a4fa4239a"
+  }
+}

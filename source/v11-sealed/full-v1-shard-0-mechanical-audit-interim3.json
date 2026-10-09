@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "case": "J01",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 7772,
+      "canonical_context_checks": 39,
+      "reused_declared_review_spans": 7,
+      "canonical_secondary_windows": 30
+    },
+    {
+      "case": "J04",
+      "status": "FAILED",
+      "claims": 0,
+      "issues": [],
+      "model_calls": 17,
+      "maximum_input_tokens": 8188,
+      "canonical_context_checks": 214,
+      "reused_declared_review_spans": 55,
+      "canonical_secondary_windows": 260
+    },
+    {
+      "case": "J07",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 5,
+      "maximum_input_tokens": 8084,
+      "canonical_context_checks": 40,
+      "reused_declared_review_spans": 14,
+      "canonical_secondary_windows": 60
+    },
+    {
+      "case": "J13",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 7966,
+      "canonical_context_checks": 42,
+      "reused_declared_review_spans": 8,
+      "canonical_secondary_windows": 30
+    },
+    {
+      "case": "J18",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 8182,
+      "canonical_context_checks": 41,
+      "reused_declared_review_spans": 9,
+      "canonical_secondary_windows": 30
+    }
+  ],
+  "ordinary_failures": 0,
+  "limitations": "Mechanical correctness is separate from independent factual, content, identity and capability audits."
+}

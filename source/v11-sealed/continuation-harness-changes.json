@@ -1,0 +1,96 @@
+{
+  "application_changed": false,
+  "changes": [
+    {
+      "path": "REPRODUCE.txt",
+      "before_sha256": "626f6f7889939ea9dacbb61c7cd02868c5e80afb701291141f3d9be22d47be75",
+      "after_sha256": "c744dc3cbb4108445b0f1901925490e1fa3eda1c3447b800e2c8e7ce01dfcd01"
+    },
+    {
+      "path": "audit_case_brief.py",
+      "before_sha256": null,
+      "after_sha256": "b34e70d609075a515cfaf2f4f3951662aa3abc5a18c09a5e7b99df95ca5ec5a6"
+    },
+    {
+      "path": "build_acceptance_metrics.py",
+      "before_sha256": null,
+      "after_sha256": "f32d9b5d33901131c628cab0cd5cf978776c70e6a124b6bc36857d0db314a2bc"
+    },
+    {
+      "path": "finalize_reporting.py",
+      "before_sha256": null,
+      "after_sha256": "be8b39da2f623a55b19e266165c768a162010c02e3f1af6421740aef145c2a4e"
+    },
+    {
+      "path": "full-v1-shard-0.sbatch",
+      "before_sha256": null,
+      "after_sha256": "5f09abafc7fdf99dc50ec075a502faa690e8b015403b7c7d327102fbe729035f"
+    },
+    {
+      "path": "full-v1-shard-1.sbatch",
+      "before_sha256": null,
+      "after_sha256": "7de6ed2a500e6b18c01e91e27c928041b520b1e7249fac90040f75c30fbd3bb9"
+    },
+    {
+      "path": "full-v1-shard-2.sbatch",
+      "before_sha256": null,
+      "after_sha256": "627b7baefcb6c6879ac2ce87807bcadad67c2b0c9238e7bad6cabc0cf910f673"
+    },
+    {
+      "path": "prepare_full.py",
+      "before_sha256": "0ad9bd52b2d57e05b50fad4de1b5a19dc85bcd69dfc0230c150047bf46a971be",
+      "after_sha256": "65198826e5f5ea5b7269bcc7501d4d9ebe71210d403b20461e03f0a24ae3cb46"
+    },
+    {
+      "path": "run_full_shard.py",
+      "before_sha256": "d47b1b2914adacee417f2e631549fac321253632a74e1b68ed62cc185dc50463",
+      "after_sha256": "312286fc7896b20305cd3a70440c427643cc6f5f2014c1a99c2158e7aa63eb7d"
+    },
+    {
+      "path": "ssh-transport.json",
+      "before_sha256": "db60dbe1a18361f38a1d0ca508e717e6d0805a189470f6386c55342c11c95fbe",
+      "after_sha256": "a7cb1ee2e773d0675ddf6e8e91c4c8979a5c11d0698a909b71f41f6f3cfa1341"
+    },
+    {
+      "path": "stage_historical.py",
+      "before_sha256": "58fa35b7044e6f2a95ea3f4f317ccb1c773cb8fc63a26027cec91c8290312f89",
+      "after_sha256": "9edea66b665d776c0fdaa9a5e2c12ebe598c35634ebe753895de35b740e876a6"
+    },
+    {
+      "path": "sync_historical.py",
+      "before_sha256": "94d5e87b6789490aef094d7a56a3d8e1fc9d74e0b4b72d8c3ae43217c4c3917c",
+      "after_sha256": "55f36283d7e4e55bbf4f4571570414fed2e0a771315481e6810a4f29f11c238b"
+    },
+    {
+      "path": "test_discovery_license_boundary.py",
+      "before_sha256": null,
+      "after_sha256": "a7e721b866bf843f1b0bbce7c8abb6b97adc772de20b84dae3d6e0a3ab62139c"
+    },
+    {
+      "path": "verify_checkpoint_final.py",
+      "before_sha256": null,
+      "after_sha256": "d2c9c269e053de43d9c99a7b265d470e30c97d1994810f4231ccc063ae49e2b3"
+    },
+    {
+      "path": "verify_full-v1-shard-0.py",
+      "before_sha256": null,
+      "after_sha256": "866c0e1b7243102e882965422a03246247b16b1fcc266924421919a2d37aea22"
+    },
+    {
+      "path": "verify_full-v1-shard-1.py",
+      "before_sha256": null,
+      "after_sha256": "853be27c2e27753a59a27755c6015713cb615d0f96cdc09a5ac1684a364c6643"
+    },
+    {
+      "path": "verify_full-v1-shard-2.py",
+      "before_sha256": null,
+      "after_sha256": "ca70a448bbadb4228aa59b3cb70ffa1e1bb1dc7e7b382d887453dfa8bbbca72a"
+    },
+    {
+      "path": "verify_remote_history.py",
+      "before_sha256": null,
+      "after_sha256": "321dcd0ee2c312063ecfac0bcc86216e0b548da32f05412972922779493d70f4"
+    }
+  ],
+  "scope": "Transport, reconciliation, independent audit, general regression and final packaging helpers only; application v11 unchanged."
+}

@@ -1,0 +1,15 @@
+{
+  "case-J08.json": "3c8d4155f222b20193e4a957dc8cce2594a0c0c5bda2b1c01f95fc0c91119860",
+  "case-J09.json": "44fec3fc2ce9184c10d2fcdf012fa10365032c0fa65e330f944a6d93e664a7e4",
+  "case-J12.json": "65007eca47b5afa65fb5729e2a6c59dd40d3f2534bc3cef8aaaf2e40bc21cb3b",
+  "control-academic_not_employment.json": "da2797a7a4751737a32ffff27b4124f6d96f4ab885628760d5b93eb3933994a6",
+  "control-cross_project_metric.json": "19e670c65767df7b5c3dc83d21cb29c32b2a96ecf0ed2ac0f370d09d0d7e2856",
+  "control-different_measurement_populations.json": "70acae4fbf41b42a7b50b0b26a40fd8afd2d17da29a9e185af9461541c3d6810",
+  "control-explicit_negative_constraint.json": "146f41bdf8e63c82502249d92b9cbdff00bc1c3a289a112043d5f5d407b3b5f4",
+  "control-explicit_same_event_correction.json": "2cc2c5e379585381e5db099ca412897cfbaa101242d199fb5f14f28bd17d178c",
+  "control-narrow_true_claim.json": "1458e048085b048aabca39776b7857fffbe77f57b98aee90578e2c9a7852a163",
+  "control-nested_classifier_component.json": "a8a97868d58787d0b08e2b03f8d718384b8f0f19f283b83474d85de5413cd9bc",
+  "control-policy_not_achievement.json": "317f8786d4fed174daebacf8a68e83b7f4c04db7128650b0b6ebd9918da72d00",
+  "controlled-review-results.json": "a419f88a78ae068885c67967924f0ce4922c35e89f592342ea83878fd40a92e4",
+  "production-model-configuration.json": "229b3494c38d776c7d80d333976be74f3e119a7cb945e0422c4fbe045e9c22de"
+}

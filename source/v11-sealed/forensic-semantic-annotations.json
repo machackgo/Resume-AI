@@ -1,0 +1,1643 @@
+[
+  {
+    "case": "J08",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_f62c7816384b66bc4c560e39",
+        "requirement_id": "req_26225e4cca6f9691",
+        "text": "Implemented an HTTP question-answering API with FastAPI.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "an HTTP question-answering API",
+        "technology": [
+          "FastAPI"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API",
+          "NLP"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_d9c54bcd279a8548cf40fe89",
+        "requirement_id": "req_a935c08830327b3f",
+        "text": "Used Next.js and TypeScript in VeriBridge.",
+        "action": [
+          "Used"
+        ],
+        "object": "Next",
+        "technology": [
+          "Next.js",
+          "TypeScript"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "FRONTEND"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_e541f0f18d66639eb5bc8835",
+        "requirement_id": "req_fc7cfb1bf752e89d",
+        "text": "Built VeriBridge skill evidence API routes.",
+        "action": [
+          "Built"
+        ],
+        "object": "VeriBridge skill evidence API routes",
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C1f94a5a272018f30",
+          "text": "Implemented an HTTP question-answering API with FastAPI.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "an",
+            "HTTP",
+            "question-answering",
+            "API",
+            "with",
+            "FastAPI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_0a5c42f12965922c26f89d52",
+          "requirement_id": "C1f94a5a272018f30",
+          "text": "Implemented an HTTP question-answering API with FastAPI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "an HTTP question-answering API",
+          "technology": [
+            "FastAPI"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API",
+            "NLP"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C7c12d090b7f8ffd8",
+          "text": "Used Next.js and TypeScript in VeriBridge.",
+          "order": 1,
+          "source_tokens": [
+            "Used",
+            "Next.js",
+            "and",
+            "TypeScript",
+            "in",
+            "VeriBridge"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_fa48dc212c2238eeb4e1500e",
+          "requirement_id": "C7c12d090b7f8ffd8",
+          "text": "Used Next.js and TypeScript in VeriBridge.",
+          "action": [
+            "Used"
+          ],
+          "object": "Next",
+          "technology": [
+            "Next.js",
+            "TypeScript"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "FRONTEND"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cbe46b5a2d0572200",
+          "text": "Built VeriBridge skill evidence API routes.",
+          "order": 1,
+          "source_tokens": [
+            "Built",
+            "VeriBridge",
+            "skill",
+            "evidence",
+            "API",
+            "routes"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_7edd75fafbab68ca3cef73ef",
+          "requirement_id": "Cbe46b5a2d0572200",
+          "text": "Built VeriBridge skill evidence API routes.",
+          "action": [
+            "Built"
+          ],
+          "object": "VeriBridge skill evidence API routes",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "J09",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_50fb8ccb085b28d5a3f9223d",
+        "requirement_id": "req_2aece2da404a3d33",
+        "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "PostgreSQL connectivity",
+        "technology": [
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATABASE"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_8509266f14a9732fd7f870a3",
+        "requirement_id": "req_e094f98a84c55cd0",
+        "text": "Implemented candidate-scoped semantic vector retrieval.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "candidate-scoped semantic vector retrieval",
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATA_PROCESSING",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_2548102f51a42832fbac4a9a",
+        "requirement_id": "req_763bc776042cf7dd",
+        "text": "Implemented both RAG and fine-tuning for Resume AI.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "both RAG and fine-tuning",
+        "technology": [
+          "RAG"
+        ],
+        "purpose": [
+          "Resume AI"
+        ],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATA_PROCESSING",
+          "MODEL_TRAINING",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "Caf5b56d7d437a1d5",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "PostgreSQL",
+            "connectivity",
+            "with",
+            "an",
+            "explicit",
+            "SQLite",
+            "fallback"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_e4b78236645bf4e183bb3cb2",
+          "requirement_id": "Caf5b56d7d437a1d5",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "PostgreSQL connectivity",
+          "technology": [
+            "PostgreSQL",
+            "SQLite"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Ce780f1a1eec59795",
+          "text": "Implemented candidate-scoped semantic vector retrieval.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "candidate-scoped",
+            "semantic",
+            "vector",
+            "retrieval"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_5868b5fd2c8b6c9456cd153f",
+          "requirement_id": "Ce780f1a1eec59795",
+          "text": "Implemented candidate-scoped semantic vector retrieval.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "candidate-scoped semantic vector retrieval",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cbbd29481c1ffdfb7",
+          "text": "Implemented RAG for Resume AI.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "RAG",
+            "for",
+            "Resume",
+            "AI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_0befc2fda71c2cd2eff9fafb",
+          "requirement_id": "Cbbd29481c1ffdfb7",
+          "text": "Implemented RAG for Resume AI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "RAG",
+          "technology": [
+            "RAG"
+          ],
+          "purpose": [
+            "Resume AI"
+          ],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C49a897b13eec1bf9",
+          "text": "Implemented fine-tuning for Resume AI.",
+          "order": 2,
+          "source_tokens": [
+            "Implemented",
+            "fine-tuning",
+            "for",
+            "Resume",
+            "AI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_e9f5e650514513a98054ed52",
+          "requirement_id": "C49a897b13eec1bf9",
+          "text": "Implemented fine-tuning for Resume AI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "fine-tuning",
+          "technology": [],
+          "purpose": [
+            "Resume AI"
+          ],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_TRAINING"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "J12",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_29d957cec00028eeadc1617c",
+        "requirement_id": "req_8fdbeabd59b43fd4",
+        "text": "Implemented both RAG and fine-tuning for Resume AI.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "both RAG and fine-tuning",
+        "technology": [
+          "RAG"
+        ],
+        "purpose": [
+          "Resume AI"
+        ],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATA_PROCESSING",
+          "MODEL_TRAINING",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_3b520a1060fecc8c98b72850",
+        "requirement_id": "req_c3e35df352e8b0ec",
+        "text": "Implemented candidate-scoped semantic vector retrieval.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "candidate-scoped semantic vector retrieval",
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATA_PROCESSING",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_ff0f2bb1f33d10f49b5888f8",
+        "requirement_id": "req_a543598213ba1533",
+        "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "PostgreSQL connectivity",
+        "technology": [
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATABASE"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C590442ac6532aedd",
+          "text": "Implemented RAG for Resume AI.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "RAG",
+            "for",
+            "Resume",
+            "AI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_943628cf27841601b17e0dd2",
+          "requirement_id": "C590442ac6532aedd",
+          "text": "Implemented RAG for Resume AI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "RAG",
+          "technology": [
+            "RAG"
+          ],
+          "purpose": [
+            "Resume AI"
+          ],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Ca3f1e463d97c6255",
+          "text": "Implemented fine-tuning for Resume AI.",
+          "order": 2,
+          "source_tokens": [
+            "Implemented",
+            "fine-tuning",
+            "for",
+            "Resume",
+            "AI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_e661a547b2dc5a7ab0b07afa",
+          "requirement_id": "Ca3f1e463d97c6255",
+          "text": "Implemented fine-tuning for Resume AI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "fine-tuning",
+          "technology": [],
+          "purpose": [
+            "Resume AI"
+          ],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_TRAINING"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C31d7476b854f6878",
+          "text": "Implemented candidate-scoped semantic vector retrieval.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "candidate-scoped",
+            "semantic",
+            "vector",
+            "retrieval"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_09ef28d22bc1bf7e168701fe",
+          "requirement_id": "C31d7476b854f6878",
+          "text": "Implemented candidate-scoped semantic vector retrieval.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "candidate-scoped semantic vector retrieval",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Ccfefcc6848d5da33",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "PostgreSQL",
+            "connectivity",
+            "with",
+            "an",
+            "explicit",
+            "SQLite",
+            "fallback"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_3d2b0a4e349cd260b7559576",
+          "requirement_id": "Ccfefcc6848d5da33",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "PostgreSQL connectivity",
+          "technology": [
+            "PostgreSQL",
+            "SQLite"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "J14",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_76a645bdd9f1c2b516401469",
+        "requirement_id": "req_9f89b94fcbce1dc7",
+        "text": "Combined two image-processing branches before producing action logits.",
+        "action": [
+          "Combined"
+        ],
+        "object": "two image-processing branches before producing action logits",
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "IMAGE_PROCESSING"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_4321fa91cefcbb1d60ddfe41",
+        "requirement_id": "req_cd621e12c831f5f0",
+        "text": "Implemented a two-branch convolutional neural network using PyTorch.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "a two-branch convolutional neural network",
+        "technology": [
+          "PyTorch"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "MODEL_ARCHITECTURE"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_8b95ebdc7f7613618c3a3f12",
+        "requirement_id": "req_3bfe6c2feb024929",
+        "text": "Trained a reward-optimized reinforcement learning policy with PPO in FightingICE.",
+        "action": [
+          "Trained"
+        ],
+        "object": "a reward-optimized reinforcement learning policy",
+        "technology": [
+          "PPO"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "MODEL_TRAINING"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_ab36de01cf8b1f26fe76f728",
+        "requirement_id": "req_424100695c6adb54",
+        "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+        "action": [],
+        "object": null,
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C1caca42a1c0d8a87",
+          "text": "Combined two image-processing branches before producing action logits.",
+          "order": 1,
+          "source_tokens": [
+            "Combined",
+            "two",
+            "image-processing",
+            "branches",
+            "before",
+            "producing",
+            "action",
+            "logits"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_43341948f607d208f5fe8f41",
+          "requirement_id": "C1caca42a1c0d8a87",
+          "text": "Combined two image-processing branches before producing action logits.",
+          "action": [
+            "Combined"
+          ],
+          "object": "two image-processing branches before producing action logits",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "IMAGE_PROCESSING"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C4fcbba5f9d5c73fe",
+          "text": "Implemented a two-branch convolutional neural network using PyTorch.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "a",
+            "two-branch",
+            "convolutional",
+            "neural",
+            "network",
+            "using",
+            "PyTorch"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_94a3fb93fabe5365f0da6569",
+          "requirement_id": "C4fcbba5f9d5c73fe",
+          "text": "Implemented a two-branch convolutional neural network using PyTorch.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "a two-branch convolutional neural network",
+          "technology": [
+            "PyTorch"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_ARCHITECTURE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cd0d4edaf86bdcc0c",
+          "text": "Trained a reward-optimized reinforcement learning policy with PPO in FightingICE.",
+          "order": 1,
+          "source_tokens": [
+            "Trained",
+            "a",
+            "reward-optimized",
+            "reinforcement",
+            "learning",
+            "policy",
+            "with",
+            "PPO",
+            "in",
+            "FightingICE"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_39588122c7be831ea85d8ff0",
+          "requirement_id": "Cd0d4edaf86bdcc0c",
+          "text": "Trained a reward-optimized reinforcement learning policy with PPO in FightingICE.",
+          "action": [
+            "Trained"
+          ],
+          "object": "a reward-optimized reinforcement learning policy",
+          "technology": [
+            "PPO"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_TRAINING"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C5b740954a3d48a98",
+          "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+          "order": 1,
+          "source_tokens": [
+            "Additional",
+            "unrelated",
+            "duties",
+            "office",
+            "event",
+            "scheduling",
+            "vendor",
+            "invoices",
+            "inventory",
+            "tracking",
+            "travel",
+            "logistics",
+            "and",
+            "facilities",
+            "coordination"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_e1e087bd27fc8fcd4518ac88",
+          "requirement_id": "C5b740954a3d48a98",
+          "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+          "action": [],
+          "object": null,
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "J15",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_b91a08efe19d38f241fbd584",
+        "requirement_id": "req_0a3f61f84c65a70a",
+        "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "PostgreSQL connectivity",
+        "technology": [
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATABASE"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_b63349eea470026c75ff5bf4",
+        "requirement_id": "req_92c5cd7d350e2168",
+        "text": "Used Supabase PostgreSQL in the VeriBridge API architecture.",
+        "action": [
+          "Used"
+        ],
+        "object": "Supabase PostgreSQL in the VeriBridge API architecture",
+        "technology": [
+          "Supabase",
+          "PostgreSQL"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API",
+          "DATABASE"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_c2bc30bd50a765aeac6a1ba2",
+        "requirement_id": "req_1cf2b6e721f31678",
+        "text": "Deployed PostgreSQL pgvector indexing in Resume AI.",
+        "action": [
+          "Deployed"
+        ],
+        "object": "PostgreSQL pgvector indexing in Resume AI",
+        "technology": [
+          "PostgreSQL",
+          "pgvector"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "DATABASE",
+          "DATA_PROCESSING",
+          "DEPLOYMENT",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_8c3e5e7dd6e23827e314294b",
+        "requirement_id": "req_a37c0b187c7f2828",
+        "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+        "action": [],
+        "object": null,
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C70cbb7720bb2108d",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "PostgreSQL",
+            "connectivity",
+            "with",
+            "an",
+            "explicit",
+            "SQLite",
+            "fallback"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_f7e2fb495efe5fa20a88b1d4",
+          "requirement_id": "C70cbb7720bb2108d",
+          "text": "Implemented PostgreSQL connectivity with an explicit SQLite fallback.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "PostgreSQL connectivity",
+          "technology": [
+            "PostgreSQL",
+            "SQLite"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C0e30d5ef3bdba72a",
+          "text": "Used Supabase PostgreSQL in the VeriBridge API architecture.",
+          "order": 1,
+          "source_tokens": [
+            "Used",
+            "Supabase",
+            "PostgreSQL",
+            "in",
+            "the",
+            "VeriBridge",
+            "API",
+            "architecture"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_e2e5f0806c17b36b55f292bf",
+          "requirement_id": "C0e30d5ef3bdba72a",
+          "text": "Used Supabase PostgreSQL in the VeriBridge API architecture.",
+          "action": [
+            "Used"
+          ],
+          "object": "Supabase PostgreSQL in the VeriBridge API architecture",
+          "technology": [
+            "Supabase",
+            "PostgreSQL"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API",
+            "DATABASE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C6927b0f0289eb3ca",
+          "text": "Deployed PostgreSQL pgvector indexing in Resume AI.",
+          "order": 1,
+          "source_tokens": [
+            "Deployed",
+            "PostgreSQL",
+            "pgvector",
+            "indexing",
+            "in",
+            "Resume",
+            "AI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_dc775ffd272f7ac8ff073e52",
+          "requirement_id": "C6927b0f0289eb3ca",
+          "text": "Deployed PostgreSQL pgvector indexing in Resume AI.",
+          "action": [
+            "Deployed"
+          ],
+          "object": "PostgreSQL pgvector indexing in Resume AI",
+          "technology": [
+            "PostgreSQL",
+            "pgvector"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE",
+            "DATA_PROCESSING",
+            "DEPLOYMENT",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C37376b8f34e4ba15",
+          "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+          "order": 1,
+          "source_tokens": [
+            "Additional",
+            "unrelated",
+            "duties",
+            "office",
+            "event",
+            "scheduling",
+            "vendor",
+            "invoices",
+            "inventory",
+            "tracking",
+            "travel",
+            "logistics",
+            "and",
+            "facilities",
+            "coordination"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_3de3f5e8249124646a14c073",
+          "requirement_id": "C37376b8f34e4ba15",
+          "text": "Additional unrelated duties: office event scheduling, vendor invoices, inventory tracking, travel logistics, and facilities coordination.",
+          "action": [],
+          "object": null,
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "J20",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_b9a0c6ea2c6c5f4f618063f9",
+        "requirement_id": "req_fd7ba73a08f00a8d",
+        "text": "Built both FastAPI question answering and PyTorch convolutional models.",
+        "action": [
+          "Built"
+        ],
+        "object": "both FastAPI question answering and PyTorch convolutional models",
+        "technology": [
+          "FastAPI",
+          "PyTorch"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API",
+          "NLP"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_6260a93e41a41714928c85d2",
+        "requirement_id": "req_0460267afc20d464",
+        "text": "Built Python APIs and deployed containers and trained classifiers and implemented RAG and evaluated CNN models and used PostgreSQL.",
+        "action": [
+          "Built",
+          "deployed",
+          "trained",
+          "implemented",
+          "evaluated",
+          "used"
+        ],
+        "object": null,
+        "technology": [
+          "Python",
+          "RAG",
+          "PostgreSQL"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API",
+          "DATABASE",
+          "DATA_PROCESSING",
+          "DEPLOYMENT",
+          "MODEL_ARCHITECTURE",
+          "MODEL_TRAINING",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_11c5b23bc6384927b0d95ce0",
+        "requirement_id": "req_a2f0faacea9725cf",
+        "text": "Resume AI evidence-preserving ingestion and source provenance.",
+        "action": [],
+        "object": null,
+        "technology": [],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C56ce7228dfd675f2",
+          "text": "Built FastAPI question answering.",
+          "order": 1,
+          "source_tokens": [
+            "Built",
+            "FastAPI",
+            "question",
+            "answering"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_182f35ce8b2a1b861a09506e",
+          "requirement_id": "C56ce7228dfd675f2",
+          "text": "Built FastAPI question answering.",
+          "action": [
+            "Built"
+          ],
+          "object": "FastAPI question answering",
+          "technology": [
+            "FastAPI"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API",
+            "NLP"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cf070d185ad860e6d",
+          "text": "Built PyTorch convolutional models.",
+          "order": 2,
+          "source_tokens": [
+            "Built",
+            "PyTorch",
+            "convolutional",
+            "models"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_cdfae189e23eb42da3f4d4f5",
+          "requirement_id": "Cf070d185ad860e6d",
+          "text": "Built PyTorch convolutional models.",
+          "action": [
+            "Built"
+          ],
+          "object": "PyTorch convolutional models",
+          "technology": [
+            "PyTorch"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C30ff65f608cbc6a6",
+          "text": "Built Python APIs.",
+          "order": 1,
+          "source_tokens": [
+            "Built",
+            "Python",
+            "APIs"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_891e2a28931de0555e36ab4b",
+          "requirement_id": "C30ff65f608cbc6a6",
+          "text": "Built Python APIs.",
+          "action": [
+            "Built"
+          ],
+          "object": "Python APIs",
+          "technology": [
+            "Python"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cefc659a23bd3ba19",
+          "text": "Deployed containers.",
+          "order": 2,
+          "source_tokens": [
+            "Deployed",
+            "containers"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_9d4643dcf35dda86cce72e00",
+          "requirement_id": "Cefc659a23bd3ba19",
+          "text": "Deployed containers.",
+          "action": [
+            "Deployed"
+          ],
+          "object": "containers",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DEPLOYMENT"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C246cc67ee06f8c41",
+          "text": "Trained classifiers.",
+          "order": 3,
+          "source_tokens": [
+            "Trained",
+            "classifiers"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_d552be82dade438a174bd44c",
+          "requirement_id": "C246cc67ee06f8c41",
+          "text": "Trained classifiers.",
+          "action": [
+            "Trained"
+          ],
+          "object": "classifiers",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_ARCHITECTURE",
+            "MODEL_TRAINING"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C29d411542a7892b9",
+          "text": "Implemented RAG.",
+          "order": 4,
+          "source_tokens": [
+            "Implemented",
+            "RAG"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_35ff7546d78388ad723f6e51",
+          "requirement_id": "C29d411542a7892b9",
+          "text": "Implemented RAG.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "RAG",
+          "technology": [
+            "RAG"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cde0bc6e62ee00428",
+          "text": "Evaluated CNN models.",
+          "order": 5,
+          "source_tokens": [
+            "Evaluated",
+            "CNN",
+            "models"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_c287e5534b33e549f7bb2ab3",
+          "requirement_id": "Cde0bc6e62ee00428",
+          "text": "Evaluated CNN models.",
+          "action": [
+            "Evaluated"
+          ],
+          "object": "CNN models",
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "MODEL_ARCHITECTURE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "Cb5b23bfe709dafc1",
+          "text": "Used PostgreSQL.",
+          "order": 6,
+          "source_tokens": [
+            "Used",
+            "PostgreSQL"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_76120e747ceacb675db5e509",
+          "requirement_id": "Cb5b23bfe709dafc1",
+          "text": "Used PostgreSQL.",
+          "action": [
+            "Used"
+          ],
+          "object": "PostgreSQL",
+          "technology": [
+            "PostgreSQL"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C321c410bf5601e95",
+          "text": "Resume AI evidence-preserving ingestion and source provenance.",
+          "order": 1,
+          "source_tokens": [
+            "Resume",
+            "AI",
+            "evidence-preserving",
+            "ingestion",
+            "and",
+            "source",
+            "provenance"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_6891cfa898bbdbed13b0a46a",
+          "requirement_id": "C321c410bf5601e95",
+          "text": "Resume AI evidence-preserving ingestion and source provenance.",
+          "action": [],
+          "object": null,
+          "technology": [],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "S05",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_34911f4874e4fe28294d6664",
+        "requirement_id": "req_edb4292bc5376bfe",
+        "text": "Built and deployed Dockerized APIs on AWS and implemented PostgreSQL vector search.",
+        "action": [
+          "Built",
+          "deployed",
+          "Dockerized",
+          "implemented"
+        ],
+        "object": null,
+        "technology": [
+          "Dockerized",
+          "AWS",
+          "PostgreSQL"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API",
+          "DATABASE",
+          "DATA_PROCESSING",
+          "DEPLOYMENT",
+          "VECTOR_RETRIEVAL"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "Cca8e368f1e5d60fd",
+          "text": "Built PostgreSQL vector search.",
+          "order": 1,
+          "source_tokens": [
+            "Built",
+            "PostgreSQL",
+            "vector",
+            "search"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_ead78cd348ae66d703667313",
+          "requirement_id": "Cca8e368f1e5d60fd",
+          "text": "Built PostgreSQL vector search.",
+          "action": [
+            "Built"
+          ],
+          "object": "PostgreSQL vector search",
+          "technology": [
+            "PostgreSQL"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE",
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C8d2e75ba720cd1d2",
+          "text": "deployed Dockerized APIs on AWS PostgreSQL vector search.",
+          "order": 2,
+          "source_tokens": [
+            "deployed",
+            "Dockerized",
+            "APIs",
+            "on",
+            "AWS",
+            "PostgreSQL",
+            "vector",
+            "search"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_c438acf5436bc94d2f15be8d",
+          "requirement_id": "C8d2e75ba720cd1d2",
+          "text": "deployed Dockerized APIs on AWS PostgreSQL vector search.",
+          "action": [
+            "deployed",
+            "Dockerized"
+          ],
+          "object": null,
+          "technology": [
+            "Dockerized",
+            "AWS",
+            "PostgreSQL"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API",
+            "DATABASE",
+            "DATA_PROCESSING",
+            "DEPLOYMENT",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      },
+      {
+        "recorded_component": {
+          "component_id": "C9539c45041b75a6f",
+          "text": "implemented PostgreSQL vector search.",
+          "order": 3,
+          "source_tokens": [
+            "implemented",
+            "PostgreSQL",
+            "vector",
+            "search"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_fc89ddc03ee46eb7722f84b5",
+          "requirement_id": "C9539c45041b75a6f",
+          "text": "implemented PostgreSQL vector search.",
+          "action": [
+            "implemented"
+          ],
+          "object": "PostgreSQL vector search",
+          "technology": [
+            "PostgreSQL"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "DATABASE",
+            "DATA_PROCESSING",
+            "VECTOR_RETRIEVAL"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  },
+  {
+    "case": "S07",
+    "raw_requirement_annotations": [
+      {
+        "relationship_id": "rel_21c5d56c96460df00d9940bd",
+        "requirement_id": "req_605eaa010bdc394e",
+        "text": "Implemented a project with FastAPI.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "a project",
+        "technology": [
+          "FastAPI"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      },
+      {
+        "relationship_id": "rel_16947493538e910355192c40",
+        "requirement_id": "req_513e427047102484",
+        "text": "Implemented a project with FastAPI.",
+        "action": [
+          "Implemented"
+        ],
+        "object": "a project",
+        "technology": [
+          "FastAPI"
+        ],
+        "purpose": [],
+        "constraint": [],
+        "qualifier": [],
+        "capability_types": [
+          "BACKEND_API"
+        ],
+        "parsing": "conservative_annotation_original_retained"
+      }
+    ],
+    "recorded_decomposition_annotations": [
+      {
+        "recorded_component": {
+          "component_id": "C3c466327cc61c164",
+          "text": "Implemented a project with FastAPI.",
+          "order": 1,
+          "source_tokens": [
+            "Implemented",
+            "a",
+            "project",
+            "with",
+            "FastAPI"
+          ],
+          "relation": "conjunct_of_original"
+        },
+        "semantic_annotation": {
+          "relationship_id": "rel_d4f473c20d2b0cbfc4487549",
+          "requirement_id": "C3c466327cc61c164",
+          "text": "Implemented a project with FastAPI.",
+          "action": [
+            "Implemented"
+          ],
+          "object": "a project",
+          "technology": [
+            "FastAPI"
+          ],
+          "purpose": [],
+          "constraint": [],
+          "qualifier": [],
+          "capability_types": [
+            "BACKEND_API"
+          ],
+          "parsing": "conservative_annotation_original_retained"
+        }
+      }
+    ],
+    "interpretation": "Retrospective conservative field annotations only. Original execution did not carry explicit action/object/technology contracts; original raw messages, sources, ranking, licensing, fallback and audit are preserved unchanged in forensics/."
+  }
+]

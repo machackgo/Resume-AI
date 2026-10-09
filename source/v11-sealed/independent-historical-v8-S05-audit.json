@@ -1,0 +1,32 @@
+{
+  "case": "S05",
+  "raw_sha256": "714895b0c1fdc0658bf5f2d61893724d13be76d23d5029cce39a33ccc2ae030a",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "claims": [
+    {
+      "claim_id": "resume_claim_f1bebbac6c13036edc3bae7d9415994b24cc5eaa8078ff266b4bd3e96371303c",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2c23a5e925bc29e216e1e0fc4e0dbc8b0fe73d8eea43c7588d687fb6ab2911e2",
+      "span": [
+        76,
+        446
+      ],
+      "rationale": "The canonical QA-API README describes an academic containerized backend deployment scaffold with automated CI/CD and VM orchestration. The final text preserves course/template scope and qualified project attribution; it asserts no AWS deployment, production scale, or PostgreSQL vector search. The licensed literal Dockerized APIs component retains its retrieval component ID, action/object/technology and original parent span. AWS deployment and PostgreSQL vector search remain uncovered. This is a substantive deployment automation capability, not a generic installed-package or folder fact. A separate stronger latency/deployment metric claim remains rejected rather than donating its claims."
+    }
+  ],
+  "fallback": {
+    "unit_count": 66,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 2,
+    "attempted_candidates": 9,
+    "remaining_candidates": 31,
+    "stop_reason": "recovery_complete"
+  }
+}

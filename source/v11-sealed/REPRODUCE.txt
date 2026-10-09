@@ -1,0 +1,104 @@
+SEMANTIC CONTRACT REMEDIATION — NEW PACKAGE
+All previous evaluation packages and this package after sealing are immutable.
+Use a NEW copy and new remote run names for reproduction. Never overwrite outputs.
+
+LOCAL CPU
+cd /Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008
+PYTHONDONTWRITEBYTECODE=1 ../resume-ai-repair-acceptance-20261007/.venv/bin/python run_tests.py
+python3 refresh_cpu_gate.py
+python3 build_manifest.py
+CPU gate binds the full application snapshot and test-results SHA-256.
+Protected fixture blocks are reported separately, never counted as passes.
+
+POST-VALIDATION CONTRACT REGRESSION
+PYTHONDONTWRITEBYTECODE=1 ../resume-ai-repair-acceptance-20261007/.venv/bin/python test_discovery_license_boundary.py
+The unchanged v11 application yields 2 PASSED and 1 FAILED in this additional
+synthetic regression. It was derived from the independent full-suite audit,
+after the existing GPU jobs were already allocated. Combined final accounting:
+534 PASSED, 1 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED.
+final-regression-gate.json remains false. Staging helpers refuse new inference
+while this gate is false. This failure is not an expected passing test and must
+be repaired in a new package before any future acceptance inference is staged.
+The current unchanged jobs are allowed to finish; no completed case is rerun.
+
+FORENSIC REPLAY (not fresh-inference proof)
+PYTHONDONTWRITEBYTECODE=1 ../resume-ai-repair-acceptance-20261007/.venv/bin/python replay_contracts.py
+Saved original chains: forensics/; causal classification: failure_root_cause_matrix.json.
+
+FRESH HISTORICAL INFERENCE
+python3 stage_historical.py v11
+Staging requires a passing CPU gate for identical local code. It verifies all five
+runtime inputs against prior full-v7 and copies no protected evaluation data.
+Remote root: /scratch/mohammedmubashir/resume-ai
+Remote work parent: work/semantic-contracts-20261008
+For each shard N=0,1, after staging/input checks:
+ssh -o BatchMode=yes mohammedmubashir@turing.wpi.edu "bash -lc 'module load slurm; sbatch /scratch/mohammedmubashir/resume-ai/work/semantic-contracts-20261008/historical-v11-shard-N/historical-v11-shard-N.sbatch'"
+All eight controls run fresh on each shard before its assigned cases. BASE model
+configuration must equal the prior approved full-v7 configuration exactly.
+No adapter, training, gradients, weight edits, promotion or agent development.
+
+NON-MODEL RETRIEVAL PROBE
+cpu_retrieval_probe.py runs the existing CPU embedding provider, canonical store,
+exact query relationships, and bounded depths 20/40/80. It never assigns factual
+support and is not acceptance evidence. See cpu-probe-transfer-verification.json.
+
+DOWNLOAD AND AUDIT
+python3 sync_historical.py historical-v11-shard-N
+python3 audit_view.py historical-v11-shard-N/case-JXX.json
+../resume-ai-repair-acceptance-20261007/.venv/bin/python audit_mechanical.py historical-v11-shard-N
+python3 extract_semantic_traces.py historical-v11-shard-N
+sync_historical refuses to overwrite changed raw results and checks remote SHA-256.
+Independent human-readable claim judgments are separate from mechanical checks and
+model self-assessments; bind each to its raw output SHA-256. Review all four claim
+dimensions, requirements, exact canonical sources, contrary evidence and licenses.
+
+COMBINE IDENTICAL FRESH SHARDS
+python3 assemble_cohort.py historical-v11 historical-v11-shard-0 historical-v11-shard-1
+The assembler requires complete exact case union, unchanged raw job hashes,
+identical application snapshots, approved BASE settings and all controls passing.
+python3 summarize_independent.py historical-v11
+This validates externally supplied independent decisions; it does not assign labels.
+Only create a passing historical-gate.json after all eight independent audits pass.
+
+FULL UNCHANGED ACCEPTANCE (GATED)
+python3 prepare_full.py
+This requires a passing historical gate and identical CPU-tested application.
+Submit its three full-v1-shard-N.sbatch files. They execute only the 22 unfinished
+cases, after verifying completed-case-manifest.json against eight independently
+passed historical outputs on identical current code/inputs/BASE settings. Each shard
+runs all controls fresh. Final union: unchanged 20 original plus 10 stress cases.
+Do not regenerate the eight valid completed cases. Every final acceptance output
+was generated on the repaired v11 revision; old full-v7 outputs are baseline only.
+Two jobs can run concurrently under the account GPU quota; a third may queue.
+Download/audit each shard as above, then assemble the complete union:
+python3 assemble_cohort.py full-v1 historical-v11-shard-0 historical-v11-shard-1 full-v1-shard-0 full-v1-shard-1 full-v1-shard-2
+Independently audit
+all substantive claims, expected safe abstentions and any recovery failures.
+
+INTEGRITY (READ-ONLY; WRITE NEW RESULT FILES)
+python3 verify_final_local.py
+python3 verify_checkpoint_final.py
+PYTHONDONTWRITEBYTECODE=1 python3 verify_remote_history.py
+ssh -o BatchMode=yes mohammedmubashir@turing.wpi.edu python3 < ../resume-ai-remediation-20261007/verify_remote.py
+ssh -o BatchMode=yes mohammedmubashir@turing.wpi.edu python3 < ../resume-ai-remediation-20261007/verify_protected_metadata.py
+Remote protected verification uses stat only. Runtime audit hooks deny protected
+content opens. SHA-256 checks cover prior sealed archives, historical packages,
+frozen model/adapter/code artifacts, and unchanged acceptance input files.
+
+SEALING
+Finalize report, multidimensional audit, exact test counts and final-verification.json.
+python3 seal_package.py
+The script uses exclusive creation, checks every ZIP member digest and CRC, and emits
+sibling SHA-256 metadata. Upload the new archive alongside immutable history; verify
+its complete SHA-256 remotely and retain the external transfer receipt.
+
+CONTINUATION INTEGRITY
+The source checkpoint package and network-blocked archive remain immutable.
+checkpoint-preservation-before.json and the final checkpoint preservation check
+verify their hashes. Only harness/transport changes were made after recovery;
+Resume-AI application code remains identical to the CPU-tested v11 revision.
+
+Final accounting: 534 PASSED, 1 FAILED, 46 SKIPPED events (44 tests + 2 class setup), 3 PROTECTED-BLOCKED. 582 test executions; 584 outcome entries. See regression-accounting-correction.json.
+Reporting only: python3 finalize_reporting.py
+Seal once after review: python3 seal_package.py
+No new inference is authorized by the failed final regression gate.

@@ -1,0 +1,22 @@
+{
+  "case": "J01",
+  "raw_sha256": "7b591aeef3a7ee7576f26fe23ff8dba3a5fe66350f001596147f65b4d3d73cb6",
+  "case_passed": true,
+  "rationale": "Exact candidate-supplied Stroke Risk Prediction statement preserves the baseline/tuned-model metric distinction and lower-recall tradeoff. Approved project README and Python/scikit-learn context corroborate classification implementation; no source contradicts the explicitly scoped candidate-reported metrics. Final license covers Python classification only, not Random Forest, LightGBM crash prediction or QA. The source-container resume label does not replace the actual Stroke project identity. Substantive implemented pipeline and measured tradeoff are achievement-worthy.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_62d2a82f0801fcd3f3106ec9d0064c0f92dbe6700fdd91751512df0eb1f92baf",
+      "factual_class": "SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        2683,
+        2912
+      ],
+      "rationale": "Exact candidate-supplied Stroke Risk Prediction statement preserves the baseline/tuned-model metric distinction and lower-recall tradeoff. Approved project README and Python/scikit-learn context corroborate classification implementation; no source contradicts the explicitly scoped candidate-reported metrics. Final license covers Python classification only, not Random Forest, LightGBM crash prediction or QA. The source-container resume label does not replace the actual Stroke project identity. Substantive implemented pipeline and measured tradeoff are achievement-worthy."
+    }
+  ]
+}

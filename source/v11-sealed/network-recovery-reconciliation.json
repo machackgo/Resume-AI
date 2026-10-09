@@ -1,0 +1,19 @@
+{
+  "network_restored": true,
+  "vpn_configuration_changed": false,
+  "application_changed": false,
+  "jobs": {
+    "2351800": "COMPLETED 0:0",
+    "2351801": "COMPLETED 0:0"
+  },
+  "missing_S07_recovered": true,
+  "historical_gate_passed": true,
+  "completed_cases_restarted": false,
+  "prior_full_v7_files_verified": 36,
+  "first_unfinished_step": "22 not-yet-generated current-revision acceptance/stress cases",
+  "new_jobs": [
+    2351871,
+    2351872,
+    2351873
+  ]
+}

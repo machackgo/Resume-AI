@@ -1,0 +1,27 @@
+{
+  "version": "stage4c0-teacher-routing-supplement-v2",
+  "teacher_prompt_version": "teacher.v2",
+  "base_prompt_version": "teacher.v1",
+  "base_prompt_sha256": "787f0a555ff0a7fc907d0c54aa80fa39192d3260199b9e995d1048d6a72e8eab",
+  "prompt_sha256": "70818776179afa73f4f3a64f7b8636f7d466de4fc7b437b8cff37db687c62de7",
+  "original_contract_manifest_sha256": "4f0bfe547d5078a2a267101e5fc90abc20a2e1cc27813ed3fd96cae7521ecfb3",
+  "schema_version": "stage4c0-v1",
+  "acceptance_gates_sha256": "994a529c6cf106cda3c65580f59fd2bb1c66eda220094394e52ffc5cd652f671",
+  "thresholds_changed": false,
+  "prior_requests_or_reviews_modified": false,
+  "reason": "Clarify pre-existing UNKNOWN support-array semantics and missing-information status routing after systemic pilot ambiguity.",
+  "prospective_default": "teacher.v2",
+  "revision_lineage": {
+    "teacher.v1": "revision.v1",
+    "teacher.v2": "revision.v2"
+  },
+  "research_principle_ids": [
+    "TRUTH01",
+    "TRUTH02",
+    "JOB08",
+    "APP02",
+    "APP05",
+    "APP07"
+  ],
+  "note": "Product serialization clarification; no new effectiveness or source-supported research claim."
+}

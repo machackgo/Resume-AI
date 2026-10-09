@@ -1,0 +1,120 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "cover_letter",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "CL01",
+      "version": "1.0.0",
+      "principle": "Open with a clear role-specific purpose and a grounded connection.",
+      "provenance": [
+        {
+          "source_id": "S11",
+          "source_url": "https://capd.mit.edu/resources/how-to-write-an-effective-cover-letter/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Opening identifies role without compulsory boilerplate.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "CL02",
+      "version": "1.0.0",
+      "principle": "Develop a few relevant examples and explain their connection to the work.",
+      "provenance": [
+        {
+          "source_id": "S11",
+          "source_url": "https://capd.mit.edu/resources/how-to-write-an-effective-cover-letter/"
+        },
+        {
+          "source_id": "S12",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-writing-a-cover-letter/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Letter complements the resume rather than repeating all its bullets.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "CL03",
+      "version": "1.0.0",
+      "principle": "Use a concise one-page professional default unless the application specifies another format.",
+      "provenance": [
+        {
+          "source_id": "S11",
+          "source_url": "https://capd.mit.edu/resources/how-to-write-an-effective-cover-letter/"
+        },
+        {
+          "source_id": "S12",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-writing-a-cover-letter/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Explicit word/character limits override a generic default.",
+      "exceptions_or_limits": [
+        "No universal exact word count is justified by these sources."
+      ]
+    },
+    {
+      "principle_id": "CL04",
+      "version": "1.0.0",
+      "principle": "Company-specific claims and personal motivations require supplied reliable context.",
+      "provenance": [
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "No invented mission, culture, initiatives or emotional attachment.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "CL05",
+      "version": "1.0.0",
+      "principle": "Use a recipient name only when supplied; close professionally with a proportionate request.",
+      "provenance": [
+        {
+          "source_id": "S11",
+          "source_url": "https://capd.mit.edu/resources/how-to-write-an-effective-cover-letter/"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "No invented hiring manager or contact address.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "CL06",
+      "version": "1.0.0",
+      "principle": "Preserve the applicant’s voice and follow employer rules on AI-assisted application materials.",
+      "provenance": [
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Draft remains reviewable; applicable AI-use restriction is retained.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

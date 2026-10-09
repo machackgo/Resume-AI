@@ -1,0 +1,48 @@
+{
+  "reused_completed": [
+    "J08",
+    "J09",
+    "J12",
+    "J14",
+    "J15",
+    "J20",
+    "S05",
+    "S07"
+  ],
+  "remaining_shards": [
+    [
+      "J01",
+      "J04",
+      "J07",
+      "J13",
+      "J18",
+      "S02",
+      "S06",
+      "S10"
+    ],
+    [
+      "J02",
+      "J05",
+      "J10",
+      "J16",
+      "J19",
+      "S03",
+      "S08"
+    ],
+    [
+      "J03",
+      "J06",
+      "J11",
+      "J17",
+      "S01",
+      "S04",
+      "S09"
+    ]
+  ],
+  "complete_suite_count": 30,
+  "reused_count": 8,
+  "new_inference_count": 22,
+  "benchmark_inputs_unchanged": true,
+  "application_unchanged": true,
+  "reason": "Completed outputs match current code, exact unchanged job hashes, approved BASE configuration and independent audit. Remaining outputs do not yet exist on the repaired revision."
+}

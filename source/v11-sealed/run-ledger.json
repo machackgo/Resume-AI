@@ -1,0 +1,160 @@
+[
+  {
+    "job": 2351767,
+    "state": "CANCELLED",
+    "acceptance_credit": false,
+    "reason": "Launch verification script referenced an unused canonical-evidence file absent in previous remote run; shell continued after verification error. Cancelled in six seconds; use new run directory after successful five-input verification."
+  },
+  {
+    "job": 2351768,
+    "state": "CANCELLED",
+    "directory": "historical-v2",
+    "acceptance_credit": false,
+    "cpu_gate": "495 PASSED / 0 FAILED / 46 SKIPPED / 3 PROTECTED-BLOCKED",
+    "reason": "Stopped during controls to repair exact two-pass token-envelope accounting. First synthetic component control failed; partial run lacks persisted raw decision. Subsequent controls now persist individually for forensic diagnosis."
+  },
+  {
+    "job": 2351769,
+    "run": "historical-v3",
+    "state": "FAILED_AT_CONTROLS",
+    "controls_passed": 7,
+    "controls_total": 8,
+    "historical_cases_executed": 0,
+    "root_cause": "Parent coverage criterion conflated with an explicitly evaluated narrower component; supported reasoning but false link boolean",
+    "repair": "Decision payload now isolates target component with parent relationship ID. Original parent and uncovered adjuncts retained outside decision payload; constraint-bearing projections refused. No veto is overwritten."
+  },
+  {
+    "job": 2351770,
+    "run": "historical-v4",
+    "state": "CANCELLED_AFTER_J08",
+    "controls_passed": 8,
+    "controls_total": 8,
+    "acceptance_credit": false,
+    "reason": "Fresh J08 selector emitted malformed JSON; strict parse safely failed but bypassed independent fallback. Quarantining malformed selector now permits canonical fallback licensing without interpreting/reparing invalid output. Also refined generic-object technology binding, architecture/training capability distinction, unknown/multiple entity identity checks."
+  },
+  {
+    "job": 2351773,
+    "run": "historical-v5",
+    "state": "CANCELLED_AFTER_J08_J09",
+    "acceptance_credit": false,
+    "controls_passed": 8,
+    "reason": "J08 recovered a factual architecture claim but independent review found a design-to-implementation relationship strengthening. Added action-strength veto, link-local rejection, cross-query same-candidate independent licensing, and compound component/source-span relationship lineage."
+  },
+  {
+    "job": 2351775,
+    "run": "historical-v6",
+    "state": "CANCELLED_AFTER_J08_J09",
+    "acceptance_credit": false,
+    "controls_passed": 8,
+    "reason": "PostgreSQL recovery succeeded, but assertion identity inherited the AWS source-container label despite explicit GCP-only event scope. Separated container ownership from assertion event. Also required all component capability types, retained explicit platform constraints, and corrected deterministic-rejection accounting so CPU vetoes do not spend GPU review budget."
+  },
+  {
+    "job": 2351778,
+    "run": "historical-v7-shard-0",
+    "state": "COMPLETED_HISTORICAL_GATE_FAILED",
+    "acceptance_credit": false,
+    "cpu_gate": "514 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "controls_passed": 8,
+    "reason": "J08 dotted object annotation; J12 secondary technology borrowed without source-entity proof; S05 inflected component discovery failed. All repaired generally in v8, not credited from CPU alone."
+  },
+  {
+    "job": 2351779,
+    "run": "historical-v7-shard-1",
+    "state": "CANCELLED_AFTER_J09_J14",
+    "acceptance_credit": false,
+    "cpu_gate": "514 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "controls_passed": 8,
+    "reason": "Obsolete source revision already failed J12/S05 in sibling shard. Preserved completed controls/cases and cancelled remaining inference to release the two-GPU user quota for repaired v8."
+  },
+  {
+    "job": 2351780,
+    "run": "historical-v8-shard-0",
+    "state": "COMPLETED",
+    "acceptance_credit": false,
+    "cpu_gate": "523 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "controls_passed": 8,
+    "independent_semantic_case_passes": [
+      "J08",
+      "J12",
+      "J15",
+      "S05"
+    ],
+    "mechanical_failures": 0,
+    "reason": "All assigned cases passed independent semantic/mechanical audits. New general whitespace-anchor regression requires final code revision; original fresh outputs remain preserved."
+  },
+  {
+    "job": 2351781,
+    "run": "historical-v8-shard-1",
+    "state": "COMPLETED_HISTORICAL_GATE_FAILED",
+    "acceptance_credit": false,
+    "cpu_gate": "523 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "reason": "J20 identity firewall passed. J14 exact secondary anchor whitespace defect; S07 safe empty output exposed recovery limitation. No acceptance credit."
+  },
+  {
+    "job": 2351790,
+    "run": "historical-v9-shard-0",
+    "state": "CANCELLED_DURING_CONTROLS",
+    "acceptance_credit": false,
+    "cpu_gate": "524 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "reason": "Sibling v8 S07 recovery limitation required general same-entity supporting-technology licensing and bounded existing-retriever expansion before a complete new historical cohort."
+  },
+  {
+    "job": 2351800,
+    "run": "historical-v11-shard-0",
+    "state": "COMPLETED",
+    "acceptance_credit": false,
+    "cpu_gate": "530 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "reason": "Fresh complete cohort after independently discovered identity/relationship/anchor/recovery repairs; approved unchanged BASE configuration.",
+    "controls_passed": 8,
+    "independent_semantic_case_passes": [
+      "J08",
+      "J12",
+      "J15",
+      "S05"
+    ],
+    "mechanical_failures": 0
+  },
+  {
+    "job": 2351801,
+    "run": "historical-v11-shard-1",
+    "state": "COMPLETED",
+    "acceptance_credit": false,
+    "cpu_gate": "530 PASSED, 0 FAILED, 46 SKIPPED, 3 PROTECTED-BLOCKED",
+    "reason": "Fresh complete cohort after independently discovered identity/relationship/anchor/recovery repairs; approved unchanged BASE configuration.",
+    "controls_passed": 8,
+    "independent_semantic_case_passes": [
+      "J09",
+      "J14",
+      "J20",
+      "S07"
+    ],
+    "mechanical_failures": 0
+  },
+  {
+    "run": "full-v1-shard-0",
+    "job": 2351871,
+    "state": "SUBMITTED",
+    "acceptance_credit": false,
+    "source_revision": "v11",
+    "reused_completed_cases": 8,
+    "new_cases_only": true
+  },
+  {
+    "run": "full-v1-shard-1",
+    "job": 2351872,
+    "state": "SUBMITTED",
+    "acceptance_credit": false,
+    "source_revision": "v11",
+    "reused_completed_cases": 8,
+    "new_cases_only": true
+  },
+  {
+    "run": "full-v1-shard-2",
+    "job": 2351873,
+    "state": "SUBMITTED",
+    "acceptance_credit": false,
+    "source_revision": "v11",
+    "reused_completed_cases": 8,
+    "new_cases_only": true
+  }
+]

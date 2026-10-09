@@ -1,0 +1,20 @@
+# Reviewed 2026-10-09. Default rules plus two narrow allowlists for confirmed false positives.
+# Both are restricted to the generic-api-key rule so provider-specific detectors still fire.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "SHA-256/git digests keyed by tokenizer filenames in pinned RAG model locks"
+targetRules = ["generic-api-key"]
+condition = "AND"
+paths = ['''^provenance/rag-models\.stage3[cf]\.lock\.json$''']
+regexTarget = "secret"
+regexes = ['''^[0-9a-f]{40,64}$''']
+
+[[allowlists]]
+description = "Prose: 'authentication, revocation/expiry' in Stage 3A architecture doc"
+targetRules = ["generic-api-key"]
+condition = "AND"
+paths = ['''^source/turing-root/docs/stage3a_architecture\.md$''']
+regexTarget = "match"
+regexes = ['''authentication''']

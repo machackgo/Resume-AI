@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "package": "resume-ai-final-remediation-20261007",
+    "supported": 20,
+    "partially_supported": 0,
+    "unsupported": 0,
+    "contradicted": 1,
+    "verdict": "C"
+  },
+  "current": {
+    "supported": 19,
+    "partially_supported": 4,
+    "unsupported": 0,
+    "contradicted": 0,
+    "cross_project_contamination": 0,
+    "generic_setup_promoted": 0,
+    "broad_capability_incompatible": 0,
+    "specific_requirement_overlicensed": 1,
+    "cases_passed": 23,
+    "cases_failed": 7,
+    "verdict": "C"
+  },
+  "note": "Claim occurrence denominators differ: baseline 21, current 23. Zero contradictions is insufficient for readiness."
+}

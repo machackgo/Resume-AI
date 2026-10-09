@@ -1,0 +1,9 @@
+{
+  "run": "full-v1-shard-0",
+  "job": 2351871,
+  "state": "SUBMITTED",
+  "acceptance_credit": false,
+  "source_revision": "v11",
+  "reused_completed_cases": 8,
+  "new_cases_only": true
+}

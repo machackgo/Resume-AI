@@ -1,0 +1,7 @@
+{
+  "files": 195,
+  "matches_pre_inference_cpu_gate": true,
+  "matches_final_cpu_gate": true,
+  "matches_reused_historical_outputs": true,
+  "application_changes_after_reconciliation": 0
+}

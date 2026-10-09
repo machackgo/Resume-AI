@@ -1,0 +1,8 @@
+[
+  {
+    "case": "J07",
+    "superseded": "independent-full-v1-J07-audit-pre-source-scope-review.json",
+    "current": "independent-full-v1-J07-audit.json",
+    "reason": "Broader canonical-source scope review found explicit repository link and future-work evidence absent from accepted license context."
+  }
+]

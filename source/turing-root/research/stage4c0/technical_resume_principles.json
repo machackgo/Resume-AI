@@ -1,0 +1,168 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "technical_resume",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "TECH01",
+      "version": "1.0.0",
+      "principle": "Describe what a technical system does and the candidate’s concrete implementation contribution.",
+      "provenance": [
+        {
+          "source_id": "S08",
+          "source_url": "https://careerservices.cns.utexas.edu/resources/resumes/strong-bullets-technical-resumes"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Bullet contains a system/task and precise action, not only a technology list.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH02",
+      "version": "1.0.0",
+      "principle": "Show technical methods in context, while keeping specialist language understandable to the intended reader.",
+      "provenance": [
+        {
+          "source_id": "S04",
+          "source_url": "https://careerdevelopment.princeton.edu/advanced-degree-resume-guide/accomplishment-statements"
+        },
+        {
+          "source_id": "S08",
+          "source_url": "https://careerservices.cns.utexas.edu/resources/resumes/strong-bullets-technical-resumes"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Specific technologies remain accurate; unexplained internal jargon is minimized.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH03",
+      "version": "1.0.0",
+      "principle": "Class and personal projects can demonstrate relevant skills; label their origin honestly.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        },
+        {
+          "source_id": "S09",
+          "source_url": "https://careerservices.cns.utexas.edu/explore-careers/career-guides-industry/technical-careers-guide"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Project evidence is not promoted into employment or production experience.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH04",
+      "version": "1.0.0",
+      "principle": "Explain collaboration through a supported contribution rather than unsupported leadership labels.",
+      "provenance": [
+        {
+          "source_id": "S08",
+          "source_url": "https://careerservices.cns.utexas.edu/resources/resumes/strong-bullets-technical-resumes"
+        },
+        {
+          "source_id": "S20",
+          "source_url": "https://naceweb.org/research/reports/job-outlook/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Team scope and ownership match evidence.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH05",
+      "version": "1.0.0",
+      "principle": "Retain supported technical metrics with their event, measurement context and exact values.",
+      "provenance": [
+        {
+          "source_id": "S07",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-crafting-an-effective-resume/"
+        },
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "No number invention, rounding drift, task transfer or baseline substitution.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH06",
+      "version": "1.0.0",
+      "principle": "Protect confidential technical details; do not manufacture a replacement scale or result.",
+      "provenance": [
+        {
+          "source_id": "S08",
+          "source_url": "https://careerservices.cns.utexas.edu/resources/resumes/strong-bullets-technical-resumes"
+        },
+        {
+          "source_id": "S17",
+          "source_url": "https://www.naceweb.org/career-development/organizational-structure/applying-naces-principles-for-ethical-professional-practice-to-ai"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Respect disclosed exclusions; omit unavailable details.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH07",
+      "version": "1.0.0",
+      "principle": "AI/ML role terminology is posting-specific; no title implies every fashionable model or cloud skill.",
+      "provenance": [
+        {
+          "source_id": "S30",
+          "source_url": "https://careers.microsoft.com/v2/global/en/locations/hyderabad.html"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "RAG, LoRA, QLoRA, training, inference and deployment remain distinct evidence predicates.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "TECH08",
+      "version": "1.0.0",
+      "principle": "Group supported skills when helpful; keep evidence of ability separate from unsupported proficiency adjectives.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        },
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Skill entries trace to facts; no automatic expert designation.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

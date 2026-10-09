@@ -1,0 +1,8 @@
+{
+  "files": 894,
+  "baseline_files": 894,
+  "unchanged": true,
+  "changed_metadata": [],
+  "protected_content_opened_by_this_check": false,
+  "note": "Stat comparison corroborates preservation; atime alone cannot prove absence of reads. Runtime audit hooks separately denied protected opens."
+}

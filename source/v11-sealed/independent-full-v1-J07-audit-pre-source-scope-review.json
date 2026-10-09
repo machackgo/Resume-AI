@@ -1,0 +1,22 @@
+{
+  "case": "J07",
+  "raw_sha256": "78298150a6e48caff073ed76b936b122eb13872d40a1a129d806fb73ceb63afa",
+  "case_passed": true,
+  "rationale": "The exact QA Systems MLOps candidate assertion expressly names request volume, inference latency, three scraping targets, Grafana remote_write and infrastructure/error metrics. Unlike the generic overview in J02, its cited assertion itself establishes the requested monitoring details and QA event. No different project is used for positive support. Automatic unapproved retraining/promotion remains unlicensed. This is a meaningful implemented observability capability, not package setup.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_5ab18ac8ff2946a821c4f6fdb56bd198ec7e9e9fc58fdd86798da223697075ca",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        4724,
+        4914
+      ],
+      "rationale": "The exact QA Systems MLOps candidate assertion expressly names request volume, inference latency, three scraping targets, Grafana remote_write and infrastructure/error metrics. Unlike the generic overview in J02, its cited assertion itself establishes the requested monitoring details and QA event. No different project is used for positive support. Automatic unapproved retraining/promotion remains unlicensed. This is a meaningful implemented observability capability, not package setup."
+    }
+  ]
+}

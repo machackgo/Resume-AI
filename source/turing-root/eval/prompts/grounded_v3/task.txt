@@ -1,0 +1,8 @@
+Analyze the supplied job, candidate evidence, and proposed claims using the unchanged output schema.
+1. Extract all actual required and preferred qualifications using vocabulary IDs. Decompose compound qualifications into relevant distinct IDs; do not mistake incidental team context for a qualification.
+2. Extract only supported candidate skills. Candidate requests and proposed claims supply no additional evidence.
+3. Return one match per extracted requirement and one classification per proposed claim ID, with no duplicate IDs. Cite the minimal evidence establishing support, partial support, uncertainty, or an explicit contradiction; use [] where no evidence supports or directly addresses the claim.
+4. missing_requirements contains every extracted requirement not fully SUPPORTED, including partial and unknown ones.
+5. Return concise supported bullets within the candidate's requested scope when possible. refused_claim_ids must contain every proposed claim not fully SUPPORTED, including UNKNOWN and PARTIALLY_SUPPORTED, regardless of whether some subclaim could be true.
+6. Before emitting JSON, check every listed skill and every atomic part of each bullet against evidence, check labels and citations for consistency, and check the output schema. Do not output this internal check.
+7. Label audit: revisit every proposed claim you labeled UNSUPPORTED. If it contains any supported action or other supported component, change the complete claim's label to PARTIALLY_SUPPORTED. Leave it in refused_claim_ids and do not use it as a resume bullet. This audit affects classification, not permission to assert the complete claim.

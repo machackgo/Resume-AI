@@ -1,0 +1,211 @@
+{
+  "tests_run": 579,
+  "failures": [],
+  "errors": [
+    {
+      "test": "test_dataset_integrity (test_embedding_eval.EvaluationTests.test_dataset_integrity)",
+      "error": "Traceback (most recent call last):\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/tests/rag/test_embedding_eval.py\", line 33, in test_dataset_integrity\n    d=json.loads((Path(__file__).resolve().parents[2]/'fixtures/rag/embedding_eval/resume_semantics_v1.json').read_text())\n                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 787, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/run_tests.py\", line 9, in guard\n    blocked.append(str(p));raise PermissionError('Protected evaluation content prohibited')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: Protected evaluation content prohibited\n"
+    },
+    {
+      "test": "test_demonstration (test_ingestion.IngestionTests.test_demonstration)",
+      "error": "Traceback (most recent call last):\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/tests/rag/test_ingestion.py\", line 28, in test_demonstration\n    result = demonstrate()\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/rag/demo.py\", line 28, in demonstrate\n    results.append(a.ingest(local, annotation(local.read().normalized, \"Built a Python service.\", (\"Python\",))))\n                                              ~~~~~~~~~~^^\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/rag/adapters.py\", line 97, in read\n    with path.open(\"rb\") as stream:\n         ~~~~~~~~~^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/run_tests.py\", line 9, in guard\n    blocked.append(str(p));raise PermissionError('Protected evaluation content prohibited')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: Protected evaluation content prohibited\n"
+    },
+    {
+      "test": "test_fixture_distinctions (test_reranking.RerankingTests.test_fixture_distinctions)",
+      "error": "Traceback (most recent call last):\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/tests/rag/test_reranking.py\", line 161, in test_fixture_distinctions\n    data=json.loads((Path(__file__).resolve().parents[2]/'fixtures/rag/reranking_eval/stage3f_v1.json').read_text())\n                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 787, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/run_tests.py\", line 9, in guard\n    blocked.append(str(p));raise PermissionError('Protected evaluation content prohibited')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: Protected evaluation content prohibited\n"
+    }
+  ],
+  "skipped": [
+    {
+      "test": "setUpClass (test_component.PreparedArtifactTests)",
+      "reason": "CPU prepared artifacts not yet built"
+    },
+    {
+      "test": "test_ablation_depths (test_deep.DeepArtifactTests.test_ablation_depths)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_all_covered (test_deep.DeepArtifactTests.test_all_covered)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_bounded_selection (test_deep.DeepArtifactTests.test_bounded_selection)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_chunk_action_offsets (test_deep.DeepArtifactTests.test_chunk_action_offsets)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_component_survival (test_deep.DeepArtifactTests.test_component_survival)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_credential_trust (test_deep.DeepArtifactTests.test_credential_trust)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_decomposition_followup (test_deep.DeepArtifactTests.test_decomposition_followup)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_depth_10 (test_deep.DeepArtifactTests.test_depth_10)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_depth_20 (test_deep.DeepArtifactTests.test_depth_20)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_depth_3 (test_deep.DeepArtifactTests.test_depth_3)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_depth_40 (test_deep.DeepArtifactTests.test_depth_40)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_depth_5 (test_deep.DeepArtifactTests.test_depth_5)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_deterministic_replay (test_deep.DeepArtifactTests.test_deterministic_replay)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_duplicate_provenance (test_deep.DeepArtifactTests.test_duplicate_provenance)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_embedding_and_space (test_deep.DeepArtifactTests.test_embedding_and_space)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_exact_ranks (test_deep.DeepArtifactTests.test_exact_ranks)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_fair_coverage (test_deep.DeepArtifactTests.test_fair_coverage)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_gold_identity (test_deep.DeepArtifactTests.test_gold_identity)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_h06_survival (test_deep.DeepArtifactTests.test_h06_survival)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_api (test_deep.DeepArtifactTests.test_hard_api)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_aws (test_deep.DeepArtifactTests.test_hard_aws)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_cases_present (test_deep.DeepArtifactTests.test_hard_cases_present)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_credential (test_deep.DeepArtifactTests.test_hard_credential)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_kubernetes (test_deep.DeepArtifactTests.test_hard_kubernetes)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_no_coverage_regression (test_deep.DeepArtifactTests.test_hard_no_coverage_regression)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_numeric (test_deep.DeepArtifactTests.test_hard_numeric)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_pytorch (test_deep.DeepArtifactTests.test_hard_pytorch)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_qlora_inference (test_deep.DeepArtifactTests.test_hard_qlora_inference)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_qlora_lora (test_deep.DeepArtifactTests.test_hard_qlora_lora)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_rag (test_deep.DeepArtifactTests.test_hard_rag)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_hard_serving (test_deep.DeepArtifactTests.test_hard_serving)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_historical_context_replay (test_deep.DeepArtifactTests.test_historical_context_replay)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_injection_not_selector_command (test_deep.DeepArtifactTests.test_injection_not_selector_command)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_isolation_at_every_depth (test_deep.DeepArtifactTests.test_isolation_at_every_depth)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_loss_location (test_deep.DeepArtifactTests.test_loss_location)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_metric_ranges (test_deep.DeepArtifactTests.test_metric_ranges)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_missing_component (test_deep.DeepArtifactTests.test_missing_component)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_no_historical_source_edit (test_deep.DeepArtifactTests.test_no_historical_source_edit)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_original_query_action (test_deep.DeepArtifactTests.test_original_query_action)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_selector_explainability (test_deep.DeepArtifactTests.test_selector_explainability)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_stale_filtering (test_deep.DeepArtifactTests.test_stale_filtering)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_token_accounting (test_deep.DeepArtifactTests.test_token_accounting)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_trace_scales (test_deep.DeepArtifactTests.test_trace_scales)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "test_trust_preservation (test_deep.DeepArtifactTests.test_trust_preservation)",
+      "reason": "retrieval artifacts required"
+    },
+    {
+      "test": "setUpClass (test_scale.PreparedScaleTests)",
+      "reason": "prepared artifacts not yet built; mandatory final check runs these"
+    }
+  ],
+  "protected_reads_denied": [
+    "/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/fixtures/rag/embedding_eval/resume_semantics_v1.json",
+    "/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/fixtures/rag/resume.md",
+    "/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/application/fixtures/rag/reranking_eval/stage3f_v1.json"
+  ],
+  "seconds": 1.3626783340005204,
+  "passed": 530
+}

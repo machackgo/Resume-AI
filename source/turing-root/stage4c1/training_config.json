@@ -1,0 +1,21 @@
+{
+  "active_sequence_max": 4233,
+  "alpha": 16,
+  "batch_size": 1,
+  "dropout": 0.05,
+  "evidence_validation_size": 80,
+  "gradient_accumulation": 2,
+  "learning_rate": 5e-05,
+  "optimizer": "PagedAdamW8bit",
+  "professional_exposure_cap": 1,
+  "protocol_sha256": "8baee84862c61460073e9442265f3bce59bc150f070c038aa2624dcafb785121",
+  "rank": 8,
+  "scheduler": "constant",
+  "seed": 430001,
+  "stage4b_reuse": "stage4b.engine load/attach/loss/batch/grads/fingerprint",
+  "teacher_intervention_limit": 2,
+  "tensor_max_length": 4608,
+  "test_access_before_selection": false,
+  "version": "stage4c1-first-dose-v1",
+  "warmup": 0
+}

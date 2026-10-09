@@ -1,0 +1,26 @@
+{
+  "embedding-records.json": {
+    "sha256": "d755e8400e73024d09962aca428ccc9333930d764ed3a90551bc6e7fd252cdb3",
+    "unchanged": true
+  },
+  "benchmark.json": {
+    "sha256": "af6b16fbf909edcca334773c2b0f8416e3b77569271ce2ad8006a28f56dc6dcf",
+    "unchanged": true
+  },
+  "canonical-evidence.json": {
+    "sha256": "2d4c6b0a45ea7eb55ae65f28c97cbba22b6a73b686487dbcb047004dd1a602f2",
+    "unchanged": true
+  },
+  "candidate_sources.json": {
+    "sha256": "8f904323ea1f90a559e762dab26f36d9645762e78c7678fb4a9db8e6cfd93a70",
+    "unchanged": true
+  },
+  "stress-inputs.json": {
+    "sha256": "cbf292d6da31c91bc627393c755d46b946a17246f4e9fb2e37bc7e22ce7fc9d1",
+    "unchanged": true
+  },
+  "candidate-vector-store/scope_1e86b0e3e5e9774b511ebdbaf8047cedd8c2e60e10ad0de882ee0fb9211432f2.sqlite3": {
+    "sha256": "e46831466659963787eb7f8a6ab1d06230c8aa6cd3898f840ca170b3814d5523",
+    "unchanged": true
+  }
+}

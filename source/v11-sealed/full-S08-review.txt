@@ -1,0 +1,5 @@
+
+CASE S08 STATUS FAILED SHA e205604dd2b2e7429a8f6bf69e20de033bcf1a035a85bb1fcb1749c6288fd245 ERROR {'type': 'ValueError', 'message': 'no grounded resume content selected; No identity/capability/action-compatible requirement relationship; Procedure or prospective work is not an achieved activity; Tool usage alone does not demonstrate a substantive system contribution; Technology/component label without demonstrated action or system capability; Internal evaluation mechanics or policy is supporting context only'}
+REQUIREMENTS [('req_3e86cc3ec76c17eb', 'Implemented Redis vector search, not SQLite exact cosine search.')]
+FALLBACK {'discovered_unit_count': 63, 'unit_count': 63, 'pool_limit': 128, 'max_attempts': 12, 'provenance_policy': 'Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed', 'review_calls': 0, 'attempted_candidates': 26, 'remaining_candidates': 0, 'stop_reason': 'pool_exhausted'}
+COVERAGE [('req_3e86cc3ec76c17eb', 'UNSUPPORTED', True)]

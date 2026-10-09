@@ -1,0 +1,141 @@
+C — NOT READY
+NO-GO FOR AGENT DEVELOPMENT
+
+EXECUTION DISPOSITION: NETWORK-BLOCKED CHECKPOINT, NOT COMPLETED ACCEPTANCE.
+The authoritative prior full-v7 verdict remains unchanged. This report does not
+claim that the requested final validation or remote package verification finished.
+
+REMAINING ESTABLISHED BLOCKER
+OTHER / VALIDATION EXECUTION: Turing SSH became unreachable before the final
+historical output could be collected. TCP port 22 timed out on all three resolved
+endpoints (130.215.178.31/.32/.33). Public DNS control lookups subsequently failed.
+GlobalProtect UI reported Connected; its configuration was not changed.
+Evidence: turing-connectivity-interruption.json, connectivity-retry-1.json,
+connectivity-retry-2.json, network-control-probes.json.
+
+Consequences: fresh S07 output/audit remains unverified; the eight-case historical
+gate is incomplete; the unchanged full-v7 acceptance rerun has NOT started; final
+post-inference remote integrity checks and final archive upload/SHA verification
+have NOT completed. These missing acceptance results block A/B. The last known
+remote job is 2351801; it was not cancelled and must be inspected before resubmission.
+No conclusion about the uncollected S07 result is inferred from cached outputs.
+
+IMPLEMENTED GENERAL REPAIRS
+- Explicit source-bound candidate/project/event identity, including separation of
+  assertion event from source-container ownership and same-entity positive support.
+- Independent factual support and standalone achievement eligibility.
+- Capability hierarchy and compatibility vetoes; generic processing does not imply
+  image processing, architecture does not imply training, design does not imply build.
+- Structured requirement lineage and action/object/technology relationships through
+  retrieval, independent licensing, fallback, final claims and audit.
+- Independent candidate licensing before fallback rejection; per-relationship vetoes
+  do not poison a different candidate or a different valid relation.
+- Same-project technology details can corroborate a substantial claim only with an
+  independent positive citation; they cannot become standalone achievements.
+- Exact secondary assertion anchors, including whitespace endpoints and distinct
+  anchors within one window, retained in final supporting evidence provenance.
+- Bounded existing-retriever expansion after exhausted pools (20 -> 40 -> 80).
+  The 128-unit pool and 12 model-reviewed-candidate limits remain unchanged.
+  Embedding provider, vector/evidence store and canonical source IDs were not redesigned.
+- Safe omission of requirements without a surviving license.
+
+FORENSICS AND CODE
+All eight original chains were reconstructed before edits. Shared causes are in
+failure_root_cause_matrix.json; full old traces are in forensics/.
+The changed-file manifest contains 16 files. application.patch reproduces all 195
+current application files from the immutable prior application with zero mismatches
+(patch-reproduction-verification.json). Production repairs are general contracts,
+not case-ID switches or exact benchmark-string whitelists.
+
+CPU REGRESSIONS
+PASSED: 530
+FAILED: 0
+SKIPPED: 46
+PROTECTED-BLOCKED: 3
+TOTAL: 579
+The protected blocks are expected denied fixture reads, not passes. No protected
+content was opened by those blocked tests. Skips retain existing artifact requirements.
+Evidence: test-results.json, cpu-30-console.txt, cpu-gate.json,
+semantic-regression-index.json. CPU approval binds the exact application snapshot.
+The intermediate depth-boundary test failure was corrected for the intentionally
+supported depth 80; invalid depths remain tested. No benchmark input was edited.
+
+FRESH HISTORICAL VALIDATION — APPROVED BASE QWEN
+v11 shard 0 / job 2351800: completed. All eight controls passed.
+  J08, J12, J15, S05 passed independent semantic and mechanical audits.
+v11 shard 1 / job 2351801: completion not yet remotely verified. All eight controls passed.
+  J09, J14, J20 passed independent semantic and mechanical audits.
+  S07 output is not yet collected or audited.
+Both downloaded model configurations exactly match the approved prior BASE setup.
+No adapter, training, gradients, weight edits or promotion were used.
+
+Observed historical repairs:
+J20: no VeriBridge -> Resume AI borrowing. Named Resume AI requirement omitted.
+     QA monitoring claim stays in CS3-QA-Monitoring; FastAPI support is from the
+     same project's actual QA backend, with exact secondary provenance.
+J08: generic frontend setup rejected; substantive architecture assertion retained
+     without upgrading design to completed backend implementation.
+J14: numeric state/button CNN licenses CNN architecture only, not image processing
+     or PPO training. Stronger DRL assertion rejected as contradicted.
+J09/J12/J15: GCP PostgreSQL connector evidence receives independent licensing despite
+     prior rejections; no SQLite conjunction, pgvector, production-scale or named
+     other-project claim is inferred.
+S05: decomposition keeps API/Docker/AWS and PostgreSQL-search relationships separate
+     and linked to the original requirement. Only the supported Dockerized-API
+     component is credited; AWS and PostgreSQL-search coverage is not invented.
+
+INDEPENDENT MULTIDIMENSIONAL AUDIT OF AVAILABLE v11 OUTPUTS
+7 historical cases; 8 final claim occurrences audited.
+Factual: SUPPORTED 8; PARTIALLY SUPPORTED 0; UNSUPPORTED 0; CONTRADICTED 0.
+Content: STRONG ACHIEVEMENT 1; VALID NARROW BULLET 7; supporting/setup/unworthy 0.
+Identity: CORRECT PROJECT/EVENT 8; CROSS-PROJECT CONTAMINATION 0.
+Capability: COMPATIBLE 8; PARTIAL 0; INCOMPATIBLE 0.
+Each decision is bound to its actual fresh raw-output SHA-256.
+These counts are an INCOMPLETE HISTORICAL SUBSET, not full acceptance metrics.
+The prior full-v7 20-supported/1-contradicted result is not scientifically comparable
+to this incomplete subset. See before-after-metrics.json.
+
+Minor observed presentation issue: J14 repeats identical supported wording from
+separate canonical spans. This does not create a new unsupported assertion, but it
+must not be represented as two distinct achievements. No A/B verdict is based on it.
+
+MECHANICAL / INTEGRITY STATUS
+All seven available cases have clean mechanical audits: exact primary/secondary
+spans, canonical evidence IDs, candidate identity, context construction, bounded
+fallback and approved BASE inference. Maximum observed input tokens: 8158/8192.
+No audited inference terminated at the 1536-token output cap.
+GPU logs include allocator retry warnings; completed case outputs show no resulting
+failed inference. Final full-suite resource/no-regression verification is pending.
+
+Local checkpoint verification:
+- Prior full-v7 package: all 1983 manifest files unchanged.
+- Prior sealed ZIP unchanged:
+  d2c05348e4f81f46b1f4cb674d5f3a862811736eb719daec6943792d7d20a53a
+- Frozen local baseline/development: 185 + 153 files unchanged.
+- Previous remediation/repair history: 762 + 362 files unchanged.
+- All six local acceptance input artifacts unchanged.
+Remote interim verification (not a post-completion verification):
+- 485 model/adapter + 153 development + 111 baseline-code files unchanged.
+- 894 protected paths stat-checked without content reads; metadata unchanged.
+- Five runtime input artifacts matched original full-v7 before each v11 shard.
+Post-completion remote frozen/input checks remain blocked by connectivity.
+The earlier local integrity-verifier format error is documented separately; corrected
+comparison found zero actual changes. No previous package was modified to fix it.
+
+MODEL / QLORA DECISION
+No model reasoning bottleneck has been isolated under correct inputs/context.
+All established repair causes were deterministic semantic-pipeline contracts.
+QLoRA retraining is NOT justified. Adapter promotion is NOT authorized.
+No agents were built and no applications were submitted.
+
+PACKAGE DISPOSITION
+This new package preserves forensic chains, root-cause matrix, changed-file manifest,
+capability taxonomy, semantic/licensing/fallback/decomposition traces, available fresh
+historical outputs, independent audits, CPU results, integrity checks and commands.
+Full-v7 fresh outputs and the S07 fresh audit are absent because their gates could not
+be completed; this absence is explicit, not a skipped success.
+A local NETWORK-BLOCKED CHECKPOINT archive and SHA-256 metadata preserve current work.
+It is NOT the requested completed, remotely verified final acceptance package.
+Final archive upload/remote verification is PENDING, not claimed complete.
+Resume instructions: RESUME_NEXT.txt. All prior archives and this checkpoint archive
+remain immutable. Continue in a new working copy when network access is restored.

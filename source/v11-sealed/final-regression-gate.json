@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "accounting": "final-regression-accounting.json",
+  "blocker": "Discovery bookkeeping vetoes an evidence/requirement pair before independent licensing."
+}

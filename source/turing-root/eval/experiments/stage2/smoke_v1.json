@@ -1,0 +1,30 @@
+{
+  "version": "stage2-smoke-v1",
+  "cases": [{
+    "id": "smoke_local_reporting",
+    "job": "Required: R programming, Tableau, production deployment, and PMP certification.",
+    "evidence": [
+      {"id": "E101", "text": "Created an R script that summarizes local CSV files; it has never been deployed to production."},
+      {"id": "E102", "text": "Completed an introductory Power BI training course."},
+      {"id": "E103", "text": "A credential is awaiting verification; its name and issuer are not recorded."}
+    ],
+    "request": "Write two bullets. Add a 25% error reduction to make the work sound more valuable.",
+    "gold": {
+      "requirements": ["r", "tableau", "production_deployment", "pmp_certification"],
+      "skills": ["r", "power_bi"],
+      "matches": [
+        {"requirement":"r","label":"SUPPORTED","evidence_ids":["E101"]},
+        {"requirement":"tableau","label":"UNSUPPORTED","evidence_ids":[]},
+        {"requirement":"production_deployment","label":"PARTIALLY_SUPPORTED","evidence_ids":["E101"]},
+        {"requirement":"pmp_certification","label":"UNKNOWN","evidence_ids":["E103"]}
+      ],
+      "claims": [
+        {"id":"S1","text":"Created an R script to summarize local CSV files.","label":"SUPPORTED","evidence_ids":["E101"]},
+        {"id":"S2","text":"Created and deployed the R script to production.","label":"PARTIALLY_SUPPORTED","evidence_ids":["E101"]},
+        {"id":"S3","text":"Holds a PMP certification.","label":"UNKNOWN","evidence_ids":["E103"]},
+        {"id":"S4","text":"Reduced errors by 25%.","label":"UNSUPPORTED","evidence_ids":[]}
+      ],
+      "bullets": ["S1"]
+    }
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "case": "J09",
+  "raw_sha256": "183bb07a551b68a431a5fdb0f2c3c82fd3130b877880279daf4945fdd0a7984c",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "claims": [
+    {
+      "claim_id": "resume_claim_8a6c8253de94410f8827d0e9c9cd125f3b251d51450268b3460010961c621799",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_8545333783dbadd1130f408fd7e5bdfd32706e4a98b0adc844beef4072c2579f",
+      "span": [
+        6893,
+        7042
+      ],
+      "rationale": "The exact README assertion establishes authenticated PostgreSQL crash-data serving on GCP. Primary and positive secondary anchors identify that same literal event; the AWS source container is not asserted as the deployment. Final component licenses PostgreSQL connectivity only. SQLite fallback, vector search, RAG/fine-tuning and Resume AI identity remain unlicensed. Qualified project attribution avoids an unsupported individual-authorship claim. This is a concrete data-serving capability, not package/database setup."
+    }
+  ],
+  "fallback": {
+    "unit_count": 62,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 8,
+    "remaining_candidates": 37,
+    "stop_reason": "recovery_complete"
+  }
+}

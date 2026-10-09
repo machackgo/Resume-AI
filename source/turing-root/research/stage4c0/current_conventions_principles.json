@@ -1,0 +1,69 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "current_conventions",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "CONV01",
+      "version": "1.0.0",
+      "principle": "Skill evidence matters in current early-career hiring; do not confuse a skills list with demonstrated capability.",
+      "provenance": [
+        {
+          "source_id": "S20",
+          "source_url": "https://naceweb.org/research/reports/job-outlook/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "moderate",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Relevant actions substantiate skills.",
+      "exceptions_or_limits": [
+        "Survey covers responding early-career employers; it does not determine every employer’s priorities."
+      ]
+    },
+    {
+      "principle_id": "CONV02",
+      "version": "1.0.0",
+      "principle": "Employer application instructions override generic document conventions.",
+      "provenance": [
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        },
+        {
+          "source_id": "S21",
+          "source_url": "https://careers.microsoft.com/v2/global/en/hiring-tips"
+        },
+        {
+          "source_id": "S26",
+          "source_url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Destination-specific limits and required items retained; no outcome guarantee.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "CONV03",
+      "version": "1.0.0",
+      "principle": "Career AI is assistance that needs transparent limitations, confidentiality and review.",
+      "provenance": [
+        {
+          "source_id": "S17",
+          "source_url": "https://www.naceweb.org/career-development/organizational-structure/applying-naces-principles-for-ethical-professional-practice-to-ai"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "No claim that automated advice replaces applicant judgment or ensures employment.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

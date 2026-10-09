@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-08T15:17:23.509853+00:00",
+  "verdict": "C \u2014 NOT READY",
+  "agent_gate": "NO-GO FOR AGENT DEVELOPMENT",
+  "integrity_passed": true,
+  "independent_audit_complete": true,
+  "acceptance_passed": false,
+  "regression_passed": false,
+  "cases": 30,
+  "claims": 23,
+  "remaining_validation_steps": [],
+  "remaining_root_cause_blockers": 4,
+  "archive_verification": "Post-seal external receipt: /Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008-final-remote-archive-verification.json"
+}

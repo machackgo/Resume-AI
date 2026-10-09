@@ -1,0 +1,35 @@
+{
+  "passed": 534,
+  "failed": 1,
+  "skipped": 46,
+  "protected_blocked": 3,
+  "skipped_reasons": {
+    "CPU prepared artifacts not yet built": 1,
+    "retrieval artifacts required": 44,
+    "prepared artifacts not yet built; mandatory final check runs these": 1
+  },
+  "protected_checks": [
+    "test_dataset_integrity (test_embedding_eval.EvaluationTests.test_dataset_integrity)",
+    "test_demonstration (test_ingestion.IngestionTests.test_demonstration)",
+    "test_fixture_distinctions (test_reranking.RerankingTests.test_fixture_distinctions)"
+  ],
+  "note": "The original CPU suite passed before inference. A new general regression derived from the independent full-suite audit reproduces premature discovery-membership rejection; the two preservation checks pass. No application change or new GPU request followed this finding. Legacy skips and protected blocks remain separately counted.",
+  "tests_accounted": 584,
+  "base_suite": {
+    "passed": 532,
+    "failed": 0,
+    "skipped": 46,
+    "protected_blocked": 3
+  },
+  "additional_contract_regression": {
+    "passed": 2,
+    "failed": 1,
+    "source": "discovery-license-regression-results.json"
+  },
+  "passed_gate": false,
+  "test_executions": 582,
+  "skip_events": 46,
+  "individual_test_skips": 44,
+  "class_setup_skips": 2,
+  "accounting_correction": "Verbose log contains 532 successful tests. unittest testsRun excludes two class setup skip events; subtracting all 46 skips from testsRun undercounted passes by two. Raw results and original CPU gate preserved."
+}

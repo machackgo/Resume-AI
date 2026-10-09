@@ -1,0 +1,21 @@
+{
+  "version": "stage4c0-scenarios-v1",
+  "seed": 430000,
+  "authored_on": "2026-09-29",
+  "target_generation_performed": false,
+  "private_data_used": false,
+  "counts": {
+    "pilot": 18,
+    "pool": 112,
+    "challenge": 10
+  },
+  "warning": "Full records include hidden oracle. Teacher receives input only. Pilot is development-only; challenge stays external.",
+  "sha256": {
+    "challenge.jsonl": "17f80afa54949e3d04bce68bf09827f3bea3f98c911b1a667146f735f8188685",
+    "challenge_inputs.jsonl": "abf289f2baca6000f8e07b1df485d52cef0185b488912ee35f5eb071e7008d60",
+    "pilot.jsonl": "17eed430febc34d5cd99015edf0a39c4851cfd1777129927eac1dd8fbc331d2c",
+    "pilot_inputs.jsonl": "095d433203cd885d365892bfe440f5f8c1eaf9d327b4f5334fb8e40089397a1f",
+    "pool.jsonl": "59272b81d5cb6f6f3f56078fb1b5dbd9aca9b8b7d73806436e0745002c7752e4",
+    "pool_inputs.jsonl": "a17b2f3410ad29eab4ec2fb2a972b107cbc0d8e4902d5a04296bfac90bee34b0"
+  }
+}

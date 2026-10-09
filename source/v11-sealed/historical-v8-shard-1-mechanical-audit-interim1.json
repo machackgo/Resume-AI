@@ -1,0 +1,35 @@
+{
+  "cases": [
+    {
+      "case": "J09",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 7944,
+      "canonical_context_checks": 51,
+      "reused_declared_review_spans": 21,
+      "canonical_secondary_windows": 30
+    },
+    {
+      "case": "J14",
+      "status": "COMPLETE",
+      "claims": 2,
+      "issues": [
+        "noncanonical assertion anchor span",
+        "noncanonical assertion anchor span",
+        "noncanonical assertion anchor span",
+        "noncanonical assertion anchor span",
+        "noncanonical assertion anchor span",
+        "noncanonical assertion anchor span"
+      ],
+      "model_calls": 12,
+      "maximum_input_tokens": 8186,
+      "canonical_context_checks": 79,
+      "reused_declared_review_spans": 36,
+      "canonical_secondary_windows": 162
+    }
+  ],
+  "ordinary_failures": 1,
+  "limitations": "Mechanical correctness is separate from independent factual, content, identity and capability audits."
+}

@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-08T15:17:23.509853+00:00",
+  "raw_results_preserved": true,
+  "source": "test-results.log",
+  "base_passed": 532,
+  "additional_passed": 2,
+  "failed": 1,
+  "protected_blocked": 3,
+  "individual_skips": 44,
+  "class_setup_skip_events": 2,
+  "test_executions": 582,
+  "outcome_entries": 584,
+  "explanation": "Verbose log contains 532 successful tests. unittest testsRun excludes two class setup skip events; subtracting all 46 skips from testsRun undercounted passes by two. Raw results and original CPU gate preserved."
+}

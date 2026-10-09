@@ -1,0 +1,8 @@
+J08 prior accepted assertions with new vetoes 1
+J09 prior accepted assertions with new vetoes 0
+J12 prior accepted assertions with new vetoes 0
+J14 prior accepted assertions with new vetoes 1
+J15 prior accepted assertions with new vetoes 0
+J20 prior accepted assertions with new vetoes 1
+S05 prior accepted assertions with new vetoes 0
+S07 prior accepted assertions with new vetoes 1

@@ -1,0 +1,86 @@
+C — NOT READY
+NO-GO FOR AGENT DEVELOPMENT
+
+The unchanged full-v7 acceptance suite is complete: 20 original and 10 stress cases.
+Eight valid fresh historical outputs were reused; only 22 unfinished cases required
+new approved BASE-Qwen inference. Job 2351801 and S07 were reconciled after the
+network outage without restarting completed work. All five Slurm jobs completed
+0:0. Application source, approved BASE configuration and benchmark inputs remained
+identical across this cohort. No adapter was loaded, trained or promoted.
+
+INDEPENDENT FINAL RESULTS
+23 cases passed; 7 failed: J02, J04, J07, J11, J13, J19, S04.
+23 substantive claim occurrences, 10 unique claim IDs:
+SUPPORTED 19; PARTIALLY SUPPORTED 4; UNSUPPORTED 0; CONTRADICTED 0.
+STRONG ACHIEVEMENT 7; VALID NARROW BULLET 16; generic setup promoted 0.
+CORRECT PROJECT/EVENT 23; CROSS-PROJECT CONTAMINATION 0.
+Broad capability COMPATIBLE 23; INCOMPATIBLE 0.
+One detailed requirement license is invalid despite broad capability compatibility.
+Four factual bundles remain only partially supported. Content worthiness alone
+cannot authorize those claims. The strict semantic acceptance gate has not passed.
+
+REMAINING ROOT-CAUSE BLOCKERS
+1. FALLBACK / LICENSING: retrieval-discovery membership vetoes an otherwise valid
+   evidence/requirement pair before independent licensing; fallback inherits the
+   bookkeeping rejection. J11 emits no resume despite valid architecture evidence.
+   Evidence: new-fallback-forensic-J11.json and the failed general regression in
+   discovery-license-regression-results.json. Fix the lifecycle distinction between
+   discovery metadata and independent semantic rejection, preserving all safety gates.
+2. LICENSING: generic monitoring evidence licenses specific request counters and
+   latency predicates in J02 without exact packed supporting anchors. Broad
+   OBSERVABILITY typing does not establish detailed entailment. The final quote is
+   supported but the claimed requirement coverage is not. Evidence:
+   new-specificity-forensic-J02.json and specificity-contract-diagnostics.json.
+3. IDENTITY / LICENSING: explicit project aliases and service/version evidence are
+   not reconciled in bounded review context. Four final occurrences in J07, J13,
+   J19 and S04 retain unresolved dashboard/model/deployment scope. Related future-
+   work and model-identity evidence requires narrowing or omission. These are
+   PARTIALLY SUPPORTED, not presumed contradictions across unknown versions.
+   Evidence: qa-source-scope-review.json and the per-case independent audits.
+4. CONTENT ELIGIBILITY / RETRIEVAL: J04 recovers no usable standalone achievement
+   from relevant implementation artifacts. Withholding generic setup and unsupported
+   pgvector claims is correct, but an entirely empty resume is not successful
+   positive-evidence recovery. Evidence: independent-full-v1-J04-audit.json.
+
+SAFE OMISSION AND HISTORICAL GATE
+All eight historical cases passed independently; the general classes above still
+reproduce elsewhere. Runtime COMPLETE 22 / FAILED 8 includes six appropriate
+unsupported-input refusals and two unusable positive-evidence resumes (J04/J11).
+Pipeline coverage: 170 omitted/unsupported requirement occurrences, 28 partially
+supported and 0 fully supported; occurrence counts include repeated background
+requirements and are not an assertion that all omitted capabilities lack corpus
+support. J14 duplicate supported wording is a minor presentation issue only.
+
+REGRESSION AND INTEGRITY
+PASSED 534; FAILED 1; SKIPPED 46 events; PROTECTED-BLOCKED 3.
+There were 582 test executions. Skips comprise 44 tests and two class-setup events;
+584 outcome entries therefore must not be mistaken for 584 test executions.
+The inherited summary subtracted the class skips twice, undercounting passes by two.
+Raw logs and the original pre-inference CPU gate remain preserved; see
+regression-accounting-correction.json. The new failed regression is a real blocker.
+All 40 runtime controls passed. Mechanical failures 0; canonical context/source-span
+checks 2684. Maximum input 8191/8192 tokens; no length termination. Embedding,
+evidence-ID integrity, provenance, candidate isolation and contradiction controls
+remained healthy. This does not erase the semantic licensing/scope failures above.
+Frozen local 338 and remote 749 entries unchanged. Prior evidence packages and both
+sealed archives unchanged; 36 prior remote full-v7 outputs unchanged. Protected
+metadata 894 files unchanged; metadata was inspected without reading protected
+content, and runtime guards separately enforced the boundary. Benchmark inputs
+unchanged. No application modifications followed outage reconciliation.
+
+MODEL DECISION
+QLoRA retraining is not justified. No model reasoning bottleneck has been isolated
+under fully correct semantic inputs/context. Adapter promotion and agent development
+are not authorized. No agent was built.
+
+ARTIFACTS AND REPRODUCTION
+Original forensic chains and failure_root_cause_matrix.json, application.patch,
+changed-file-manifest.json, semantic-capability-taxonomy.json, five shards of raw
+outputs/model traces, extracted licensing/fallback/decomposition traces, full-v1
+cohort manifest, independent multidimensional and eight-dimension eligibility audits,
+regression results, before/after metrics and integrity receipts are retained here.
+REPRODUCE.txt records commands. SHA256SUMS.json covers the final package files.
+The new final ZIP and SHA-256 metadata are retained beside this directory and copied
+to the exclusive Turing destination recorded in archive-destination.json. Because an
+archive cannot contain its own final transfer receipt without changing its hash,
+post-seal remote verification is recorded in the external receipt named there.

@@ -1,0 +1,19 @@
+{
+  "version": "stage4c0-task-rubric-supplement-v1",
+  "status": "additive_explicit_task_rubrics_no_threshold_changes",
+  "preexisting_pilot_contract_manifest_sha256": "4f0bfe547d5078a2a267101e5fc90abc20a2e1cc27813ed3fd96cae7521ecfb3",
+  "files": {
+    "contracts/task_rubrics/job_analysis_rubric_v1.json": "23cec014a01b504e62129f3761a144b3ad7e20495209f5db4801a8ab39028e94",
+    "contracts/task_rubrics/candidate_mapping_rubric_v1.json": "1f40d006a0031210d88b4a324379baece669eae3aecf34b1a30bde1676d6e457",
+    "contracts/task_rubrics/resume_rubric_v1.json": "0c1f73c07a99fb050426e3d61395e3f165c5116bce1c37b1dd6e80b42ee0aff4",
+    "contracts/task_rubrics/cover_letter_rubric_v1.json": "b83337977eb4da169ad6300c74121ebfffa8c3d9982ad2ad74502d67d3f7ce6c",
+    "contracts/task_rubrics/application_answer_rubric_v1.json": "a1499ec9ec99fceffb74afb84737a2b30bd8d9124e89ed67f66e7d76e9fc97e2",
+    "contracts/task_rubrics/missing_information_rubric_v1.json": "5cfb4dc895ec39a9606b2c6f85df4106191d8195995366d45a3650802adc48bc",
+    "contracts/task_rubrics/outreach_rubric_v1.json": "7a8467374617a5204609cfd549a24ff12d5042dcb36740259244bf6d62970351",
+    "contracts/task_rubrics/resume_selection_rubric_v1.json": "3bbf324aab78608fb12dbf8ba50edfca7c570579800688bafa28697b85dfc4c4",
+    "contracts/task_rubrics/bullet_rewrite_rubric_v1.json": "6e1e9342c98bdc0ff59cd2156a671db0e432e20e5e06382175a23ab350e310b8",
+    "contracts/task_rubrics/resume_section_rubric_v1.json": "84c83cf8c4c0c72a9bc7b2ea2a2d01ee05618deb1598a80c800c9a872650c1b4"
+  },
+  "pilot_request_content_unchanged": true,
+  "applies_to": "Prospective factory requests; prior pilot uses its persisted common rubric and task-specific principles."
+}

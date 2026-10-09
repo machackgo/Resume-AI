@@ -1,0 +1,18 @@
+{
+  "archive_bytes": 22041993,
+  "archive_members": 3391,
+  "archive_sha256": "3e3f452ec32471ec2d22c6552e1743e86c179e0cec18f70128a2a2348fc4147d",
+  "dataset_checksums_sha256": "ce13c4fd4b1847df2642609f0536133df46b3e2e763f518a0de367d27900d3dd",
+  "dataset_manifest_sha256": "e022ef980b2bec1c2ea641932185a3660c4e3b274eafcf59b749d016509e48a9",
+  "decision": "A. PROFESSIONAL CURRICULUM READY FOR QLORA TRAINING",
+  "delivery_verification": "release/STAGE4C0_DELIVERY_VERIFICATION.json",
+  "factory_snapshot_sha256": "8d2ad3a31828b4116fd70bcab635fdfe77ad47b16686014c9a1034df2b3016c4",
+  "final_report": "docs/STAGE4C0_FINAL_REPORT.md",
+  "final_report_sha256": "a213f48af070cabd222e78420e2bc8ffb16d6c33a989906a951f7b8d9de42fff",
+  "local_archive": "/Users/mohammedmubashiruddinfaraz/resume-ai-stage4c0/release/resume-ai-stage4c0-v1.tar.gz",
+  "remote_archive": "/home/mohammedmubashir/scratch/resume-ai/release/resume-ai-stage4c0-v1.tar.gz",
+  "remote_delivery_verified": true,
+  "scope": "controlled offline experiment only; no training executed",
+  "training_executed": false,
+  "version": "stage4c0-release-delivery-v1"
+}

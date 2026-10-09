@@ -1,0 +1,21 @@
+{
+  "case": "S10",
+  "raw_sha256": "e4332f285648b97055dd25b64ff0422bc6fb594cac9ffac769f63307ae3f9c6e",
+  "case_passed": true,
+  "claims": [],
+  "rationale": "The full relationship couples RAG and fine-tuning to a deployed PostgreSQL-backed application. No approved same-event evidence supports that bundle; the pipeline does not borrow a GCP database connector, generic model-loading code or another project to satisfy it. All 91 candidate attempts are independently rejected by deterministic eligibility/identity/capability gates within the bounded pool, with no forced bullet. Safe refusal is the expected unsupported-conjunction result.",
+  "safety_passed": true,
+  "usability": "NO_RESUME_UNSUPPORTED_CONJUNCTION",
+  "runtime_status": "FAILED",
+  "fallback_pool": {
+    "discovered_unit_count": 115,
+    "unit_count": 115,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 0,
+    "attempted_candidates": 91,
+    "remaining_candidates": 0,
+    "stop_reason": "pool_exhausted"
+  }
+}

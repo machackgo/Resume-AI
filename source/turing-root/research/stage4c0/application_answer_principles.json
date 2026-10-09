@@ -1,0 +1,154 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "application_answer",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "APP01",
+      "version": "1.0.0",
+      "principle": "Classify factual administration, semantic experience and personal preference questions before composing an answer.",
+      "provenance": [
+        {
+          "source_id": "S13",
+          "source_url": "https://www.careers.cam.ac.uk/application-forms"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Question classification controls answer route.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP02",
+      "version": "1.0.0",
+      "principle": "Fill exact profile fields deterministically from trusted data; if required data is missing, request user input.",
+      "provenance": [
+        {
+          "source_id": "S13",
+          "source_url": "https://www.careers.cam.ac.uk/application-forms"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "USER_INPUT_REQUIRED with specific missing fields; no synthetic phone/name memorization objective.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP03",
+      "version": "1.0.0",
+      "principle": "Use specific situation, task, action and result evidence when a behavioral question benefits from it.",
+      "provenance": [
+        {
+          "source_id": "S13",
+          "source_url": "https://www.careers.cam.ac.uk/application-forms"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Candidate contribution is explicit; no invented difficulty, leadership or result.",
+      "exceptions_or_limits": [
+        "Short questions need direct answers, not compulsory STAR headings."
+      ]
+    },
+    {
+      "principle_id": "APP04",
+      "version": "1.0.0",
+      "principle": "Respect the question and its explicit word or character limit; a maximum is not a target to fill.",
+      "provenance": [
+        {
+          "source_id": "S13",
+          "source_url": "https://www.careers.cam.ac.uk/application-forms"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Deterministic counting with declared convention.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP05",
+      "version": "1.0.0",
+      "principle": "Do not infer authorization, citizenship, sponsorship, disability or other sensitive factual answers.",
+      "provenance": [
+        {
+          "source_id": "S18",
+          "source_url": "https://www.eeoc.gov/pre-employment-inquiries-and-disability"
+        },
+        {
+          "source_id": "S19",
+          "source_url": "https://www.eeoc.gov/pre-employment-inquiries-and-citizenship"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Trusted structured answer or USER_INPUT_REQUIRED; legal assessment is outside creative generation.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP06",
+      "version": "1.0.0",
+      "principle": "Keep questionnaire claims consistent with evidence and application materials.",
+      "provenance": [
+        {
+          "source_id": "S25",
+          "source_url": "https://help.usajobs.gov/how-to/job-announcement/how-to-apply"
+        },
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Answer cites same-event evidence; no stronger claim than resume/evidence permits.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP07",
+      "version": "1.0.0",
+      "principle": "Salary, relocation, availability and work-arrangement preferences require supplied user decisions.",
+      "provenance": [
+        {
+          "source_id": "S13",
+          "source_url": "https://www.careers.cam.ac.uk/application-forms"
+        }
+      ],
+      "evidence_kind": "user_requirement_research_context",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Absent preference means USER_INPUT_REQUIRED; job offer terms cannot substitute for preference.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "APP08",
+      "version": "1.0.0",
+      "principle": "Do not derive technology tenure from interest, a single project date or overlapping job periods.",
+      "provenance": [
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "user_requirement_research_context",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Exact trusted tenure or validated non-overlapping intervals; otherwise ask.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "stage4c0-heldout-coverage-v1",
+  "authored_on": "2026-09-29",
+  "status": "frozen_inputs_before_final_target_generation",
+  "rationale": "Preregistered input-coverage audit: validation lacked job analysis, semantic/personal application answers, missing-information and outreach; test lacked selection, cover letters and outreach. This expansion addresses task coverage, not observed model performance.",
+  "records": 10,
+  "validation": 6,
+  "test": 4,
+  "new_families": 5,
+  "teacher_outputs_accessed": false,
+  "pilot_outputs_accessed": false,
+  "challenge_targets_accessed": false,
+  "original_catalogs_modified": false,
+  "source_sha256": "c412b850f1e8ef52e651832efe9cb741f9f6bb0d45ac8e25652eaa6279f33af2",
+  "factory_dependency_sha256": "578720bede7eaea1e789618650500e7a38175dea0104705a344669b678815f1e",
+  "sha256": {
+    "heldout-coverage-v1.jsonl": "440ac20157616610aa6266359a9477ce02ed66844174280c2471922194a68798",
+    "heldout-coverage-v1-inputs.jsonl": "bdd7d8382092c09ad8e6e355c9a77b4c40c76f5c65f97748ccf15e9249a53e1c"
+  },
+  "evaluation_limitation": "Task coverage is established, not statistically precise per-task performance. One or a few examples per held-out function give wide uncertainty; report failures individually and do not infer reliable population accuracy."
+}

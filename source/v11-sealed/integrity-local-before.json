@@ -1,0 +1,28 @@
+{
+  "prior_package_files": 1983,
+  "mismatches": [],
+  "archive_sha256": "d2c05348e4f81f46b1f4cb674d5f3a862811736eb719daec6943792d7d20a53a",
+  "archive_matches": true,
+  "local_frozen": {
+    "baseline": {
+      "count": 185,
+      "mismatches": []
+    },
+    "sealed_development": {
+      "count": 153,
+      "mismatches": []
+    }
+  },
+  "prior_history": [
+    {
+      "label": "previous_remediation_tree",
+      "checked": 762,
+      "mismatches": []
+    },
+    {
+      "label": "prior_repair",
+      "checked": 362,
+      "mismatches": []
+    }
+  ]
+}

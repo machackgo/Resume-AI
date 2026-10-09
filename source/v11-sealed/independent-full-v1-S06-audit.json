@@ -1,0 +1,22 @@
+{
+  "case": "S06",
+  "raw_sha256": "dde7758a0c4b788da1c622672491dca6e36bf66d67ebaf53879e7eee5b600fa3",
+  "case_passed": true,
+  "rationale": "The compound requirement retains its parent relationship, while the accepted component is exactly Python classification. Python is in the canonical Stroke Risk Prediction heading; the exact pipeline claim preserves distinct baseline and tuned metrics and the lower-recall tradeoff. React/frontend work remains uncovered, and the contradictory/unimplemented frontend candidate is rejected. Resume-container metadata does not transfer this achievement to VeriBridge. Meaningful implementation and evaluation qualify as a strong achievement.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_62d2a82f0801fcd3f3106ec9d0064c0f92dbe6700fdd91751512df0eb1f92baf",
+      "factual_class": "SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        2683,
+        2912
+      ],
+      "rationale": "The compound requirement retains its parent relationship, while the accepted component is exactly Python classification. Python is in the canonical Stroke Risk Prediction heading; the exact pipeline claim preserves distinct baseline and tuned metrics and the lower-recall tradeoff. React/frontend work remains uncovered, and the contradictory/unimplemented frontend candidate is rejected. Resume-container metadata does not transfer this achievement to VeriBridge. Meaningful implementation and evaluation qualify as a strong achievement."
+    }
+  ]
+}

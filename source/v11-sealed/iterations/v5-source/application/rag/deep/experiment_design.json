@@ -1,0 +1,18 @@
+{
+  "version": "stage3j-design-v1",
+  "dataset": "frozen-stage3h-plus-action-sensitive-stage3j-v1",
+  "primary_scales": ["LARGE", "XL"],
+  "forensic_scales": ["SMALL", "MEDIUM", "LARGE", "XL"],
+  "internal_k": [3, 5, 10, 20, 40],
+  "k80": "Do not test unless ranks or crowding make it informative; frozen legacy XL gold rank 125 cannot be recovered by 80.",
+  "candidate_query_correction": "Test exact acronym normalization of standalone RAG to retrieval augmented generation; retain all actions and other tokens; compare unchanged focused-v1. This is a technology alias, never keyed by case ID, candidate, project, gold, or source text.",
+  "component_budgets": {"compound": 2, "atomic": 5},
+  "final_budgets": [5],
+  "budget_3_or_6": "Only if five-group bounded selection loses material evidence; do not expand by default.",
+  "selection_rule": ["required-component survival on LARGE/XL", "all-required-components-covered", "hard-case no material coverage regression", "dangerous-neighbor exposure", "small final context", "smaller internal K satisfying existing rank-five regression", "latency", "security and provenance must pass"],
+  "retrieval_only_freeze": true,
+  "generation": {"max_new_tokens":1536,"do_sample":false,"seed":42,"thinking":false},
+  "scope": "No training, datasets for training, model downloads, browser workflows, or deployment. Diagnostic fixtures are evaluation only.",
+  "missing_evidence": "Cosine threshold is a plausibility heuristic, not entailment. Do not declare absence merely because a direct-action lexical match is missing. Preserve no-plausible-candidate status for below-threshold or empty pools.",
+  "decomposition": "Retain structural-extractive-v1 unless retrieval experiments on the three under-split cases demonstrate a material loss requiring a safe correction."
+}

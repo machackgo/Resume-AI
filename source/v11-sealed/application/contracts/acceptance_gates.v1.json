@@ -1,0 +1,73 @@
+{
+  "version": "stage4c0-v1",
+  "frozen_before_pilot": true,
+  "max_revisions": 2,
+  "per_record": {
+    "strict_input_and_output_schema": true,
+    "all_references_resolve_in_visible_input": true,
+    "all_candidate_factual_leaves_supported": true,
+    "all_independent_critic_atoms_supported": true,
+    "unknown_partial_unsupported_candidate_claims_accepted": false,
+    "mapping_labels_may_be_unknown_partial_or_unsupported": true,
+    "critic_covers_every_auditable_leaf_exactly_once": true,
+    "critic_bound_to_exact_input_and_output_sha256": true,
+    "empty_claim_references_only_for_critic_confirmed_nonfactual_text": true,
+    "structured_profile_fields_equal_exact_source_values": true,
+    "numeric_technology_action_entity_scope_checks": "deterministic extraction independent of teacher annotations plus independent semantic critic; unresolved -> reject/revise",
+    "all_required_constraints_satisfied": true,
+    "grounding_score": 4,
+    "other_dimension_minimum": 3,
+    "other_dimension_unweighted_mean_minimum": 3.5,
+    "critic_decision": "ACCEPT",
+    "no_oracle_or_test_target_in_model_messages": true,
+    "no_truncation": true,
+    "exact_local_qwen_tokenizer_measurement": true
+  },
+  "token_budget": {
+    "provisional_complete_conversation_ceiling": 4233,
+    "historical_forward_backward_only_tensor_ceiling": 4608,
+    "assistant_loss_targets": "assistant final output only; no critic/oracle/teacher metadata",
+    "must_measure_exact_training_chat_serialization": true,
+    "overflow_action": "shorten scoped visible input or artifact coherently and regenerate/revalidate; never truncate; do not claim 4608 full optimization feasibility",
+    "measurements_required": [
+      "input_tokens",
+      "assistant_tokens",
+      "total_tokens",
+      "task",
+      "complete_artifact",
+      "tokenizer_fingerprint",
+      "chat_template_fingerprint"
+    ]
+  },
+  "release": {
+    "all_selected_rows_pass_per_record_gates": true,
+    "catastrophic_truth_failures_allowed": 0,
+    "family_overlap_across_splits_allowed": 0,
+    "protected_historical_artifact_changes_allowed": 0,
+    "regression_false_accepts_allowed": 0,
+    "required_tasks": [
+      "ANALYZE_JOB",
+      "MAP_JOB_TO_CANDIDATE",
+      "GENERATE_RESUME",
+      "GENERATE_COVER_LETTER",
+      "ANSWER_APPLICATION_QUESTION",
+      "IDENTIFY_MISSING_INFORMATION",
+      "DRAFT_OUTREACH",
+      "SELECT_RESUME_CONTENT",
+      "REWRITE_BULLET_FOR_JOB",
+      "GENERATE_RESUME_SECTION"
+    ],
+    "required_resume_sections_in_aggregate": [
+      "SUMMARY",
+      "SKILLS",
+      "EXPERIENCE",
+      "PROJECTS",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "complete_resume_end_to_end_check": true,
+    "pilot_attempt_acceptance_rate_is_descriptive_not_threshold": true,
+    "unsupported_scale_or_quality_claims_forbidden": true,
+    "training_started": false
+  }
+}

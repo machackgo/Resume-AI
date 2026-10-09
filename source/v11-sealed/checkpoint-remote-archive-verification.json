@@ -1,0 +1,8 @@
+{
+  "remote_archive": "/scratch/mohammedmubashir/resume-ai/work/semantic-contracts-20261008/archive-network-checkpoint-20261008/resume-ai-semantic-contracts-20261008-network-blocked-checkpoint.zip",
+  "bytes": 24429777,
+  "sha256": "10211a792a6fd4614baf39fed3be7b6e79c5ba2dc51117ae856be1ea2a10dc8e",
+  "matched": true,
+  "zip_crc": "PASS",
+  "checkpoint_only": true
+}

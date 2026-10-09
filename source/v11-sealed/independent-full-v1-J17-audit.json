@@ -1,0 +1,22 @@
+{
+  "case": "J17",
+  "raw_sha256": "f3f40d143861c5869e788fa34daed40f20f52e7e38318322220c62ec843fd86c",
+  "case_passed": true,
+  "rationale": "The canonical MultiCNNPolicy docstring and implementation establish distinct state/features and button-history CNN branches. The final qualified project claim licenses only the two-branch architecture component; it does not assert visual image processing, PPO/reward training, management scale or budget ownership. Broader DRL and prospective-demo assertions were rejected, and the valid architecture received independent fallback review after those rejections. Exact source/span matches the reviewed J05/J14 architecture evidence.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_dfe6cef4cf0e48ecd1f2b3411d34f2b3912f206c5d514b058b59c94f7622d6bf",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        2025,
+        2098
+      ],
+      "rationale": "The canonical MultiCNNPolicy docstring and implementation establish distinct state/features and button-history CNN branches. The final qualified project claim licenses only the two-branch architecture component; it does not assert visual image processing, PPO/reward training, management scale or budget ownership. Broader DRL and prospective-demo assertions were rejected, and the valid architecture received independent fallback review after those rejections. Exact source/span matches the reviewed J05/J14 architecture evidence."
+    }
+  ]
+}

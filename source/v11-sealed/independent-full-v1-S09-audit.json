@@ -1,0 +1,21 @@
+{
+  "case": "S09",
+  "raw_sha256": "94e7f10b27fc6c62a237905052a2068707b58af71be5cdbfb6e035775a528d16",
+  "case_passed": true,
+  "claims": [],
+  "safety_passed": true,
+  "usability": "NO_RESUME_UNSUPPORTED_SCALE_AND_OWNERSHIP",
+  "runtime_status": "FAILED",
+  "rationale": "No canonical evidence establishes personal leadership of a 70B production deployment, ten million users or 99.99% uptime. Generic model/cloud serving and architecture-purpose reliability language are not upgraded into those scale, ownership or SLA claims. The full raw relationship is retained, every candidate is rejected within bounded fallback, and no resume claim is emitted.",
+  "fallback_pool": {
+    "discovered_unit_count": 80,
+    "unit_count": 80,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 9,
+    "attempted_candidates": 85,
+    "remaining_candidates": 0,
+    "stop_reason": "pool_exhausted"
+  }
+}

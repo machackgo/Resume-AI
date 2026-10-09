@@ -1,0 +1,22 @@
+{
+  "case": "S03",
+  "raw_sha256": "8c0faaacffcfe5783520dcea9e16e99b870a230b10c9edf992c5e94232dcf079",
+  "case_passed": true,
+  "rationale": "All 122 requirement occurrences are retained, with duplicate stakeholder text safely reused rather than repeatedly inferred. The FastAPI service requirement is licensed by the exact Google Cloud serving architecture assertion, corroborated by the approved GCP serving/client implementation reviewed in S07. The fallback reliability phrase describes architecture/purpose, not a measured uptime SLA. Unsupported RAG and generic stakeholder duties remain omitted; no source project or technology is borrowed.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8743ee7662a06cd6467d0486ae4d67063c4fcab6a36b6cd7a22e8b1c251b07b2",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        3502,
+        3730
+      ],
+      "rationale": "All 122 requirement occurrences are retained, with duplicate stakeholder text safely reused rather than repeatedly inferred. The FastAPI service requirement is licensed by the exact Google Cloud serving architecture assertion, corroborated by the approved GCP serving/client implementation reviewed in S07. The fallback reliability phrase describes architecture/purpose, not a measured uptime SLA. Unsupported RAG and generic stakeholder duties remain omitted; no source project or technology is borrowed."
+    }
+  ]
+}

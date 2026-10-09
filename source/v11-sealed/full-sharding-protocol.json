@@ -1,0 +1,13 @@
+{
+  "full_suite": "unchanged full-v7: 20 original + 10 stress",
+  "reused_current_revision_cases": 8,
+  "fresh_remaining_cases": 22,
+  "shards": 3,
+  "maximum_concurrent_gpu_jobs": 2,
+  "complete_union_required": 30,
+  "duplicate_execution_forbidden": true,
+  "source_revision": "v11",
+  "all_affected_outputs_generated_on_repaired_revision": true,
+  "old_full_v7_outputs_acceptance_credit": false,
+  "reference": "reconciliation-completion-plan.json"
+}

@@ -1,0 +1,40 @@
+{
+  "case": "J14",
+  "raw_sha256": "3c059bce5a04133de6e6d4ff9331b9c56154da86b7c2347b5faf1fd7a91cd390",
+  "historical_failure_reproduced": false,
+  "case_passed": false,
+  "claims": [
+    {
+      "claim_id": "resume_claim_62eaf342fc40a06db11a20dc5d6c6c3b60cb53444d6ead1bb4c479eed1dd3956",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        114,
+        187
+      ],
+      "rationale": "The canonical implementation has separate state_cnn and buttons_cnn branches and combines their representations. Final text correctly describes numeric game state/features and button history; it is linked only to the two-branch CNN implementation component. Image processing and PPO training remain rejected. This is a specific implemented architecture under qualified project attribution, not a generic framework mention."
+    },
+    {
+      "claim_id": "resume_claim_dfe6cef4cf0e48ecd1f2b3411d34f2b3912f206c5d514b058b59c94f7622d6bf",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        2025,
+        2098
+      ],
+      "rationale": "The canonical implementation has separate state_cnn and buttons_cnn branches and combines their representations. Final text correctly describes numeric game state/features and button history; it is linked only to the two-branch CNN implementation component. Image processing and PPO training remain rejected. This is a specific implemented architecture under qualified project attribution, not a generic framework mention."
+    }
+  ],
+  "minor_issue": "Identical architecture wording appears twice at different canonical source spans. It is redundant presentation of the same project capability, not independent extra achievements.",
+  "length_terminations": 0,
+  "semantic_case_passed": true,
+  "mechanical_blocker": "Secondary assertion anchors include trailing source whitespace beyond their stripped text; see historical-v8-shard-1-mechanical-audit-interim1.json. General endpoint fix is CPU-validated in v9; fresh v9 output required."
+}

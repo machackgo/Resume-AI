@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "header",
+    "sections",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "resume-extractive-v2"
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "header": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "section",
+          "claims"
+        ],
+        "properties": {
+          "section": {
+            "const": "PROJECTS_AND_EXPERIENCE"
+          },
+          "claims": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "claim_id",
+                "text",
+                "evidence_ids",
+                "fact_ids",
+                "requirement_ids",
+                "source_id",
+                "source_version",
+                "span",
+                "attribution",
+                "source_context",
+                "event_id",
+                "support",
+                "eligibility"
+              ],
+              "properties": {
+                "claim_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "fact_ids": {
+                  "type": "array",
+                  "maxItems": 0
+                },
+                "requirement_ids": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "source_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "source_version": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "span": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "attribution": {
+                  "enum": [
+                    "candidate-supplied statement",
+                    "project evidence; individual contribution not independently verified"
+                  ]
+                },
+                "source_context": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "text": {
+                      "type": "string"
+                    },
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "document_scope": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "required": [
+                          "text",
+                          "start",
+                          "end"
+                        ],
+                        "properties": {
+                          "text": {
+                            "type": "string"
+                          },
+                          "start": {
+                            "type": "integer",
+                            "minimum": 0
+                          },
+                          "end": {
+                            "type": "integer",
+                            "minimum": 0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "start",
+                    "end"
+                  ],
+                  "additionalProperties": false
+                },
+                "event_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "support": {
+                  "const": "SUPPORTED"
+                },
+                "eligibility": {
+                  "const": "A"
+                },
+                "semantic_identity": {
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "requirement_relationships": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "minProperties": 1
+    }
+  }
+}

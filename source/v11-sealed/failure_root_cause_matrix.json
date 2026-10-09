@@ -1,0 +1,134 @@
+[
+  {
+    "case": "J20",
+    "first_bad_stage": "initial_selection.identity_link",
+    "semantic_contract_violated": [
+      "Contradiction recognition and source-priority override",
+      "Semantic project and input-scope linkage"
+    ],
+    "root_cause": [
+      "Presence of an exact quotation and candidate-supplied attribution incorrectly override unresolved contrary project evidence. The mechanical contradiction gate receives SUPPORTED instead of CONTRADICTED.",
+      "Semantic similarity and operation overlap overrule named project identity and input modality. Valid event hashes only bind source spans; they do not validate the job relation."
+    ],
+    "downstream_effect": [
+      "Initial selector credits VeriBridge resume evidence to the named Resume AI requirement; the factual reviewer then explicitly observes unimplemented-auth/backend counterevidence but treats verbatim candidate text as sufficient support.",
+      "J20 initial requirement assessment assigns VeriBridge workflows to Resume AI. J14 fallback content reviewer infers image-processing branches from Conv2d operations on numeric state and button history."
+    ],
+    "general_fix": [
+      "Resolve source versions/event states or omit the conflicting auth/workflow bundle. A candidate quotation is evidence, not an automatic factual license. Keep factual and relation vetoes independent.",
+      "Reject cross-project links and unsupported input-modality links while retaining independently supported narrow claims and other valid links."
+    ]
+  },
+  {
+    "case": "J08",
+    "first_bad_stage": "content_review.achievement_eligibility",
+    "semantic_contract_violated": [
+      "True setup facts promoted to achievements"
+    ],
+    "root_cause": [
+      "Truth and job keyword relevance are treated as sufficient significance. No actual feature, outcome or substantial work is expressed in those final sentences."
+    ],
+    "downstream_effect": [
+      "Content reviewer calls frontend directory/framework configuration (J08) and a generic backend label (S07) standalone achievements."
+    ],
+    "general_fix": [
+      "Class C supporting context must not become a standalone achievement. Reject or recover a genuinely substantive alternative; never infer an action absent from the emitted claim."
+    ]
+  },
+  {
+    "case": "S07",
+    "first_bad_stage": "content_review.achievement_eligibility",
+    "semantic_contract_violated": [
+      "True setup facts promoted to achievements"
+    ],
+    "root_cause": [
+      "Truth and job keyword relevance are treated as sufficient significance. No actual feature, outcome or substantial work is expressed in those final sentences."
+    ],
+    "downstream_effect": [
+      "Content reviewer calls frontend directory/framework configuration (J08) and a generic backend label (S07) standalone achievements."
+    ],
+    "general_fix": [
+      "Class C supporting context must not become a standalone achievement. Reject or recover a genuinely substantive alternative; never infer an action absent from the emitted claim."
+    ]
+  },
+  {
+    "case": "J14",
+    "first_bad_stage": "content_review.capability_compatibility",
+    "semantic_contract_violated": [
+      "Semantic project and input-scope linkage"
+    ],
+    "root_cause": [
+      "Semantic similarity and operation overlap overrule named project identity and input modality. Valid event hashes only bind source spans; they do not validate the job relation."
+    ],
+    "downstream_effect": [
+      "J20 initial requirement assessment assigns VeriBridge workflows to Resume AI. J14 fallback content reviewer infers image-processing branches from Conv2d operations on numeric state and button history."
+    ],
+    "general_fix": [
+      "Reject cross-project links and unsupported input-modality links while retaining independently supported narrow claims and other valid links."
+    ]
+  },
+  {
+    "case": "J09",
+    "first_bad_stage": "fallback.selection_before_license",
+    "semantic_contract_violated": [
+      "Valid partial project evidence suppressed before independent licensing"
+    ],
+    "root_cause": [
+      "Selector incorrectly requires personal authorship even though qualified project-evidence attribution is supported by the schema and accepted for the identical source-scoped claim in J18. The candidate never reaches substantive licensing and bounded search later abstains."
+    ],
+    "downstream_effect": [
+      "J09/J12 round 8 and J15 round 1 return no selected quote for the available GCP PostgreSQL connector statement because personal implementation is not proven."
+    ],
+    "general_fix": [
+      "Permit a source-faithful qualified project candidate to reach all independent gates; preserve partial requirement coverage without asserting personal ownership or full conjunction. Do not increase attempt caps as a substitute."
+    ]
+  },
+  {
+    "case": "J12",
+    "first_bad_stage": "fallback.selection_before_license",
+    "semantic_contract_violated": [
+      "Valid partial project evidence suppressed before independent licensing"
+    ],
+    "root_cause": [
+      "Selector incorrectly requires personal authorship even though qualified project-evidence attribution is supported by the schema and accepted for the identical source-scoped claim in J18. The candidate never reaches substantive licensing and bounded search later abstains."
+    ],
+    "downstream_effect": [
+      "J09/J12 round 8 and J15 round 1 return no selected quote for the available GCP PostgreSQL connector statement because personal implementation is not proven."
+    ],
+    "general_fix": [
+      "Permit a source-faithful qualified project candidate to reach all independent gates; preserve partial requirement coverage without asserting personal ownership or full conjunction. Do not increase attempt caps as a substitute."
+    ]
+  },
+  {
+    "case": "J15",
+    "first_bad_stage": "fallback.selection_before_license",
+    "semantic_contract_violated": [
+      "Valid partial project evidence suppressed before independent licensing"
+    ],
+    "root_cause": [
+      "Selector incorrectly requires personal authorship even though qualified project-evidence attribution is supported by the schema and accepted for the identical source-scoped claim in J18. The candidate never reaches substantive licensing and bounded search later abstains."
+    ],
+    "downstream_effect": [
+      "J09/J12 round 8 and J15 round 1 return no selected quote for the available GCP PostgreSQL connector statement because personal implementation is not proven."
+    ],
+    "general_fix": [
+      "Permit a source-faithful qualified project candidate to reach all independent gates; preserve partial requirement coverage without asserting personal ownership or full conjunction. Do not increase attempt caps as a substitute."
+    ]
+  },
+  {
+    "case": "S05",
+    "first_bad_stage": "retrieval.requirement_decomposition",
+    "semantic_contract_violated": [
+      "Compound relation corruption before retrieval/recovery"
+    ],
+    "root_cause": [
+      "Shared suffix distribution attaches PostgreSQL vector search to separate actions and distorts the Docker/AWS relationship. Delivered retrieval contexts have no AWS text; bounded alternatives yield no usable resume. Exact influence on ranking is observed only through this saved trace, not a counterfactual experiment."
+    ],
+    "downstream_effect": [
+      "Structural decomposition changes the Docker/AWS component to \"deployed Dockerized APIs on AWS PostgreSQL vector search.\" and also creates \"Built PostgreSQL vector search.\""
+    ],
+    "general_fix": [
+      "Preserve action/technology relations in general decomposition and verify component recovery. This evidence supports a narrow semantic decomposition investigation, not database or embedding architecture redesign."
+    ]
+  }
+]

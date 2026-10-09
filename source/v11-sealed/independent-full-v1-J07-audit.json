@@ -1,0 +1,22 @@
+{
+  "case": "J07",
+  "raw_sha256": "78298150a6e48caff073ed76b936b122eb13872d40a1a129d806fb73ceb63afa",
+  "case_passed": false,
+  "rationale": "Further independent canonical-source review found unresolved scope/version tension for the completed inference-latency dashboards. The candidate section explicitly links cs3-qa-monitoring, whose README lists custom dashboards and inference metrics as future improvements. Existing request-duration counters support basic monitoring, but do not settle completed inference-specific dashboards. No explicit chronology resolves the stronger bundle. Classify PARTIALLY SUPPORTED, not contradicted solely from possible version differences. Actual licensing context omitted this related repository evidence. See qa-source-scope-review.json.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_5ab18ac8ff2946a821c4f6fdb56bd198ec7e9e9fc58fdd86798da223697075ca",
+      "factual_class": "PARTIALLY SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "PARTIAL_PENDING_FACTUAL_SCOPE_RESOLUTION",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        4724,
+        4914
+      ],
+      "rationale": "Further independent canonical-source review found unresolved scope/version tension for the completed inference-latency dashboards. The candidate section explicitly links cs3-qa-monitoring, whose README lists custom dashboards and inference metrics as future improvements. Existing request-duration counters support basic monitoring, but do not settle completed inference-specific dashboards. No explicit chronology resolves the stronger bundle. Classify PARTIALLY SUPPORTED, not contradicted solely from possible version differences. Actual licensing context omitted this related repository evidence. See qa-source-scope-review.json."
+    }
+  ]
+}

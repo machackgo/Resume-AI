@@ -1,0 +1,22 @@
+{
+  "case": "J10",
+  "raw_sha256": "2bc63cbdb91809a6d4750a809d392d2eb99b2ecac25f1447a0380986c4536cb4",
+  "case_passed": true,
+  "rationale": "The qualified course-project QA monitoring overview is supported by its canonical README and same-project FastAPI implementation anchor. Only the FastAPI question-answering component is licensed; PyTorch, digit-model training and Breakthrough search remain omitted. Project scope and individual-contribution qualification are preserved.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_25e731c9dedabf7c8b95f61f99f7c3b76381e39685367d52ca13eba241f440d8",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2c30a6901d880ddfd886b296bd743caccc227e136c59b6e1b3cd78ad44ece120",
+      "span": [
+        86,
+        557
+      ],
+      "rationale": "The qualified course-project QA monitoring overview is supported by its canonical README and same-project FastAPI implementation anchor. Only the FastAPI question-answering component is licensed; PyTorch, digit-model training and Breakthrough search remain omitted. Project scope and individual-contribution qualification are preserved."
+    }
+  ]
+}

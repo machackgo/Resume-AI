@@ -1,0 +1,22 @@
+{
+  "case": "S04",
+  "raw_sha256": "f876db4d3be6b8ff4d755551a03447cb2e85dd2cf4a80502298777c487a39dc9",
+  "case_passed": false,
+  "rationale": "The noisy requirement is narrowed to the HTTP question-answering API component without claiming unrelated frontend themes or FastAPI technology absent from the accepted claim/heading. However the final source/span is the same QA deployment/deepset/36ms bundle reviewed in J13 and J19. The explicit repository link, integrated model identifier and separate qa-local version remain unreconciled; this context supplies no new resolution. The full factual bundle remains PARTIALLY SUPPORTED and should not have been promoted as fully supported.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_af0b2a69496294831ba831d48ae7cf6c8400cad422198a48810ed544c677ab55",
+      "factual_class": "PARTIALLY SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "PARTIAL_PENDING_FACTUAL_SCOPE_RESOLUTION",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        4236,
+        4449
+      ],
+      "rationale": "The noisy requirement is narrowed to the HTTP question-answering API component without claiming unrelated frontend themes or FastAPI technology absent from the accepted claim/heading. However the final source/span is the same QA deployment/deepset/36ms bundle reviewed in J13 and J19. The explicit repository link, integrated model identifier and separate qa-local version remain unreconciled; this context supplies no new resolution. The full factual bundle remains PARTIALLY SUPPORTED and should not have been promoted as fully supported."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "case": "J01",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 7772,
+      "canonical_context_checks": 39,
+      "reused_declared_review_spans": 7,
+      "canonical_secondary_windows": 30
+    }
+  ],
+  "ordinary_failures": 0,
+  "limitations": "Mechanical correctness is separate from independent factual, content, identity and capability audits."
+}

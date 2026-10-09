@@ -1,0 +1,9 @@
+{
+  "version": "stage4c0-heldout-coverage-v1.1",
+  "acceptance_status": "QUARANTINED_INPUT_SNAPSHOT",
+  "teacher_targets_generated": false,
+  "reason": "JD employer labels did not exactly agree with the generic supplied company-name renderer; one group already ended with Lab, exposing a duplicated suffix. Cross-field preflight audit identified this before teacher generation.",
+  "replacement": "heldout-coverage-v1.2.jsonl",
+  "original_jsonl_and_manifest_retained": true,
+  "source_archive": "catalog_sources/scenario_heldout.v1.1.py"
+}

@@ -1,0 +1,5 @@
+{
+  "control_path": "/tmp/rs-ssh-uzixmjf1/c",
+  "reason": "Reuse one authenticated SSH connection for verified result downloads; no host-key/authentication checks disabled.",
+  "path_correction": "Short local socket path avoids macOS Unix-domain socket length limit; no authentication change."
+}

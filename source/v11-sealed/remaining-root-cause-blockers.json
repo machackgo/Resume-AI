@@ -1,0 +1,70 @@
+{
+  "status": "FINAL_VALIDATION_FAILED",
+  "application_modified": false,
+  "rows": [
+    {
+      "cases": [
+        "J02"
+      ],
+      "first_bad_stage": "content_review.requirement_specificity",
+      "failure_class": "LICENSING",
+      "semantic_contract_violated": "Every licensed action/object/detail must be entailed by independently cited same-event evidence.",
+      "root_cause": "Broad OBSERVABILITY compatibility and a positive model link permit generic monitoring evidence to license specific request-counting and latency predicates.",
+      "downstream_effect": "The final claim is factual, but a full specific requirement is incorrectly licensed.",
+      "evidence": [
+        "new-specificity-forensic-J02.json",
+        "specificity-contract-diagnostics.json"
+      ],
+      "general_fix": "Independently bind each specific requirement predicate to exact compatible evidence or retain partial coverage/omission; broad capability compatibility alone is insufficient."
+    },
+    {
+      "cases": [
+        "J07",
+        "J13",
+        "J19",
+        "S04"
+      ],
+      "first_bad_stage": "counterevidence_scope_resolution_and_review_context",
+      "failure_class": "IDENTITY / LICENSING",
+      "semantic_contract_violated": "Explicit source links defining the same project must participate in counterevidence scope; unresolved versions cannot be silently treated as fully supported.",
+      "root_cause": "The candidate section explicitly links its QA repository, but source-bound labels and bounded review context do not reconcile the resume alias with the linked repository and service versions.",
+      "downstream_effect": "Stronger dashboard/model/deployment bundles are accepted without resolving related future-work/version evidence.",
+      "evidence": [
+        "qa-source-scope-review.json",
+        "independent-full-v1-J07-audit.json",
+        "independent-full-v1-J13-audit.json"
+      ],
+      "general_fix": "Resolve canonical project aliases only from explicit provenance links, retain version identity, and supply relevant conflicting/limiting evidence before factual acceptance. Ambiguity must cause narrowing or omission."
+    },
+    {
+      "cases": [
+        "J04"
+      ],
+      "first_bad_stage": "extractive_content_eligibility_and_recovery",
+      "failure_class": "CONTENT ELIGIBILITY / RETRIEVAL",
+      "semantic_contract_violated": "Safe omission is correct but an entirely unusable resume must not be reported as successful recovery.",
+      "root_cause": "Available code artifacts demonstrate implementation structure, while the extractive standalone-assertion path admits no eligible substantial quote; setup/internal evidence is correctly withheld.",
+      "downstream_effect": "All requirements omitted and no resume emitted.",
+      "evidence": [
+        "independent-full-v1-J04-audit.json",
+        "full-v1-shard-0/case-J04.json"
+      ],
+      "general_fix": "A future bounded, independently audited source-to-capability representation would need to recover substantial implementation evidence without promoting setup facts or weakening factual eligibility."
+    },
+    {
+      "cases": [
+        "J11"
+      ],
+      "first_bad_stage": "initial_selection.retrieval_membership_precondition",
+      "failure_class": "FALLBACK / LICENSING",
+      "semantic_contract_violated": "Discovery membership is not a license prerequisite; an unlicensed bookkeeping rejection must not become a semantic veto.",
+      "root_cause": "The initial selector correctly supports and selects the canonical architecture quote. The discovery membership check rejects the pair, and exclusions propagates that bookkeeping rejection into fallback.",
+      "downstream_effect": "Valid Next.js/TypeScript architecture evidence never receives independent licensing for the eligible requirement; the resume is empty.",
+      "evidence": [
+        "new-fallback-forensic-J11.json",
+        "discovery-license-regression-results.json"
+      ],
+      "general_fix": "Remove discovery association as factual authority; distinguish unlicensed selector/transport bookkeeping from actual independent rejection, while retaining provenance, identity, contradiction and eligibility gates."
+    }
+  ]
+}

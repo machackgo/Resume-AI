@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "case": "J02",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 4,
+      "maximum_input_tokens": 8151,
+      "canonical_context_checks": 35,
+      "reused_declared_review_spans": 9,
+      "canonical_secondary_windows": 40
+    },
+    {
+      "case": "J05",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 6,
+      "maximum_input_tokens": 7661,
+      "canonical_context_checks": 62,
+      "reused_declared_review_spans": 25,
+      "canonical_secondary_windows": 84
+    },
+    {
+      "case": "J10",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 5,
+      "maximum_input_tokens": 7824,
+      "canonical_context_checks": 43,
+      "reused_declared_review_spans": 13,
+      "canonical_secondary_windows": 60
+    },
+    {
+      "case": "J16",
+      "status": "FAILED",
+      "claims": 0,
+      "issues": [],
+      "model_calls": 22,
+      "maximum_input_tokens": 8176,
+      "canonical_context_checks": 231,
+      "reused_declared_review_spans": 60,
+      "canonical_secondary_windows": 348
+    },
+    {
+      "case": "J19",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 21,
+      "maximum_input_tokens": 8177,
+      "canonical_context_checks": 293,
+      "reused_declared_review_spans": 95,
+      "canonical_secondary_windows": 456
+    },
+    {
+      "case": "S03",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 7,
+      "maximum_input_tokens": 8011,
+      "canonical_context_checks": 48,
+      "reused_declared_review_spans": 18,
+      "canonical_secondary_windows": 90
+    },
+    {
+      "case": "S08",
+      "status": "FAILED",
+      "claims": 0,
+      "issues": [],
+      "model_calls": 1,
+      "maximum_input_tokens": 2496,
+      "canonical_context_checks": 77,
+      "reused_declared_review_spans": 16,
+      "canonical_secondary_windows": 0
+    }
+  ],
+  "ordinary_failures": 0,
+  "limitations": "Mechanical correctness is separate from independent factual, content, identity and capability audits."
+}

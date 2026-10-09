@@ -1,0 +1,22 @@
+{
+  "case": "J13",
+  "raw_sha256": "773ec7f55f3ad36a53113db06de3f53733dfe23f8e31cf9f94c79bd0f56326be",
+  "case_passed": false,
+  "rationale": "The candidate statement supports a course-scale QA deployment and reports 36ms p50 latency. Its explicit GitHub link resolves to cs3-qa-monitoring, whose integrated local backend uses Google BERT, while deepset exists in a separate qa-local repository. No version/event evidence in the accepted licensing context resolves which implementation the measured deployment used. Preserve PARTIALLY SUPPORTED for the full model/metric/deployment bundle rather than infer contradiction or merge repositories. The instrumentation requirement was correctly omitted; no timing claim is upgraded into instrumentation work.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_af0b2a69496294831ba831d48ae7cf6c8400cad422198a48810ed544c677ab55",
+      "factual_class": "PARTIALLY SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "PARTIAL_PENDING_FACTUAL_SCOPE_RESOLUTION",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        4236,
+        4449
+      ],
+      "rationale": "The candidate statement supports a course-scale QA deployment and reports 36ms p50 latency. Its explicit GitHub link resolves to cs3-qa-monitoring, whose integrated local backend uses Google BERT, while deepset exists in a separate qa-local repository. No version/event evidence in the accepted licensing context resolves which implementation the measured deployment used. Preserve PARTIALLY SUPPORTED for the full model/metric/deployment bundle rather than infer contradiction or merge repositories. The instrumentation requirement was correctly omitted; no timing claim is upgraded into instrumentation work."
+    }
+  ]
+}

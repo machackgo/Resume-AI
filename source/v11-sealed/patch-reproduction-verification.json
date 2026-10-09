@@ -1,0 +1,8 @@
+{
+  "patch_exit": 0,
+  "application_files": 195,
+  "mismatches": [],
+  "passed": true,
+  "output": "patching file 'application/rag/component/decompose.py'\npatching file 'application/rag/deep/retrieve.py'\npatching file 'application/resume_pipeline/component_review.py'\npatching file 'application/resume_pipeline/context_units.py'\npatching file 'application/resume_pipeline/fallback_retrieval.py'\npatching file 'application/resume_pipeline/licensing.py'\npatching file 'application/resume_pipeline/output.schema.json'\npatching file 'application/resume_pipeline/pipeline.py'\npatching file 'application/resume_pipeline/reselection.py'\npatching file 'application/resume_pipeline/semantic_contracts.py'\npatching file 'application/resume_pipeline/semantic_policy.py'\npatching file 'application/tests/rag/test_deep.py'\npatching file 'application/tests/rag/test_final_semantics.py'\npatching file 'application/tests/rag/test_repair.py'\npatching file 'application/tests/rag/test_reselection.py'\npatching file 'application/tests/rag/test_semantic_contracts.py'\n",
+  "stderr": ""
+}

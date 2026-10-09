@@ -1,0 +1,28 @@
+{
+  "case": "J19",
+  "raw_sha256": "69bcb01f115ea9524f5baf92e8f1511c6e9cd1259fbde56dc48ba58e5c197021",
+  "case_passed": false,
+  "rationale": "The long job is retained in exact source fragments and bounded batches; the buried HTTP QA requirement is recovered without promoting administrative duties or unsupported RAG work. Its final claim is the same source/span/model-and-metric bundle independently reviewed in J13. The linked CS3 integrated backend versus separate qa-local/deepset implementation has unresolved deployment/version scope; no new supporting evidence in this license context resolves it. Preserve PARTIALLY SUPPORTED, not a blanket full support label.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_af0b2a69496294831ba831d48ae7cf6c8400cad422198a48810ed544c677ab55",
+      "factual_class": "PARTIALLY SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "PARTIAL_PENDING_FACTUAL_SCOPE_RESOLUTION",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        4236,
+        4449
+      ],
+      "rationale": "The long job is retained in exact source fragments and bounded batches; the buried HTTP QA requirement is recovered without promoting administrative duties or unsupported RAG work. Its final claim is the same source/span/model-and-metric bundle independently reviewed in J13. The linked CS3 integrated backend versus separate qa-local/deepset implementation has unresolved deployment/version scope; no new supporting evidence in this license context resolves it. Preserve PARTIALLY SUPPORTED, not a blanket full support label."
+    }
+  ],
+  "long_jd": {
+    "batches": 2,
+    "requirement_fragments": 6,
+    "source_text_retained": true,
+    "semantic_fragmentation": "Coarse whitespace-aligned fragments are preserved; no invented administrative achievement."
+  }
+}

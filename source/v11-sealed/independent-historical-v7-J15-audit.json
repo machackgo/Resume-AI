@@ -1,0 +1,30 @@
+{
+  "case": "J15",
+  "raw_sha256": "090655f5a3997cf448cd5a5831c3983eaf70ed543033198f26fe3effb82595f0",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8a6c8253de94410f8827d0e9c9cd125f3b251d51450268b3460010961c621799",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "rationale": "Canonical README independently states a GCP-only authenticated PostgreSQL crash-data serving path. Adjacent AWS SQLite paragraph is distinct, including silent-fail logging limitation. Exact claim preserves GCP and qualified project attribution, and only the PostgreSQL-connectivity component is licensed. It does not claim personal authorship, SQLite completion, pgvector, RAG, Resume AI work or production scale. Data-serving connector is a specific working system capability rather than generic database initialization. New semantic identity preserves literal GCP event scope and leaves project label unresolved instead of assigning the AWS repository owner.",
+      "source_id": "source_8545333783dbadd1130f408fd7e5bdfd32706e4a98b0adc844beef4072c2579f",
+      "span": [
+        6893,
+        7042
+      ]
+    }
+  ],
+  "fallback": {
+    "unit_count": 62,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 2,
+    "remaining_candidates": 42,
+    "stop_reason": "recovery_complete"
+  },
+  "historical_failure_reproduced": false
+}

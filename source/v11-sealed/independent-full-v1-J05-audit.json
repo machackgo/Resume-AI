@@ -1,0 +1,22 @@
+{
+  "case": "J05",
+  "raw_sha256": "935bdf413fef9b9986c8c0070f48cd9c934a56a812d07386cf4b8f86c47063b5",
+  "case_passed": true,
+  "rationale": "The exact two-branch CNN docstring is corroborated by the canonical state/features and button-history convolutional implementation. It licenses only the CNN architecture component, not image processing, PPO, model training or unrelated digit classifiers. Broader framework claims were rejected. A concrete implemented dual-branch model is a valid narrow technical capability.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_dfe6cef4cf0e48ecd1f2b3411d34f2b3912f206c5d514b058b59c94f7622d6bf",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        2025,
+        2098
+      ],
+      "rationale": "The exact two-branch CNN docstring is corroborated by the canonical state/features and button-history convolutional implementation. It licenses only the CNN architecture component, not image processing, PPO, model training or unrelated digit classifiers. Broader framework claims were rejected. A concrete implemented dual-branch model is a valid narrow technical capability."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "models_adapters": {
+    "count": 485,
+    "mismatches": []
+  },
+  "sealed_development": {
+    "count": 153,
+    "mismatches": []
+  },
+  "baseline_code": {
+    "count": 111,
+    "mismatches": []
+  }
+}

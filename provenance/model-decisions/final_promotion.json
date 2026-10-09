@@ -1,0 +1,77 @@
+{
+  "promote": false,
+  "failures": [
+    "EVIDENCE_OR_FIDELITY_GATE",
+    "PROFESSIONAL_QUALITY_GATE",
+    "CHALLENGE_GROUNDING",
+    "CHALLENGE_FIDELITY:citation_entailment",
+    "historical_grounding_gate",
+    "validation_eligible"
+  ],
+  "retained_model": "base",
+  "challenge_measurements": {
+    "candidate_claims": {
+      "correct": 57,
+      "total": 57,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "numeric_fidelity": {
+      "correct": 23,
+      "total": 23,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "technology_fidelity": {
+      "correct": 8,
+      "total": 8,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "action_fidelity": {
+      "correct": 14,
+      "total": 14,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "citation_entailment": {
+      "correct": 68,
+      "total": 70,
+      "unassessed_cases": 0,
+      "rate": 0.9714285714285714
+    },
+    "job_requirement_coverage": {
+      "correct": 5,
+      "total": 5,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "supported_keyword_alignment": {
+      "correct": 5,
+      "total": 5,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    },
+    "evidence_utilization": {
+      "correct": 13,
+      "total": 14,
+      "unassessed_cases": 0,
+      "rate": 0.9285714285714286
+    },
+    "USER_INPUT_REQUIRED": {
+      "correct": 2,
+      "total": 2,
+      "unassessed_cases": 0,
+      "rate": 1.0
+    }
+  },
+  "required_checks": {
+    "protected_artifacts_unchanged": true,
+    "reload_reproducible": true,
+    "base_recovery": true,
+    "no_test_leakage": true,
+    "historical_grounding_gate": false,
+    "development_frozen": true,
+    "validation_eligible": false
+  }
+}

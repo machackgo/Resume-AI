@@ -1,0 +1,67 @@
+{
+  "passed_independent_cases": 8,
+  "required_cases": 8,
+  "all_complete": true,
+  "source_revision": "v11",
+  "base_configuration_unchanged": true,
+  "decisions": [
+    {
+      "case": "J08",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J08-audit.json",
+      "audit_sha256": "548703d793f625ad76e9f742d9b2f2d7e67c2d12fcc8a33201c049c026a6bce2",
+      "raw_sha256": "e4a9a07a02bee49fd28bc52b8ffbe3de4108c8b0d7446e1804b1d5c9aabf6465"
+    },
+    {
+      "case": "J09",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J09-audit.json",
+      "audit_sha256": "55a2903002f158cddad85ccb2c41bcecd4c141ed45a738134b4292f249bca593",
+      "raw_sha256": "ca4965e757021a93b99a4f1c0348b8b1ceb6516911a28e9162ac745df822bbeb"
+    },
+    {
+      "case": "J12",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J12-audit.json",
+      "audit_sha256": "0f0f00d73322ec7b374ac4d47729d02183bd0dde9461c26cfdab335ba907b3be",
+      "raw_sha256": "4c32c9ede84ce70b8ea595acc3f3f67dc5c9971cba0a8988b435f776a848ee03"
+    },
+    {
+      "case": "J14",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J14-audit.json",
+      "audit_sha256": "857d107774eb60320b3eb4780d47f30809e2bb1e2dd2720dddb82833103df30d",
+      "raw_sha256": "3296b9a4a5457b8d8d44d012e4773718055dfd4cc0373a3317b4013c42c9d61b"
+    },
+    {
+      "case": "J15",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J15-audit.json",
+      "audit_sha256": "3ed4c8ab1929bae4419e9ee157d1df06f95f8e6ed701b302dfdf9fb19adc1dfa",
+      "raw_sha256": "f4c85268626d2e2fdfdebe753165d942463590f137f81db5917f64cd20569437"
+    },
+    {
+      "case": "J20",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-J20-audit.json",
+      "audit_sha256": "0553541bf38db73b2da71e2af24fe9c30b9d6a326b72f1d76881f3b3f95131e6",
+      "raw_sha256": "417fd1721f3613bbf7c3ca013f94102da7bb9ea517ac8070f89dc7d1cea50a41"
+    },
+    {
+      "case": "S05",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-S05-audit.json",
+      "audit_sha256": "24218a80d5e1ebf97fa2248475eb0e32285cfbc1184fcb2d6839cd0d9aef62a8",
+      "raw_sha256": "8174fd787e5ac4d6c17342bae895dbe2fbe912d65eac531df24cc8f871d7788c"
+    },
+    {
+      "case": "S07",
+      "case_passed": true,
+      "audit_file": "independent-historical-v11-S07-audit.json",
+      "audit_sha256": "481c6add504ddf00e2984cb06000162504e832dca048eda364210e09933577a6",
+      "raw_sha256": "fe89b4e33a536284628bb6e389caa45b00fd95102e92f3e2451270b2c9cd6f39"
+    }
+  ],
+  "pending": [],
+  "full_acceptance_started": true
+}

@@ -1,0 +1,37 @@
+{
+  "requirement": {
+    "requirement_id": "synthetic-compound",
+    "text": "Built and deployed containerized services on GCP and implemented SQLite backups."
+  },
+  "claim": "Deployed containerized services on a classroom VM.",
+  "result": {
+    "requirement_id": "synthetic-compound",
+    "text": "Built and deployed containerized services on GCP and implemented SQLite backups.",
+    "relationship_contract": {
+      "relationship_id": "rel_4f3c8e01ea8e4bf8b9f8d24d",
+      "requirement_id": "synthetic-compound",
+      "text": "Built and deployed containerized services on GCP and implemented SQLite backups.",
+      "action": [
+        "Built",
+        "deployed",
+        "implemented"
+      ],
+      "object": "and deployed containerized services",
+      "technology": [
+        "GCP",
+        "SQLite"
+      ],
+      "purpose": [],
+      "constraint": [],
+      "qualifier": [],
+      "capability_types": [
+        "DATABASE",
+        "DEPLOYMENT"
+      ],
+      "parsing": "conservative_annotation_original_retained"
+    },
+    "full_requirement": "Built and deployed containerized services on GCP and implemented SQLite backups.",
+    "coverage": "FULL_REQUIREMENT"
+  },
+  "expected": "Independent containerization component; GCP deployment and SQLite backups remain uncovered"
+}

@@ -1,0 +1,22 @@
+{
+  "case": "J06",
+  "raw_sha256": "85138d75f3998c563fbe2674429d7585481286df1ba0f991bb016199dfb8b012",
+  "case_passed": true,
+  "rationale": "The initial civic full-stack/Snowflake assertion is rejected against explicit repository nonintegration limitations. Independent fallback then licenses the canonical Stroke Risk Prediction pipeline solely for Python classification. It retains baseline/tuned metrics and recall tradeoff, and does not claim Random Forest civic work or LightGBM crash prediction. Project identity, heading-based Python support and source span match independently verified J01/S06 evidence.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_62d2a82f0801fcd3f3106ec9d0064c0f92dbe6700fdd91751512df0eb1f92baf",
+      "factual_class": "SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        2683,
+        2912
+      ],
+      "rationale": "The initial civic full-stack/Snowflake assertion is rejected against explicit repository nonintegration limitations. Independent fallback then licenses the canonical Stroke Risk Prediction pipeline solely for Python classification. It retains baseline/tuned metrics and recall tradeoff, and does not claim Random Forest civic work or LightGBM crash prediction. Project identity, heading-based Python support and source span match independently verified J01/S06 evidence."
+    }
+  ]
+}

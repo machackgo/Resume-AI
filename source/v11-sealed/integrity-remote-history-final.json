@@ -1,0 +1,14 @@
+{
+  "known_sealed_archives_checked": 2,
+  "prior_full_v7_files": 36,
+  "mismatches": [],
+  "archives": {
+    "/scratch/mohammedmubashir/resume-ai/work/final-semantic-remediation-20261007/archive-full-v7-final-20261008/resume-ai-final-remediation-20261007-full-v7-final.zip": "d2c05348e4f81f46b1f4cb674d5f3a862811736eb719daec6943792d7d20a53a",
+    "/scratch/mohammedmubashir/resume-ai/work/semantic-contracts-20261008/archive-network-checkpoint-20261008/resume-ai-semantic-contracts-20261008-network-blocked-checkpoint.zip": "10211a792a6fd4614baf39fed3be7b6e79c5ba2dc51117ae856be1ea2a10dc8e"
+  },
+  "prior_full_v7_matches": true,
+  "receipt_sources": [
+    "/Users/mohammedmubashiruddinfaraz/resume-ai-final-remediation-20261007-full-v7-final-remote-archive-verification.json",
+    "/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/checkpoint-remote-archive-verification.json"
+  ]
+}

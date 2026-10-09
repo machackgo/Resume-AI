@@ -1,0 +1,61 @@
+{
+  "method": "Synthetic CPU diagnostics of the existing contract, no model inference or code changes. Passing a coarse gate alone is not a final license. These show why independent detailed entailment remains necessary.",
+  "application_source_sha256": "bf17db16d29607f98a706e8e9f3109845071e5ea3debcae8dc46809aac1c8a19",
+  "examples": [
+    {
+      "requirement": "Implemented request counters and latency monitoring for an API.",
+      "evidence": "Implemented monitoring for an API.",
+      "expected_capabilities": [
+        "BACKEND_API",
+        "OBSERVABILITY"
+      ],
+      "actual_capabilities": [
+        "BACKEND_API",
+        "OBSERVABILITY"
+      ],
+      "coarse_capability_compatible": true,
+      "technology_compatible": true,
+      "specific_requirement_actually_entailed": false
+    },
+    {
+      "requirement": "Monitored HTTP error rates and response latency with Prometheus.",
+      "evidence": "Built a Prometheus monitoring stack.",
+      "expected_capabilities": [
+        "OBSERVABILITY"
+      ],
+      "actual_capabilities": [
+        "OBSERVABILITY"
+      ],
+      "coarse_capability_compatible": true,
+      "technology_compatible": true,
+      "specific_requirement_actually_entailed": false
+    },
+    {
+      "requirement": "Measured queue wait time and worker throughput using Grafana.",
+      "evidence": "Implemented Grafana monitoring dashboards.",
+      "expected_capabilities": [
+        "OBSERVABILITY"
+      ],
+      "actual_capabilities": [
+        "OBSERVABILITY"
+      ],
+      "coarse_capability_compatible": true,
+      "technology_compatible": true,
+      "specific_requirement_actually_entailed": false
+    },
+    {
+      "requirement": "Implemented image processing using OpenCV.",
+      "evidence": "Processed numeric button state.",
+      "expected_capabilities": [
+        "IMAGE_PROCESSING"
+      ],
+      "actual_capabilities": [
+        "STATE_MANAGEMENT",
+        "UI_INTERACTION"
+      ],
+      "coarse_capability_compatible": false,
+      "technology_compatible": false,
+      "specific_requirement_actually_entailed": false
+    }
+  ]
+}

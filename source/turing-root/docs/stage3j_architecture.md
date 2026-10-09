@@ -1,0 +1,9 @@
+# Stage 3J experimental boundary
+
+Stage 3J is an additive forensic and retrieval experiment. Historical Stage 1–3I source, data, configurations, raw generations, reports, model weights, and caches are protected by SHA-256 manifests. New code lives in `rag/deep`, new tests in `tests/rag/test_deep.py`, and outputs in `results/stage3j`. Earlier modules are reused read-only. All model work runs under Slurm. No training or production deployment is part of this stage.
+
+The forensic gate must finish before retrieval parameters change. It reconstructs canonical evidence, chunks, embedding identities and source provenance, then compares actual Stage 3I context construction with saved contexts. Exhaustive ranking is a diagnostic only, not a proposed production retrieval depth. Both raw vector rank and rank after duplicate grouping matter: the Stage 3E implementation deduplicates within its internal pool before applying the per-component result limit.
+
+The diagnostic benchmark uses synthetic authored examples, not private candidate information or a training dataset. Strong evidence competes with action, technology, metric, and trust-state neighbors. The selected configuration must be chosen from retrieval measurements before Qwen runs. Generations retain the historical 1,536-token cap, deterministic generation and existing local weights. Malformed outputs and unauthorized citations remain failures, never silently repaired.
+
+The final context is bounded independently of internal search. Exact-text corroboration retains separate authenticated source references and trust metadata; neither semantic rank nor group membership establishes support or verification. A deterministic selector cannot be treated as an entailment judge. Missing plausible candidates remain explicitly marked. The final report must distinguish corpus absence, retrieval loss and model reasoning after evidence delivery.

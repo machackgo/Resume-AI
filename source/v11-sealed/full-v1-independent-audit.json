@@ -1,0 +1,234 @@
+{
+  "cohort": "full-v1",
+  "cases": [
+    {
+      "case": "J08",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The exact candidate resume assertion describes specific VeriBridge product architecture across named workflows. Repository architecture corroborates design scope; unimplemented backend/auth counterevidence does not refute architectural design, and no implementation claim is inferred. It licenses only actual Next.js/TypeScript use in VeriBridge. Generic frontend setup was rejected. QA implementation and built API-route relationships remain vetoed."
+    },
+    {
+      "case": "J12",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The exact GCP-only authenticated PostgreSQL serving statement is independently licensed after eight fallback proposals, despite prior selector/alternative rejections. Its assertion event differs from the AWS source container and remains explicitly GCP. Only PostgreSQL connectivity is covered; SQLite fallback, Resume AI RAG/fine-tuning, candidate-scoped vector retrieval and production-scale claims remain unlicensed. This is a concrete data-serving capability with qualified project attribution, not generic database setup."
+    },
+    {
+      "case": "J15",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "Independent fallback recovers the exact GCP-only PostgreSQL/IAM crash-serving capability after rejecting a contradictory VeriBridge workflow. It does not borrow GCP evidence for named VeriBridge or Resume AI pgvector requirements, does not assert the neighboring AWS SQLite behavior as the same deployment, and does not credit administrative duties. Qualified project attribution and partial connectivity-only coverage are retained. This is a valid narrow system capability, not generic setup."
+    },
+    {
+      "case": "S05",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "Fresh decomposition keeps built APIs, Dockerized APIs, deployed APIs on AWS, and implemented PostgreSQL vector search as linked components of the immutable original requirement. It no longer attaches PostgreSQL vector search to the Docker/AWS clause. The exact QA-API course-project overview establishes integrated Docker, CI/CD and VM deployment automation. Only the literal Dockerized APIs component (original span 19:34, same retrieval component identity) is licensed. AWS and PostgreSQL vector search remain uncovered; no whole-conjunction claim is made. Academic project attribution remains explicit."
+    },
+    {
+      "case": "J09",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The README explicitly establishes authenticated PostgreSQL crash-data serving on GCP. Adjacent AWS SQLite behavior is a distinct deployment, not a PostgreSQL+SQLite conjunction. The emitted claim retains GCP-only wording, exact span and qualified project attribution, with only the PostgreSQL connectivity component licensed. No Resume AI, pgvector, candidate-scoped vectors, personal ownership or production-scale claim is made. Seven preceding alternative rejections do not suppress its independent review."
+    },
+    {
+      "case": "J14",
+      "status": "COMPLETE",
+      "claims": 2,
+      "passed": true,
+      "rationale": "Both exact docstrings are corroborated by actual state_cnn/buttons_cnn Conv2d branches and concatenated action-logit head in the same canonical model.py. They describe numeric state/features and button history, not images. Final licensing covers only the two-branch CNN component; image-processing and PPO/reward-training requirements remain unlicensed. A stronger DRL-framework assertion is independently contradicted and rejected. Specific implemented architecture is a valid narrow capability with qualified project attribution. Two identical wordings from separate canonical spans are a minor presentation duplication, not additional achievements."
+    },
+    {
+      "case": "J20",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The final exact CS3-QA-Monitoring overview stays bound to that course project, with qualified project attribution. Its Docker/container deployment component is directly established. FastAPI QA support cites canonical same-project qa-local/backend/main.py (import span 0:27); independent inspection confirms app=FastAPI, POST /qa and the question-answering pipeline, so this is corroboration of the same system capability rather than cross-project technology borrowing. The named Resume AI ingestion/provenance requirement is vetoed and omitted. VeriBridge workflow evidence is rejected, and no unsupported PyTorch/full-conjunction linkage is emitted. The integrated monitoring/QA system is substantive, not generic setup."
+    },
+    {
+      "case": "S07",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "Bounded expansion recovered a substantial FastAPI/Vertex AI inference-decoupling assertion in the candidate-supplied Google Cloud AI Traffic Safety Platform section. Generic setup and the contradicted VeriBridge workflow remain rejected. The first substantial data-pipeline candidate received independent review and was rejected for the FastAPI relation; the next actual FastAPI-serving candidate was independently licensed. Its exact source states the architectural capabilities; approved GCP serving/main.py and vertex_client.py corroborate separate inference serving and local-model fallback behavior. The phrase for zero-downtime reliability describes the fallback purpose/capability, not a measured uptime SLA; no measured availability, user scale or production guarantee is inferred. This is meaningful system implementation, not package/model loading. One claim covers duplicate identical requirements with both original relationship identities retained and explicit decision reuse."
+    },
+    {
+      "case": "J01",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "Exact candidate-supplied Stroke Risk Prediction statement preserves the baseline/tuned-model metric distinction and lower-recall tradeoff. Approved project README and Python/scikit-learn context corroborate classification implementation; no source contradicts the explicitly scoped candidate-reported metrics. Final license covers Python classification only, not Random Forest, LightGBM crash prediction or QA. The source-container resume label does not replace the actual Stroke project identity. Substantive implemented pipeline and measured tradeoff are achievement-worthy."
+    },
+    {
+      "case": "J04",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": false,
+      "rationale": "No resume was emitted. All three requirements were omitted, preventing unsupported pgvector, cross-project borrowing, and generic QLoRA loading/setup achievements. Canonical Resume-AI sources do contain component retrieval and quantized-loading implementation artifacts, but current extractive eligibility admits no substantial source-bound standalone assertion from those artifacts; fallback exhausted its bounded pool. This is safe abstention, not a successful usable resume. Record the usability/recovery limitation separately from factual safety."
+    },
+    {
+      "case": "J07",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": false,
+      "rationale": "Further independent canonical-source review found unresolved scope/version tension for the completed inference-latency dashboards. The candidate section explicitly links cs3-qa-monitoring, whose README lists custom dashboards and inference metrics as future improvements. Existing request-duration counters support basic monitoring, but do not settle completed inference-specific dashboards. No explicit chronology resolves the stronger bundle. Classify PARTIALLY SUPPORTED, not contradicted solely from possible version differences. Actual licensing context omitted this related repository evidence. See qa-source-scope-review.json."
+    },
+    {
+      "case": "J13",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": false,
+      "rationale": "The candidate statement supports a course-scale QA deployment and reports 36ms p50 latency. Its explicit GitHub link resolves to cs3-qa-monitoring, whose integrated local backend uses Google BERT, while deepset exists in a separate qa-local repository. No version/event evidence in the accepted licensing context resolves which implementation the measured deployment used. Preserve PARTIALLY SUPPORTED for the full model/metric/deployment bundle rather than infer contradiction or merge repositories. The instrumentation requirement was correctly omitted; no timing claim is upgraded into instrumentation work."
+    },
+    {
+      "case": "J18",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The exact GCP-only PostgreSQL connector assertion is correctly separated from its AWS source-container identity. Independent fallback accepts the PostgreSQL-connectivity component after the incompatible candidate, without claiming same-event SQLite fallback, Resume-AI pgvector, Kubernetes or Terraform. Canonical source span and explicit On GCP scope match the independently audited historical connector evidence. The concrete authenticated data-serving capability is a valid narrow bullet."
+    },
+    {
+      "case": "S02",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "The literal ambiguous Go requirement is retained, with unknown technology/capability fields rather than an invented interpretation. No canonical evidence licenses Go experience; unrelated Python, cloud and ML achievements were independently rejected. Bounded fallback reaches its review limit and emits no resume. This passes the unsupported/ambiguous-input safety check, not a usable-resume requirement."
+    },
+    {
+      "case": "S06",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The compound requirement retains its parent relationship, while the accepted component is exactly Python classification. Python is in the canonical Stroke Risk Prediction heading; the exact pipeline claim preserves distinct baseline and tuned metrics and the lower-recall tradeoff. React/frontend work remains uncovered, and the contradictory/unimplemented frontend candidate is rejected. Resume-container metadata does not transfer this achievement to VeriBridge. Meaningful implementation and evaluation qualify as a strong achievement."
+    },
+    {
+      "case": "S10",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "The full relationship couples RAG and fine-tuning to a deployed PostgreSQL-backed application. No approved same-event evidence supports that bundle; the pipeline does not borrow a GCP database connector, generic model-loading code or another project to satisfy it. All 91 candidate attempts are independently rejected by deterministic eligibility/identity/capability gates within the bounded pool, with no forced bullet. Safe refusal is the expected unsupported-conjunction result."
+    },
+    {
+      "case": "J02",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": false,
+      "rationale": "The emitted course-project monitoring overview is factual, meaningful and correctly attributed. However its FULL_REQUIREMENT license for request counters AND latency monitoring exceeds the positive assertion anchors supplied to the independent licensing review. Generic Prometheus metrics collection does not independently establish those specific measurements. Other repository code cannot retroactively repair the actual uncited license context. See new-specificity-forensic-J02.json."
+    },
+    {
+      "case": "J05",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The exact two-branch CNN docstring is corroborated by the canonical state/features and button-history convolutional implementation. It licenses only the CNN architecture component, not image processing, PPO, model training or unrelated digit classifiers. Broader framework claims were rejected. A concrete implemented dual-branch model is a valid narrow technical capability."
+    },
+    {
+      "case": "J10",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The qualified course-project QA monitoring overview is supported by its canonical README and same-project FastAPI implementation anchor. Only the FastAPI question-answering component is licensed; PyTorch, digit-model training and Breakthrough search remain omitted. Project scope and individual-contribution qualification are preserved."
+    },
+    {
+      "case": "J16",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "Safe refusal for unsupported-only senior management, production Kubernetes/Terraform and unapproved automatic promotion requirements. No approved source establishes the claimed management scale or production platform work; promotion is explicitly approval-gated. All requirements remain omitted and no achievement is fabricated. Record the runtime FAILED/no-resume outcome separately; this audit pass means correct abstention, not a usable resume or supported job match."
+    },
+    {
+      "case": "J19",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": false,
+      "rationale": "The long job is retained in exact source fragments and bounded batches; the buried HTTP QA requirement is recovered without promoting administrative duties or unsupported RAG work. Its final claim is the same source/span/model-and-metric bundle independently reviewed in J13. The linked CS3 integrated backend versus separate qa-local/deepset implementation has unresolved deployment/version scope; no new supporting evidence in this license context resolves it. Preserve PARTIALLY SUPPORTED, not a blanket full support label."
+    },
+    {
+      "case": "S03",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "All 122 requirement occurrences are retained, with duplicate stakeholder text safely reused rather than repeatedly inferred. The FastAPI service requirement is licensed by the exact Google Cloud serving architecture assertion, corroborated by the approved GCP serving/client implementation reviewed in S07. The fallback reliability phrase describes architecture/purpose, not a measured uptime SLA. Unsupported RAG and generic stakeholder duties remain omitted; no source project or technology is borrowed."
+    },
+    {
+      "case": "S08",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "The Redis vector-search requirement and explicit exclusion of SQLite exact-cosine search remain intact. No canonical evidence licenses Redis vector search; SQLite or generic retrieval evidence cannot substitute. Independent bounded candidate checks produce safe omission with no model-reviewed or emitted achievement."
+    },
+    {
+      "case": "J03",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The qualified course-project overview is supported by canonical CS3 documentation and implementation. Only the question-answering component is licensed; BERT/FastAPI specificity, personal fine-tuning and production Kubernetes/Terraform are not claimed. The stronger candidate model/latency deployment bundle was rejected before this independently licensed fallback. General Grafana visualization is distinct from the unresolved completed custom inference-dashboard assertion."
+    },
+    {
+      "case": "J06",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The initial civic full-stack/Snowflake assertion is rejected against explicit repository nonintegration limitations. Independent fallback then licenses the canonical Stroke Risk Prediction pipeline solely for Python classification. It retains baseline/tuned metrics and recall tradeoff, and does not claim Random Forest civic work or LightGBM crash prediction. Project identity, heading-based Python support and source span match independently verified J01/S06 evidence."
+    },
+    {
+      "case": "J11",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": false,
+      "rationale": "The selector correctly labels the Next.js/TypeScript requirement SUPPORTED and selects an exact canonical architecture quote. _assess_selection rejects it because the citation was discovered for other requirements. The No positive requirement linkage bookkeeping rejection becomes a persistent per-quote/requirement exclusion, so fallback never licenses the viable pair. Architecture is later tested only against built API routes and another named project, rejected deterministically, and the entire resume is omitted despite the valid alternative."
+    },
+    {
+      "case": "J17",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": true,
+      "rationale": "The canonical MultiCNNPolicy docstring and implementation establish distinct state/features and button-history CNN branches. The final qualified project claim licenses only the two-branch architecture component; it does not assert visual image processing, PPO/reward training, management scale or budget ownership. Broader DRL and prospective-demo assertions were rejected, and the valid architecture received independent fallback review after those rejections. Exact source/span matches the reviewed J05/J14 architecture evidence."
+    },
+    {
+      "case": "S01",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "The production Erlang/OTP telecom requirement remains literal and unlicensed. Approved candidate evidence does not establish this domain; generic Python, cloud, QA or frontend experience cannot substitute. Independent bounded fallback rejects the candidates and emits no resume. This is correct unsupported-input abstention, not a claim of usable job coverage."
+    },
+    {
+      "case": "S04",
+      "status": "COMPLETE",
+      "claims": 1,
+      "passed": false,
+      "rationale": "The noisy requirement is narrowed to the HTTP question-answering API component without claiming unrelated frontend themes or FastAPI technology absent from the accepted claim/heading. However the final source/span is the same QA deployment/deepset/36ms bundle reviewed in J13 and J19. The explicit repository link, integrated model identifier and separate qa-local version remain unreconciled; this context supplies no new resolution. The full factual bundle remains PARTIALLY SUPPORTED and should not have been promoted as fully supported."
+    },
+    {
+      "case": "S09",
+      "status": "FAILED",
+      "claims": 0,
+      "passed": true,
+      "rationale": "No canonical evidence establishes personal leadership of a 70B production deployment, ten million users or 99.99% uptime. Generic model/cloud serving and architecture-purpose reliability language are not upgraded into those scale, ownership or SLA claims. The full raw relationship is retained, every candidate is rejected within bounded fallback, and no resume claim is emitted."
+    }
+  ],
+  "dimensions": {
+    "factual_class": {
+      "SUPPORTED": 19,
+      "PARTIALLY SUPPORTED": 4
+    },
+    "content_class": {
+      "STRONG ACHIEVEMENT": 7,
+      "VALID NARROW BULLET": 16
+    },
+    "identity_class": {
+      "CORRECT PROJECT/EVENT": 23
+    },
+    "capability_class": {
+      "COMPATIBLE": 23
+    }
+  },
+  "all_cases_passed": false,
+  "independent_audit_complete": true,
+  "method": "Assistant independently reviewed canonical source spans, full requirement/component lineage, contrary evidence, and actual license trace; no labels copied from model self-assessment."
+}

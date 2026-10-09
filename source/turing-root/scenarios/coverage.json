@@ -1,0 +1,280 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "target_generation_performed": false,
+  "partitions": {
+    "pilot": {
+      "records": 18,
+      "candidate_variants": 7,
+      "families": 7,
+      "tasks": {
+        "ANALYZE_JOB": 2,
+        "ANSWER_APPLICATION_QUESTION": 3,
+        "DRAFT_OUTREACH": 1,
+        "GENERATE_COVER_LETTER": 1,
+        "GENERATE_RESUME": 4,
+        "GENERATE_RESUME_SECTION": 2,
+        "IDENTIFY_MISSING_INFORMATION": 1,
+        "MAP_JOB_TO_CANDIDATE": 2,
+        "REWRITE_BULLET_FOR_JOB": 1,
+        "SELECT_RESUME_CONTENT": 1
+      },
+      "splits": {
+        "pilot": 18
+      },
+      "roles": {
+        "AI Engineer": 3,
+        "Applied Scientist": 3,
+        "Backend / ML Platform Engineer": 4,
+        "Generative AI Engineer": 2,
+        "MLOps Engineer": 2,
+        "NLP Engineer": 3,
+        "Research Engineer": 1
+      },
+      "seniority": {
+        "early_career": 6,
+        "entry_level": 4,
+        "mid_level": 3,
+        "senior": 3,
+        "student_new_graduate": 2
+      },
+      "fit": {
+        "mixed": 4,
+        "moderate": 7,
+        "strong": 3,
+        "weak": 4
+      },
+      "difficulty": {
+        "hard": 14,
+        "standard": 4
+      },
+      "technology_by_candidate": {
+        "Azure": 2,
+        "CI/CD": 1,
+        "Docker": 2,
+        "FastAPI": 1,
+        "Kubernetes": 2,
+        "LoRA": 1,
+        "PostgreSQL": 1,
+        "PyTorch": 2,
+        "Python": 3,
+        "QLoRA": 1,
+        "REST APIs": 2,
+        "SQL": 2,
+        "evaluation": 4,
+        "monitoring": 1,
+        "training": 1
+      },
+      "actions_by_candidate": {
+        "asserted": 1,
+        "built": 3,
+        "collaborated": 2,
+        "consumed": 1,
+        "deployed": 1,
+        "designed": 1,
+        "evaluated": 2,
+        "fine-tuned": 1,
+        "implemented": 3,
+        "instruction": 1,
+        "led": 1,
+        "operated": 1,
+        "optimized": 2,
+        "studied": 1,
+        "trained": 1,
+        "used": 2
+      },
+      "trust_by_candidate": {
+        "AUTHENTICATED": 7,
+        "CANDIDATE_ASSERTED": 3,
+        "EXTERNAL_OBSERVED": 7
+      }
+    },
+    "pool": {
+      "records": 112,
+      "candidate_variants": 28,
+      "families": 21,
+      "tasks": {
+        "ANALYZE_JOB": 8,
+        "ANSWER_APPLICATION_QUESTION": 8,
+        "DRAFT_OUTREACH": 2,
+        "GENERATE_COVER_LETTER": 8,
+        "GENERATE_RESUME": 28,
+        "GENERATE_RESUME_SECTION": 8,
+        "IDENTIFY_MISSING_INFORMATION": 8,
+        "MAP_JOB_TO_CANDIDATE": 28,
+        "REWRITE_BULLET_FOR_JOB": 7,
+        "SELECT_RESUME_CONTENT": 7
+      },
+      "splits": {
+        "train": 92,
+        "validation": 8,
+        "test": 12
+      },
+      "roles": {
+        "AI Engineer": 12,
+        "Applied Scientist": 8,
+        "Backend / ML Platform Engineer": 12,
+        "Data Scientist": 16,
+        "Generative AI Engineer": 12,
+        "MLOps Engineer": 12,
+        "Machine Learning Engineer": 12,
+        "NLP Engineer": 8,
+        "Research Engineer": 8,
+        "Software Engineer \u2014 AI": 12
+      },
+      "seniority": {
+        "early_career": 40,
+        "entry_level": 16,
+        "mid_level": 32,
+        "senior": 12,
+        "student_new_graduate": 12
+      },
+      "fit": {
+        "mixed": 16,
+        "moderate": 40,
+        "strong": 48,
+        "weak": 8
+      },
+      "difficulty": {
+        "hard": 80,
+        "standard": 32
+      },
+      "technology_by_candidate": {
+        "AWS": 2,
+        "Azure": 2,
+        "CI/CD": 4,
+        "Docker": 5,
+        "FastAPI": 3,
+        "Flask": 3,
+        "GCP": 2,
+        "Kubernetes": 2,
+        "LLMs": 3,
+        "LoRA": 2,
+        "PostgreSQL": 4,
+        "PyTorch": 7,
+        "Python": 12,
+        "QLoRA": 1,
+        "RAG": 3,
+        "REST APIs": 2,
+        "SQL": 8,
+        "TensorFlow": 2,
+        "evaluation": 14,
+        "inference": 2,
+        "training": 2,
+        "vector databases": 1
+      },
+      "actions_by_candidate": {
+        "built": 13,
+        "collaborated": 7,
+        "consumed": 1,
+        "credential": 2,
+        "deployed": 7,
+        "designed": 5,
+        "evaluated": 14,
+        "fine-tuned": 2,
+        "implemented": 14,
+        "led": 2,
+        "operated": 5,
+        "optimized": 3,
+        "studied": 3,
+        "trained": 3,
+        "used": 9
+      },
+      "trust_by_candidate": {
+        "AUTHENTICATED": 28,
+        "CANDIDATE_ASSERTED": 1,
+        "EXTERNAL_OBSERVED": 28
+      }
+    },
+    "challenge": {
+      "records": 10,
+      "candidate_variants": 5,
+      "families": 5,
+      "tasks": {
+        "ANSWER_APPLICATION_QUESTION": 4,
+        "GENERATE_RESUME": 5,
+        "IDENTIFY_MISSING_INFORMATION": 1
+      },
+      "splits": {
+        "challenge": 10
+      },
+      "roles": {
+        "AI Engineer": 2,
+        "Applied Scientist": 2,
+        "Backend / ML Platform Engineer": 2,
+        "Research Engineer": 2,
+        "Software Engineer \u2014 AI": 2
+      },
+      "seniority": {
+        "early_career": 2,
+        "entry_level": 2,
+        "mid_level": 2,
+        "senior": 2,
+        "student_new_graduate": 2
+      },
+      "fit": {
+        "mixed": 4,
+        "moderate": 4,
+        "weak": 2
+      },
+      "difficulty": {
+        "hard": 8,
+        "standard": 2
+      },
+      "technology_by_candidate": {
+        "Azure": 1,
+        "Docker": 1,
+        "Flask": 1,
+        "Kubernetes": 1,
+        "PostgreSQL": 1,
+        "PyTorch": 1,
+        "Python": 2,
+        "RAG": 1,
+        "REST APIs": 1,
+        "SQL": 1,
+        "evaluation": 2
+      },
+      "actions_by_candidate": {
+        "built": 3,
+        "collaborated": 2,
+        "consumed": 1,
+        "designed": 2,
+        "evaluated": 3,
+        "implemented": 1,
+        "operated": 1,
+        "optimized": 1,
+        "studied": 2,
+        "used": 1
+      },
+      "trust_by_candidate": {
+        "AUTHENTICATED": 5,
+        "EXTERNAL_OBSERVED": 5
+      }
+    }
+  },
+  "group_isolation": {
+    "scenario_family": {
+      "unique_groups": 33,
+      "cross_split_groups": {}
+    },
+    "candidate_archetype": {
+      "unique_groups": 33,
+      "cross_split_groups": {}
+    },
+    "job_archetype": {
+      "unique_groups": 33,
+      "cross_split_groups": {}
+    },
+    "template_family": {
+      "unique_groups": 25,
+      "cross_split_groups": {}
+    },
+    "split_group": {
+      "unique_groups": 33,
+      "cross_split_groups": {}
+    }
+  },
+  "maximum_rag_characters": 154,
+  "maximum_distinct_rag_groups": 4,
+  "historical_leakage_status": "Requires main historical fingerprint audit; not measured here."
+}

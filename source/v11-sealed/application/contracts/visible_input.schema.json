@@ -1,0 +1,503 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "stage4c0-v1"
+    },
+    "task": {
+      "type": "string",
+      "enum": [
+        "ANALYZE_JOB",
+        "MAP_JOB_TO_CANDIDATE",
+        "GENERATE_RESUME",
+        "GENERATE_COVER_LETTER",
+        "ANSWER_APPLICATION_QUESTION",
+        "IDENTIFY_MISSING_INFORMATION",
+        "DRAFT_OUTREACH",
+        "SELECT_RESUME_CONTENT",
+        "REWRITE_BULLET_FOR_JOB",
+        "GENERATE_RESUME_SECTION"
+      ]
+    },
+    "job": {
+      "type": "object",
+      "properties": {
+        "job_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 96,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "requirement_id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 96,
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "ROLE",
+                  "EMPLOYER",
+                  "RESPONSIBILITY",
+                  "REQUIRED_QUALIFICATION",
+                  "PREFERRED_QUALIFICATION",
+                  "ELIGIBILITY",
+                  "EMPLOYMENT_CONDITION",
+                  "APPLICATION_INSTRUCTION"
+                ]
+              },
+              "source_quote": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1000
+              }
+            },
+            "required": [
+              "requirement_id",
+              "text",
+              "kind",
+              "source_quote"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 24
+        }
+      },
+      "required": [
+        "job_id",
+        "text",
+        "requirements"
+      ],
+      "additionalProperties": false
+    },
+    "profile": {
+      "type": "object",
+      "properties": {
+        "candidate_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 96,
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+        },
+        "facts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fact_id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 96,
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+              },
+              "event_id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 96,
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+              },
+              "field": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 96
+              },
+              "value": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 600
+              },
+              "provenance": {
+                "type": "string",
+                "enum": [
+                  "CANDIDATE_ASSERTED",
+                  "EXTERNAL_OBSERVED",
+                  "AUTHENTICATED"
+                ]
+              }
+            },
+            "required": [
+              "fact_id",
+              "event_id",
+              "field",
+              "value",
+              "provenance"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "candidate_id",
+        "facts"
+      ],
+      "additionalProperties": false
+    },
+    "rag": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 96,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "event_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 96,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 640
+          },
+          "source_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 96,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "source_type": {
+            "type": "string",
+            "enum": [
+              "candidate_statement",
+              "project_record",
+              "employment_record",
+              "education_record",
+              "credential_record",
+              "external_observation",
+              "authenticated_record",
+              "untrusted_document"
+            ]
+          },
+          "origin": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "trust": {
+            "const": "untrusted_data"
+          },
+          "verification": {
+            "type": "object",
+            "properties": {
+              "reference_policy": {
+                "const": "resolve_supports"
+              },
+              "meaning": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 400
+              }
+            },
+            "required": [
+              "reference_policy",
+              "meaning"
+            ],
+            "additionalProperties": false
+          },
+          "authenticated_attestations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attestation_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 96,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                },
+                "source_id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 96,
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                },
+                "fact_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 96,
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                  },
+                  "minItems": 1,
+                  "maxItems": 20,
+                  "uniqueItems": true
+                },
+                "policy": {
+                  "const": "exact_fact_ids_only"
+                }
+              },
+              "required": [
+                "attestation_id",
+                "source_id",
+                "fact_ids",
+                "policy"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 8
+          },
+          "citation_handle": {
+            "type": "object",
+            "properties": {
+              "source_version": {
+                "const": 1
+              },
+              "span": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "source_version",
+              "span"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "evidence_id",
+          "event_id",
+          "content",
+          "source_id",
+          "source_type",
+          "origin",
+          "trust",
+          "verification",
+          "authenticated_attestations",
+          "citation_handle"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 15
+    },
+    "request": {
+      "type": "object",
+      "properties": {
+        "instruction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "section": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "SUMMARY",
+                "SKILLS",
+                "EXPERIENCE",
+                "PROJECTS",
+                "EDUCATION",
+                "CERTIFICATIONS"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "question": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "question_type": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "FACTUAL",
+                "BEHAVIORAL",
+                "MOTIVATION",
+                "PREFERENCE",
+                "ELIGIBILITY"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "max_words": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 2000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "max_characters": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12000
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "channel": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "EMAIL",
+                "LINKEDIN",
+                "OTHER"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "purpose": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "INFORMATIONAL",
+                "RECRUITER_INTRODUCTION",
+                "APPLICATION_FOLLOWUP"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_bullet": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1200
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "instruction",
+        "section",
+        "question",
+        "question_type",
+        "max_words",
+        "max_characters",
+        "channel",
+        "purpose",
+        "source_bullet"
+      ],
+      "additionalProperties": false
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "locale": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "as_of_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "excluded_fact_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 96,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "minItems": 0,
+          "maxItems": 40,
+          "uniqueItems": true
+        },
+        "required_sections": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "SUMMARY",
+              "SKILLS",
+              "EXPERIENCE",
+              "PROJECTS",
+              "EDUCATION",
+              "CERTIFICATIONS"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 6,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "locale",
+        "as_of_date",
+        "excluded_fact_ids",
+        "required_sections"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "task",
+    "job",
+    "profile",
+    "rag",
+    "request",
+    "constraints"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:resume-ai:stage4c0-v1:visible-input"
+}

@@ -1,0 +1,21 @@
+{
+  "case": "S01",
+  "raw_sha256": "158161d5f23fe79b103ea3badbe0f79628e9b7cc097b5fc3f7b31727cb9bfcae",
+  "case_passed": true,
+  "claims": [],
+  "safety_passed": true,
+  "usability": "NO_RESUME_UNSUPPORTED_ONLY_REQUEST",
+  "runtime_status": "FAILED",
+  "rationale": "The production Erlang/OTP telecom requirement remains literal and unlicensed. Approved candidate evidence does not establish this domain; generic Python, cloud, QA or frontend experience cannot substitute. Independent bounded fallback rejects the candidates and emits no resume. This is correct unsupported-input abstention, not a claim of usable job coverage.",
+  "fallback_pool": {
+    "discovered_unit_count": 80,
+    "unit_count": 80,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 12,
+    "attempted_candidates": 41,
+    "remaining_candidates": 20,
+    "stop_reason": "attempt_limit"
+  }
+}

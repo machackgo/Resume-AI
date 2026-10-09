@@ -1,0 +1,8 @@
+{
+  "discovered_by": "General source-span review and failing synthetic regression, not benchmark-specific tuning",
+  "failure": "Secondary assertion text stripped trailing whitespace while its end offset included it.",
+  "proof": "iterations/cpu-22-before-whitespace-fix/test-results.json",
+  "repair": "Subtract trailing whitespace length from canonical assertion end offset; raw source and full context window remain unchanged.",
+  "current_cpu_passed": true,
+  "requires_final_revision_validation": true
+}

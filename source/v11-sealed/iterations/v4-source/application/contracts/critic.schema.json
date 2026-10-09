@@ -1,0 +1,435 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "stage4c0-v1"
+    },
+    "output_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "visible_input_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "leaf_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 600
+          },
+          "text_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "SUPPORTED",
+              "PARTIALLY_SUPPORTED",
+              "UNSUPPORTED",
+              "UNKNOWN",
+              "NONFACTUAL"
+            ]
+          },
+          "atoms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1200
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "ACTION",
+                    "TECHNOLOGY",
+                    "NUMBER",
+                    "DATE",
+                    "ENTITY",
+                    "SCOPE",
+                    "PROVENANCE",
+                    "PREFERENCE",
+                    "RELATIONSHIP",
+                    "JOB_FACT",
+                    "OTHER_FACT"
+                  ]
+                },
+                "verdict": {
+                  "type": "string",
+                  "enum": [
+                    "SUPPORTED",
+                    "PARTIALLY_SUPPORTED",
+                    "UNSUPPORTED",
+                    "UNKNOWN"
+                  ]
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 96,
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                  },
+                  "minItems": 0,
+                  "maxItems": 40,
+                  "uniqueItems": true
+                },
+                "fact_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 96,
+                    "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                  },
+                  "minItems": 0,
+                  "maxItems": 40,
+                  "uniqueItems": true
+                },
+                "source_spans": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/span"
+                  },
+                  "minItems": 0,
+                  "maxItems": 8
+                },
+                "issue_codes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "UNSUPPORTED_FACT",
+                      "UNKNOWN_FACT",
+                      "PARTIAL_SUPPORT",
+                      "CONTRADICTION",
+                      "WRONG_EVENT",
+                      "WRONG_CANDIDATE",
+                      "NUMBER_DRIFT",
+                      "DATE_DRIFT",
+                      "ENTITY_DRIFT",
+                      "TECHNOLOGY_DRIFT",
+                      "ACTION_ESCALATION",
+                      "PROVENANCE_PROMOTION",
+                      "INVALID_REFERENCE",
+                      "MISSING_REFERENCE",
+                      "UNTRUSTED_INSTRUCTION",
+                      "JOB_TO_CANDIDATE_TRANSFER",
+                      "PREFERENCE_GUESS",
+                      "SENSITIVE_FACT_GUESS",
+                      "MISSING_REQUIRED_CONTENT",
+                      "MISSED_JOB_CONSTRAINT",
+                      "REDUNDANCY",
+                      "GENERIC_WRITING",
+                      "LIMIT_EXCEEDED",
+                      "SCHEMA_FAILURE",
+                      "ORACLE_LEAKAGE",
+                      "OTHER"
+                    ]
+                  },
+                  "minItems": 0,
+                  "maxItems": 12,
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "text",
+                "kind",
+                "verdict",
+                "evidence_ids",
+                "fact_ids",
+                "source_spans",
+                "issue_codes"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 30
+          },
+          "issue_codes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "UNSUPPORTED_FACT",
+                "UNKNOWN_FACT",
+                "PARTIAL_SUPPORT",
+                "CONTRADICTION",
+                "WRONG_EVENT",
+                "WRONG_CANDIDATE",
+                "NUMBER_DRIFT",
+                "DATE_DRIFT",
+                "ENTITY_DRIFT",
+                "TECHNOLOGY_DRIFT",
+                "ACTION_ESCALATION",
+                "PROVENANCE_PROMOTION",
+                "INVALID_REFERENCE",
+                "MISSING_REFERENCE",
+                "UNTRUSTED_INSTRUCTION",
+                "JOB_TO_CANDIDATE_TRANSFER",
+                "PREFERENCE_GUESS",
+                "SENSITIVE_FACT_GUESS",
+                "MISSING_REQUIRED_CONTENT",
+                "MISSED_JOB_CONSTRAINT",
+                "REDUNDANCY",
+                "GENERIC_WRITING",
+                "LIMIT_EXCEEDED",
+                "SCHEMA_FAILURE",
+                "ORACLE_LEAKAGE",
+                "OTHER"
+              ]
+            },
+            "minItems": 0,
+            "maxItems": 12,
+            "uniqueItems": true
+          },
+          "assessment": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "path",
+          "text_sha256",
+          "verdict",
+          "atoms",
+          "issue_codes",
+          "assessment"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 250
+    },
+    "rubric_scores": {
+      "type": "object",
+      "properties": {
+        "grounding": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "task_completion": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "job_relevance": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "specificity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "writing": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "structure_coherence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "uncertainty_handling": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "downstream_usability": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "grounding",
+        "task_completion",
+        "job_relevance",
+        "specificity",
+        "writing",
+        "structure_coherence",
+        "uncertainty_handling",
+        "downstream_usability"
+      ],
+      "additionalProperties": false
+    },
+    "rubric_assessments": {
+      "type": "object",
+      "properties": {
+        "grounding": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "task_completion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "job_relevance": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "specificity": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "writing": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "structure_coherence": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "uncertainty_handling": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        },
+        "downstream_usability": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 400
+        }
+      },
+      "required": [
+        "grounding",
+        "task_completion",
+        "job_relevance",
+        "specificity",
+        "writing",
+        "structure_coherence",
+        "uncertainty_handling",
+        "downstream_usability"
+      ],
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "ACCEPT",
+        "REVISE",
+        "REJECT"
+      ]
+    },
+    "revision_requests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 600
+          },
+          "issue_code": {
+            "type": "string",
+            "enum": [
+              "UNSUPPORTED_FACT",
+              "UNKNOWN_FACT",
+              "PARTIAL_SUPPORT",
+              "CONTRADICTION",
+              "WRONG_EVENT",
+              "WRONG_CANDIDATE",
+              "NUMBER_DRIFT",
+              "DATE_DRIFT",
+              "ENTITY_DRIFT",
+              "TECHNOLOGY_DRIFT",
+              "ACTION_ESCALATION",
+              "PROVENANCE_PROMOTION",
+              "INVALID_REFERENCE",
+              "MISSING_REFERENCE",
+              "UNTRUSTED_INSTRUCTION",
+              "JOB_TO_CANDIDATE_TRANSFER",
+              "PREFERENCE_GUESS",
+              "SENSITIVE_FACT_GUESS",
+              "MISSING_REQUIRED_CONTENT",
+              "MISSED_JOB_CONSTRAINT",
+              "REDUNDANCY",
+              "GENERIC_WRITING",
+              "LIMIT_EXCEEDED",
+              "SCHEMA_FAILURE",
+              "ORACLE_LEAKAGE",
+              "OTHER"
+            ]
+          },
+          "instruction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "path",
+          "issue_code",
+          "instruction"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 20
+    },
+    "independence": {
+      "const": "fresh_context_no_teacher_rationale_no_hidden_oracle"
+    }
+  },
+  "required": [
+    "schema_version",
+    "output_sha256",
+    "visible_input_sha256",
+    "leaf_reviews",
+    "rubric_scores",
+    "rubric_assessments",
+    "decision",
+    "revision_requests",
+    "independence"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:resume-ai:stage4c0-v1:critic",
+  "$defs": {
+    "span": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "quote"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

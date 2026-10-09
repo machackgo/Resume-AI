@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "dataset_files_verified": 715,
+  "factory_files_verified": 86,
+  "archive_sha256": "3e3f452ec32471ec2d22c6552e1743e86c179e0cec18f70128a2a2348fc4147d",
+  "final_report_sha256": "a213f48af070cabd222e78420e2bc8ffb16d6c33a989906a951f7b8d9de42fff",
+  "training_executed": false
+}

@@ -1,0 +1,7 @@
+# Final v2 implementation scope
+
+Additional development checks before the v2 snapshot include compositional pure-invitation grammar (open to / available for a brief conversation, bounded role/deictic topics), exact API-consumption to same-API-use entailment, and exact-message-bound token preflight in the resumable audit. Factual adjuncts, invented relationships, unsupported leadership, unestablished training domains and wrong instruments remain rejection controls. The semantic critic still decides whether a leaf truly makes no factual assertion. No teacher/critic acceptance thresholds changed.
+
+The first-pass Qwen measurement identified one 4,261-token training candidate. The audit now records a hard preregistered 4,233-token-envelope failure from the real measured report, bound to exact messages and assistant text. That example requires a coherent full-artifact revision and fresh critique/tokenization. No truncation or GPU experiment is performed.
+
+Four mapping scenarios are quarantined because the independently read meaning and preauthored labels disagree on compound operational support, verified-credential decomposition, customer workflow evidence, or ambiguous hybrid-search terminology. Their oracles are not edited to fit outputs, and outputs are not forced toward disputed oracle labels. They remain attempted/rejected records in statistics, excluded from SFT and preference pairs. Other scenario outputs require their own independent facts and checks; family membership alone never confers acceptance.

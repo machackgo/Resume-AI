@@ -1,0 +1,50 @@
+{
+  "cases": [
+    {
+      "case": "J08",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 7666,
+      "canonical_context_checks": 43,
+      "reused_declared_review_spans": 7,
+      "canonical_secondary_windows": 30
+    },
+    {
+      "case": "J12",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 8114,
+      "canonical_context_checks": 52,
+      "reused_declared_review_spans": 21,
+      "canonical_secondary_windows": 30
+    },
+    {
+      "case": "J15",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 3,
+      "maximum_input_tokens": 8076,
+      "canonical_context_checks": 47,
+      "reused_declared_review_spans": 9,
+      "canonical_secondary_windows": 34
+    },
+    {
+      "case": "S05",
+      "status": "COMPLETE",
+      "claims": 1,
+      "issues": [],
+      "model_calls": 4,
+      "maximum_input_tokens": 8136,
+      "canonical_context_checks": 47,
+      "reused_declared_review_spans": 21,
+      "canonical_secondary_windows": 56
+    }
+  ],
+  "ordinary_failures": 0,
+  "limitations": "Mechanical correctness is separate from independent factual, content, identity and capability audits."
+}

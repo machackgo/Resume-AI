@@ -1,0 +1,12 @@
+{
+  "case": "J11",
+  "raw_sha256": "da9618850fe1c4b0dfd5f4f85260b71b6b0fd1180eaf824bd01401b86dbe6759",
+  "case_passed": false,
+  "claims": [],
+  "safety_passed": true,
+  "usability": "NO_RESUME_AVOIDABLE_RECOVERY_FAILURE",
+  "runtime_status": "FAILED",
+  "rationale": "The selector correctly labels the Next.js/TypeScript requirement SUPPORTED and selects an exact canonical architecture quote. _assess_selection rejects it because the citation was discovered for other requirements. The No positive requirement linkage bookkeeping rejection becomes a persistent per-quote/requirement exclusion, so fallback never licenses the viable pair. Architecture is later tested only against built API routes and another named project, rejected deterministically, and the entire resume is omitted despite the valid alternative.",
+  "failure_class": "FALLBACK / LICENSING",
+  "evidence": "new-fallback-forensic-J11.json"
+}

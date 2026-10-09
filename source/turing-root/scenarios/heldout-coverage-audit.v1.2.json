@@ -1,0 +1,61 @@
+{
+  "version": "stage4c0-heldout-coverage-v1.2",
+  "status": "PASS",
+  "records_added": 10,
+  "validation_added": 6,
+  "test_added": 4,
+  "combined_pool_count": 143,
+  "combined_splits": {
+    "train": 113,
+    "validation": 14,
+    "test": 16
+  },
+  "tasks_by_split": {
+    "train": {
+      "GENERATE_RESUME": 26,
+      "MAP_JOB_TO_CANDIDATE": 24,
+      "ANALYZE_JOB": 7,
+      "SELECT_RESUME_CONTENT": 8,
+      "ANSWER_APPLICATION_QUESTION": 11,
+      "GENERATE_COVER_LETTER": 9,
+      "GENERATE_RESUME_SECTION": 10,
+      "REWRITE_BULLET_FOR_JOB": 7,
+      "IDENTIFY_MISSING_INFORMATION": 8,
+      "DRAFT_OUTREACH": 3
+    },
+    "validation": {
+      "GENERATE_RESUME": 2,
+      "MAP_JOB_TO_CANDIDATE": 2,
+      "SELECT_RESUME_CONTENT": 2,
+      "GENERATE_RESUME_SECTION": 1,
+      "GENERATE_COVER_LETTER": 1,
+      "REWRITE_BULLET_FOR_JOB": 1,
+      "ANALYZE_JOB": 1,
+      "ANSWER_APPLICATION_QUESTION": 2,
+      "IDENTIFY_MISSING_INFORMATION": 1,
+      "DRAFT_OUTREACH": 1
+    },
+    "test": {
+      "GENERATE_RESUME": 3,
+      "MAP_JOB_TO_CANDIDATE": 3,
+      "GENERATE_RESUME_SECTION": 1,
+      "IDENTIFY_MISSING_INFORMATION": 2,
+      "REWRITE_BULLET_FOR_JOB": 1,
+      "ANALYZE_JOB": 2,
+      "ANSWER_APPLICATION_QUESTION": 1,
+      "SELECT_RESUME_CONTENT": 1,
+      "GENERATE_COVER_LETTER": 1,
+      "DRAFT_OUTREACH": 1
+    }
+  },
+  "original_file_hashes_unchanged": true,
+  "deterministic_replay": true,
+  "input_schema_and_ground_truth_valid": true,
+  "new_correspondence_job_company_consistency": true,
+  "declared_group_split_isolation": true,
+  "previous_versions_quarantined": [
+    "heldout-v1-quarantine.json",
+    "heldout-v1.1-quarantine.json"
+  ],
+  "limitation": "Small held-out task samples establish coverage, not narrow confidence intervals or population performance."
+}

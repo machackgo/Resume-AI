@@ -1,0 +1,82 @@
+[
+  {
+    "path": "application/rag/component/decompose.py",
+    "before_sha256": "52b02675df0b34478eed60248a8284f8c92c6e81152257477295b4ed35ae34e1",
+    "after_sha256": "79449f4a42c73df66c554fb8b028c29f0e2da754684952f8556b3fba2f361b13"
+  },
+  {
+    "path": "application/rag/deep/retrieve.py",
+    "before_sha256": "ea45a28f5b277e8333e502a10edb999d15ca6212ea3d16f2caf562578dfcbb0b",
+    "after_sha256": "0aa24b74d809450f6cd4c95cd25c96ea12b829c103dd61d2f8f95210010bc75e"
+  },
+  {
+    "path": "application/resume_pipeline/component_review.py",
+    "before_sha256": "d823a187597829f125c4ef118d2c7bea9b0c1bce0c943c97cc0a4663775201df",
+    "after_sha256": "7a68bb804395493308915085cc3bdd3cbbda870c8c69ea4320c8ea8f3d65abc6"
+  },
+  {
+    "path": "application/resume_pipeline/context_units.py",
+    "before_sha256": "377e4a2a5c9ed87d2970c35f987b6602fb89f9bfd023a67b8b1da5484b0d70da",
+    "after_sha256": "c9ce87273b5e4913e643d97379868ce639556e57d3a40d0ef1188c1604b7ff26"
+  },
+  {
+    "path": "application/resume_pipeline/fallback_retrieval.py",
+    "before_sha256": null,
+    "after_sha256": "5418ba60cffb6b3d800d4d52c9e4dd5ae2880e1de4a6639a2065498cdbf044d7"
+  },
+  {
+    "path": "application/resume_pipeline/licensing.py",
+    "before_sha256": "841bddbf6888e7c2d0654d14e3e6dd97edc441d363acfa1b1befa293c1cebf49",
+    "after_sha256": "f9cbbc55a4470a8093570fafba6302c229047379e0b14f3bf17dbf975683798c"
+  },
+  {
+    "path": "application/resume_pipeline/output.schema.json",
+    "before_sha256": "5ab04a8ae2fd0d9f6e4c39c86e44af39c0d5c55089b5be8f96210e501e0badaa",
+    "after_sha256": "80ce8d4eb7b539a0f842b7d79c5856eb41535d79c054562db046d6326431cc66"
+  },
+  {
+    "path": "application/resume_pipeline/pipeline.py",
+    "before_sha256": "a2f7b991ed264efa712ffc64c23cd5c049a8c1ea4b7bf3b1708a0cb23fcd3462",
+    "after_sha256": "c55e850498181ffea8e74198b69dee487423f874088cb4f229cba896fefe531c"
+  },
+  {
+    "path": "application/resume_pipeline/reselection.py",
+    "before_sha256": "8f574c74210148a16c37694fbcb0f194d6403471a61ab72251d952d9e3fef3e9",
+    "after_sha256": "4491ec1d91982b054e8f6248ea4713208e2fb4c8d27950f55f1283235d3d9461"
+  },
+  {
+    "path": "application/resume_pipeline/semantic_contracts.py",
+    "before_sha256": null,
+    "after_sha256": "bf17db16d29607f98a706e8e9f3109845071e5ea3debcae8dc46809aac1c8a19"
+  },
+  {
+    "path": "application/resume_pipeline/semantic_policy.py",
+    "before_sha256": "0541e159797a00c2035c56dc38e78150e4989e2f76162085417f871245670a9e",
+    "after_sha256": "2c8a3276ceb81ed4523e173b18e967d1480f25f290c5c7ea24a4da6d63b503ff"
+  },
+  {
+    "path": "application/tests/rag/test_deep.py",
+    "before_sha256": "e884ae363e2f8272d2f7d8fb6bc8d8cc3d4cb669ad830fda2c85b93b67cb2532",
+    "after_sha256": "3d4e066c7e762d98db58d0cf639bd9f5a39772de09986d1c4d5ed80ad6337f3f"
+  },
+  {
+    "path": "application/tests/rag/test_final_semantics.py",
+    "before_sha256": "7932c6b9bc8771d87e7e5e6c19ac3be03fa5a8eb23f845a7042e7fb7d872c250",
+    "after_sha256": "a733297348cc656ea3e5ca7d23c6cab87c9c22c6fe4991d7ae87bb36444d1f14"
+  },
+  {
+    "path": "application/tests/rag/test_repair.py",
+    "before_sha256": "0f8aebea45ba8933da3d675bad94a259f9f42ffe2d597c3b8972539d0f992ded",
+    "after_sha256": "c63bef358484ff6a2631b515a3bfb5d56ce23a0dd378e6ea098776631c91bbcf"
+  },
+  {
+    "path": "application/tests/rag/test_reselection.py",
+    "before_sha256": "f89d02f4dbd1ebf0fe78304854f91307d77a9e62be49207e336c90e218915b71",
+    "after_sha256": "3d94766b592004dc55763d8e9d2c30877bd775cfb464bdd98a77b8b21c496981"
+  },
+  {
+    "path": "application/tests/rag/test_semantic_contracts.py",
+    "before_sha256": null,
+    "after_sha256": "06c69d03219e489eded30453bdfd51c9ae37e94b69af30a8fe8b61dc5ef2197b"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "case": "J09",
+  "raw_sha256": "ca4965e757021a93b99a4f1c0348b8b1ceb6516911a28e9162ac745df822bbeb",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "The README explicitly establishes authenticated PostgreSQL crash-data serving on GCP. Adjacent AWS SQLite behavior is a distinct deployment, not a PostgreSQL+SQLite conjunction. The emitted claim retains GCP-only wording, exact span and qualified project attribution, with only the PostgreSQL connectivity component licensed. No Resume AI, pgvector, candidate-scoped vectors, personal ownership or production-scale claim is made. Seven preceding alternative rejections do not suppress its independent review.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8a6c8253de94410f8827d0e9c9cd125f3b251d51450268b3460010961c621799",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_8545333783dbadd1130f408fd7e5bdfd32706e4a98b0adc844beef4072c2579f",
+      "span": [
+        6893,
+        7042
+      ],
+      "rationale": "The README explicitly establishes authenticated PostgreSQL crash-data serving on GCP. Adjacent AWS SQLite behavior is a distinct deployment, not a PostgreSQL+SQLite conjunction. The emitted claim retains GCP-only wording, exact span and qualified project attribution, with only the PostgreSQL connectivity component licensed. No Resume AI, pgvector, candidate-scoped vectors, personal ownership or production-scale claim is made. Seven preceding alternative rejections do not suppress its independent review."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 62,
+    "unit_count": 62,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 8,
+    "remaining_candidates": 37,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-1-mechanical-audit-interim1.json"
+}

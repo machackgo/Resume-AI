@@ -1,0 +1,147 @@
+{
+  "concrete_experiment_resolution": {
+    "actual_train_task_counts": {
+      "ANALYZE_JOB": 7,
+      "ANSWER_APPLICATION_QUESTION": 15,
+      "DRAFT_OUTREACH": 3,
+      "GENERATE_COVER_LETTER": 10,
+      "GENERATE_RESUME": 29,
+      "GENERATE_RESUME_SECTION": 10,
+      "IDENTIFY_MISSING_INFORMATION": 10,
+      "MAP_JOB_TO_CANDIDATE": 19,
+      "REWRITE_BULLET_FOR_JOB": 7,
+      "SELECT_RESUME_CONTENT": 9
+    },
+    "actual_train_task_target_tokens": {
+      "ANALYZE_JOB": 4300,
+      "ANSWER_APPLICATION_QUESTION": 3691,
+      "DRAFT_OUTREACH": 1362,
+      "GENERATE_COVER_LETTER": 5283,
+      "GENERATE_RESUME": 21202,
+      "GENERATE_RESUME_SECTION": 3665,
+      "IDENTIFY_MISSING_INFORMATION": 1910,
+      "MAP_JOB_TO_CANDIDATE": 7094,
+      "REWRITE_BULLET_FOR_JOB": 1957,
+      "SELECT_RESUME_CONTENT": 4651
+    },
+    "actual_train_task_token_percentages": {
+      "ANALYZE_JOB": 7.8019,
+      "ANSWER_APPLICATION_QUESTION": 6.6969,
+      "DRAFT_OUTREACH": 2.4712,
+      "GENERATE_COVER_LETTER": 9.5854,
+      "GENERATE_RESUME": 38.4687,
+      "GENERATE_RESUME_SECTION": 6.6497,
+      "IDENTIFY_MISSING_INFORMATION": 3.4655,
+      "MAP_JOB_TO_CANDIDATE": 12.8713,
+      "REWRITE_BULLET_FOR_JOB": 3.5508,
+      "SELECT_RESUME_CONTENT": 8.4387
+    },
+    "before_execution": "The final manifest now exists and was checked for the 119-record cap of one, task-token masses, seed, controls, and design-only status. Pin its hash and accepted records at execution; use its fixed optimizer/serialization policy, record exact achieved whole-example token budgets, and preregister any still-unspecified decoding/evaluation details before viewing held-out results.",
+    "draft_weight_resolution": "Draft task percentages are ordering priorities only, not sampling quotas. This explicitly resolves the earlier ambiguity: applying the draft quotas at 55,115 professional tokens would otherwise require about 2.24 times the available application-answer tokens and 2.02 times the missing-information tokens.",
+    "evaluation_policy": "Select only on validation, evaluate sealed test and scored challenge once for the chosen checkpoint, retain the four unscored cases as disclosed diagnostics, reject any observed critical truth violation on the registered valid suite, and apply the preregistered evidence-regression/uncertainty gates without post-hoc relaxation.",
+    "interpretation": "A null, harmful, or inconclusive result is an acceptable experimental outcome. The release enables testing; it does not establish model efficacy.",
+    "mixture": "Use the fixed 55,115 professional assistant-target tokens exactly once. Interleave the closest complete-example Stage 4A target-token mass to 55,115; match the evidence-only arm to the nominal 110,230 total within one complete-example granularity. Report exact achieved masses and any difference. Do not truncate or resample professional examples. Retain the unchanged base-plus-frozen-RAG control.",
+    "professional_exposure": "Use each of the 119 professional TRAIN records exactly once. No upsampling and no validation, test, challenge, critique, oracle, rejected-target, or receipt training.",
+    "source": "Inspected additive final manifest work/final_curriculum_experiment.v1.json; its bytes are hash-bound in this review. It supersedes draft sampling-quota ambiguity without changing frozen contracts."
+  },
+  "conditions_that_would_change_this_to_B": [
+    "A known unsupported, cross-candidate, scope-inflated, or otherwise hard-failing target remains in the accepted training pool.",
+    "Quarantined or unscored references are silently reintroduced as training targets, preference labels, or scored successes.",
+    "The concrete exact-once rule is replaced by unreported upsampling to hit draft task quotas or an arbitrary step count.",
+    "Protected-artifact, provenance, split, exact-token, or manifest binding checks fail before execution.",
+    "The planned claim becomes production reliability, autonomous application readiness, or proven professional-quality improvement without the additional independent evidence required above."
+  ],
+  "decision": {
+    "code": "A",
+    "confidence": "Moderate for the bounded experiment; insufficient evidence for production reliability or broad professional-quality claims.",
+    "label": "PROFESSIONAL CURRICULUM READY FOR A CONTROLLED ONE-PASS QLORA EXPERIMENT",
+    "rationale": "The supplied reports show a traceable accepted pool with no known unresolved accepted hard failures, exact-token fit, isolated evaluation groups, and explicit quarantine of disputed gold labels. These are adequate controls for a small reversible scientific experiment. They do not establish that all factual implications are correct, that the judges are calibrated, or that improvements will generalize. Size alone neither justifies nor blocks this decision.",
+    "scope": "Separately authorized, offline, diagnostic comparison with frozen RAG and unchanged base/evidence-only controls; no production deployment or application submission.",
+    "substantive_blockers": [],
+    "training_authorized_by_this_review": false
+  },
+  "evidence_summary": {
+    "accepted_records": 155,
+    "all_accepted_provenance_passed": true,
+    "all_accepted_validator_hard_errors": 0,
+    "dispositioned_same_split_near_duplicate_pairs": 1,
+    "exact_or_normalized_output_duplicate_excess": 0,
+    "generation_attempts": 184,
+    "known_prohibited_split_leakage": 0,
+    "maximum_complete_sequence_tokens": 4157,
+    "mechanical_gate_interpretation": "The final release gate is PASS. The standalone validator report retains release_ready=false because it is not the full release decision; its own note requires additional release checks. The parent reports final protection of 1,456 files and 187 current plus 576 historical tests passing. This review inspected the final gate and its audit hashes, not those tests or protected files directly.",
+    "mechanical_release_gate_passed": true,
+    "over_ceiling_records": 0,
+    "planned_nominal_total_assistant_target_tokens_per_trained_arm": 110230,
+    "registered_complete_sequence_ceiling": 4233,
+    "rejected_attempts": 29,
+    "revision_attempts": 19,
+    "split_counts": {
+      "challenge": 6,
+      "test": 16,
+      "train": 119,
+      "validation": 14
+    },
+    "substantive_scenario_families": 42,
+    "synthetic_role_families": 10,
+    "train_assistant_target_tokens": 55115,
+    "training_executed": false,
+    "unique_scenarios_attempted": 165
+  },
+  "review_scope": {
+    "basis": "Report-level readiness synthesis, not a new audit of all 155 target contents, a new oracle review, a code audit, or an executed training run.",
+    "observed_runtime_model": null,
+    "observed_runtime_reasoning_effort": null,
+    "prior_participation_disclosure": "This reviewing agent previously performed atom-level reviews of 13 revised targets in this factory. The readiness conclusion here is based on the listed reports and explicit final experiment clarification; it is not a human audit, a third model-family judgment, or independent authorship of the corpus.",
+    "provider_usage": null,
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning_effort": "ultra",
+    "source_files_sha256": {
+      "docs/final_methodology_and_limitations.md": "265b24f9a01f660a6726e781f17cd4402a37623780c5f70a2f3430915f5b4705",
+      "docs/future_training_and_evaluation.md": "620f27ac95261c792216f1a440468fb2261e63a46a03f0d34c12e9d3b7b17164",
+      "work/factory-freeze-v2.json": "8d2ad3a31828b4116fd70bcab635fdfe77ad47b16686014c9a1034df2b3016c4",
+      "work/final_curriculum_experiment.v1.json": "6bfb2c218f33c7b6abf3cdea72b961a0ae43367ec6f9a417b7507ea79a2a249c",
+      "work/full-candidate-final/generation_statistics.json": "ec583b6b54b35e745bed5d74e963b0b6d78594044e25f4934f84bcb5403ad02e",
+      "work/full-candidate-final/release_gate.json": "71d9b47817773c8be86a216d2b1144fbddcdf50c0c37cc8a06a03017fc7e8a72",
+      "work/full-candidate-final/statistics.json": "b59f4cd251e5dcb6028bc5562873f8ee93a9b063188e625ff4ee691f74ada2de",
+      "work/full-candidate-final/validator-report.json": "b94b444f744adf31b526d63ef7b40e7ae634af872860050fbc8eb37175f9f250",
+      "work/full-v1-revision1/train-01/quarantine-dispositions-v1.json": "a98b0f4a11a4110f65a5cb35767445f6744740bc132837a17807022757db7ef5",
+      "work/full-v1/challenge/quarantine-dispositions-v1.json": "937358d50588f09425e45e3d64f356186f7bab12e8f6bfe2d1a6d1842af196cd",
+      "work/full-v1/quarantine-dispositions-v1.json": "06801fac0b979cf3c597fa091a6a6ed3dd4e85d66804ee276532e02342c9be26"
+    }
+  },
+  "reviewed_at_utc": "2026-09-30T03:25:37.412050+00:00",
+  "risk_assessments": [
+    {
+      "finding": "Six training mappings are excluded: four disputed requirement/entailment decompositions and two evaluation-OR-implementation whitelist omissions. Valid independent interpretations were not rewritten to satisfy a flawed oracle. The ten original challenge inputs remain isolated, with six scored references and four disputed references unscored.",
+      "judgment": "No known defective label is justified for inclusion by prose quality or a critic acceptance. The documented exclusions are appropriate and do not by themselves block this experiment. They show that the oracle is not ground truth by authority; undiscovered defects remain possible.",
+      "required_boundary": "Exclude all six mappings from SFT and preference pairs. Keep all ten challenge cases visible, report six scored and four unscored separately, and never count the four as successes. Do not tune to them or score their disputed expected statuses. Future repaired cases need a new separately authored/versioned evaluation design.",
+      "topic": "Oracle defects and quarantine"
+    },
+    {
+      "finding": "All ten task types occur in train, validation, and test, but test denominators are only one to three examples per task. The scored challenge covers three task types, including four resumes. Reused candidate/scenario views are correlated; 155 rows are not 155 independent situations.",
+      "judgment": "This is enough to probe an initial training effect and expose obvious regressions, not enough to estimate task-level production error rates or prove modest improvements. Shared scaffolding, synthetic US/UK-weighted conventions, sparse outreach, and train-only behaviors limit transfer.",
+      "required_boundary": "Report task counts and uncertainty, use family/group-aware paired analysis where dependence applies, and label underpowered results inconclusive. Do not expand training exposure to manufacture apparent coverage or relax truth gates because intervals are wide.",
+      "topic": "Small and clustered coverage"
+    },
+    {
+      "finding": "Fresh contexts and hash-bound critiques provide procedural separation, but the requested teacher and judges share the Astra family. Actual backend identity and reasoning settings are unobserved. Deterministic checks offer a different method, not an independent professional judgment.",
+      "judgment": "Correlated factual blind spots, stylistic preferences, and generous rubric calibration remain material. Accepted pass rates and near-ceiling scores are curation-conditioned results, not unbiased estimates of model accuracy.",
+      "required_boundary": "Use blinded model labels in future judging and preserve deterministic checks and independent evidence benchmarks. Claims of broad professional improvement need stronger independent-model and/or qualified-human review; the present same-family review is insufficient for deployment claims.",
+      "topic": "Same-family teacher and critics"
+    },
+    {
+      "finding": "No actual human professional-quality audit was performed. The challenge is synthetic; live retrieval, real ATS parsing, rendered-document accessibility, and hiring outcomes were not established.",
+      "judgment": "This does not block a bounded offline learning experiment with no user-facing decisions. It does block describing this release as human-certified, production-ready, universally ATS-compatible, or proven to improve hiring outcomes.",
+      "required_boundary": "Keep generated materials out of autonomous submissions and deployment decisions. Before user-facing quality claims, obtain representative independent human review and evaluate the separate renderer/parser and workflow boundaries.",
+      "topic": "No human or real-world quality validation"
+    },
+    {
+      "finding": "Factory v2 records bounded validator/token/bridge repairs and preserved contracts, truth thresholds, historical snapshots, and revalidation. No accepted hard error appears in the final report, and the maximum complete sequence is 4,157 tokens, below 4,233.",
+      "judgment": "The record supports this versioned experiment, not a claim that the checker never changed or is a universal entailment engine. Mechanical success cannot substitute for semantic or professional validity.",
+      "required_boundary": "Pin the accepted records, factory, tokenizer/template, and final audit hashes before running. Do not alter facts, oracle expectations, rubric thresholds, or sealed evaluation to accommodate observed model results.",
+      "topic": "Validator and factory versioning"
+    }
+  ],
+  "version": "stage4c0-independent-readiness-review-v1"
+}

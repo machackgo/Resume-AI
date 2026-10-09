@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-08T12:46:28.184126+00:00",
+  "phase": "Historical gate: 7 independently audited passes; S07 pending retrieval",
+  "resolved_endpoints": [
+    "130.215.178.31",
+    "130.215.178.32",
+    "130.215.178.33"
+  ],
+  "tcp_port": 22,
+  "result": "All three TCP connection attempts timed out; verbose SSH confirmed connect timeout before authentication",
+  "last_known_job": 2351801,
+  "remote_job_cancelled": false,
+  "full_acceptance_started": false,
+  "verified_local_evidence_preserved": true
+}

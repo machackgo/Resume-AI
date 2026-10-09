@@ -1,0 +1,408 @@
+{
+  "tests": [
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_shared_technology_does_not_transfer_identity",
+      "line": 12
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_named_product_identity",
+      "line": 18
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_metric_cannot_move",
+      "line": 20
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_unknown_named_project_is_not_unconstrained",
+      "line": 22
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_multiple_named_entities_not_licensed_by_one",
+      "line": 25
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_shared_prefix_is_not_a_project_alias",
+      "line": 27
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_same_technology_different_achievement",
+      "line": 29
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_academic_startup_identity",
+      "line": 31
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_context_entities_stay_separate",
+      "line": 33
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_setup_is_not_achievement",
+      "line": 37
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_substantial_implementation_can_advance_to_audit",
+      "line": 40
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_numeric_processing_not_images",
+      "line": 43
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_images_are_images",
+      "line": 45
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_hierarchical_vision",
+      "line": 47
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_generic_processing_not_images",
+      "line": 49
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_negative_image_mention_not_positive_capability",
+      "line": 51
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_tool_usage_alone_is_supporting_detail",
+      "line": 53
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_review_payload_target_and_parent_coverage_are_separate",
+      "line": 55
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_review_payload_keeps_binding_constraints",
+      "line": 63
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_generic_object_cannot_detach_technology",
+      "line": 68
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_architecture_is_not_training_capability",
+      "line": 72
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_design_does_not_license_completed_implementation",
+      "line": 75
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_shared_secondary_type_cannot_license_missing_primary_capability",
+      "line": 80
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_container_project_is_not_assertion_event",
+      "line": 83
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_same_section_different_explicit_events_have_distinct_entities",
+      "line": 93
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_link_veto_does_not_become_factual_veto",
+      "line": 98
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_postgres_not_automatically_pgvector",
+      "line": 103
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_action_technology_relationship",
+      "line": 106
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_dotted_object_identifier_is_not_sentence_boundary",
+      "line": 109
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_technology_cannot_be_borrowed_from_nearby_project",
+      "line": 113
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_secondary_positive_support_requires_matching_entity",
+      "line": 119
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_foreign_positive_rejected_but_counterevidence_retained",
+      "line": 128
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_negative_technology_is_not_positive_support",
+      "line": 135
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_deployment_images_do_not_imply_visual_processing",
+      "line": 139
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_compound_paraphrase_component_not_lost_to_inflection",
+      "line": 143
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_compound_projection_never_discards_binding_exclusion",
+      "line": 150
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_supporting_detail_can_license_technology_without_becoming_achievement",
+      "line": 156
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_action_object_relationship",
+      "line": 163
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_purpose_constraint_qualifier",
+      "line": 166
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_multiple_technologies",
+      "line": 169
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_shared_action_binds_next_object_not_last",
+      "line": 172
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_compound_recovery_retains_retrieval_relationship_identity",
+      "line": 178
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_negation_preserved",
+      "line": 187
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_relationship_identity_is_not_keyword_bag",
+      "line": 191
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_every_combined_license_dimension_is_required",
+      "line": 194
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_contradiction_quote_does_not_override_negative",
+      "line": 199
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_other_project_negative_is_not_transferred",
+      "line": 202
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_architecture_is_not_completed_implementation",
+      "line": 205
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "Contracts.test_identity_retains_exact_candidate_and_span",
+      "line": 208
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_incompatible_targets_do_not_bias_viable_content_review",
+      "line": 216
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_secondary_assertion_anchor_keeps_exact_whitespace_span",
+      "line": 230
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_same_entity_detail_retains_independent_citation_in_final_license",
+      "line": 262
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_uncited_detail_cannot_grant_technology_license",
+      "line": 269
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_other_entity_detail_cannot_grant_technology_license",
+      "line": 272
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_bounded_expansion_preserves_engine_scope_and_original_config",
+      "line": 275
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_exhausted_initial_pool_recovers_from_bounded_depth_expansion",
+      "line": 287
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_deterministic_rejections_do_not_spend_model_review_budget",
+      "line": 303
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_duplicate_requirement_occurrences_retain_license_lineage",
+      "line": 320
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_malformed_selector_is_quarantined_before_independent_recovery",
+      "line": 327
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_postgresql_gets_license_despite_empty_selector",
+      "line": 338
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_rejection_in_one_entity_does_not_suppress_another",
+      "line": 357
+    },
+    {
+      "file": "application/tests/rag/test_semantic_contracts.py",
+      "test": "FallbackContracts.test_discovery_query_does_not_preempt_independent_licensing",
+      "line": 368
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_primary_rejected_second_valid",
+      "line": 25
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_first_two_rejected_third_valid",
+      "line": 28
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_all_invalid_safe_omission",
+      "line": 39
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_true_detail_not_achievement",
+      "line": 42
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_metric_conflict_nonnumeric_policy",
+      "line": 45
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_unsupported_requirement_otherwise_valid_resume",
+      "line": 50
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_same_skill_distinct_events",
+      "line": 53
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_high_similarity_wrong_event_not_promoted",
+      "line": 56
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_weaker_support_never_strengthened",
+      "line": 59
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_contradicted_candidate_never_revived",
+      "line": 62
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_invalid_sibling_does_not_discard_valid_selection",
+      "line": 65
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_numbered_experiments_preserve_scoped_schema",
+      "line": 73
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_component_projection_retains_full_requirement_and_scope",
+      "line": 88
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_malformed_review_retains_both_raw_traces",
+      "line": 92
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_component_decision_binds_immutable_job_span",
+      "line": 104
+    },
+    {
+      "file": "application/tests/rag/test_final_semantics.py",
+      "test": "FinalSemanticTests.test_second_pass_contradiction_is_globally_excluded",
+      "line": 115
+    }
+  ],
+  "source": "Current application; run result in test-results.json",
+  "coverage_categories": [
+    "project/event firewall",
+    "achievement eligibility",
+    "capability compatibility",
+    "independent fallback decisions",
+    "relationship preservation",
+    "safe omission",
+    "contradiction",
+    "exact provenance",
+    "candidate isolation",
+    "secondary positive-support scope",
+    "bounded recovery"
+  ]
+}

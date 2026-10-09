@@ -1,0 +1,50 @@
+{
+  "initial_pool": 112,
+  "additive_expansion": 21,
+  "combined_candidate_pool": 133,
+  "original_file_hashes_pass": true,
+  "determinism_pass": true,
+  "input_schema_and_ground_truth_pass": true,
+  "tasks": {
+    "GENERATE_RESUME": 31,
+    "MAP_JOB_TO_CANDIDATE": 29,
+    "ANALYZE_JOB": 8,
+    "SELECT_RESUME_CONTENT": 9,
+    "ANSWER_APPLICATION_QUESTION": 12,
+    "GENERATE_COVER_LETTER": 10,
+    "GENERATE_RESUME_SECTION": 12,
+    "REWRITE_BULLET_FOR_JOB": 9,
+    "IDENTIFY_MISSING_INFORMATION": 10,
+    "DRAFT_OUTREACH": 3
+  },
+  "section_tasks": {
+    "PROJECTS": 4,
+    "EXPERIENCE": 4,
+    "SUMMARY": 1,
+    "SKILLS": 1,
+    "CERTIFICATIONS": 1,
+    "EDUCATION": 1
+  },
+  "splits": {
+    "train": 113,
+    "validation": 8,
+    "test": 12
+  },
+  "new_families": [
+    "e_incident_dispute",
+    "e_retrieval_corroboration",
+    "e_saved_preferences",
+    "e_portfolio_fields",
+    "e_credential_sections",
+    "e_missing_preferences",
+    "e_behavior_structure"
+  ],
+  "saturation_claim": false,
+  "remaining_gaps": [
+    "limited final validation/test task coverage",
+    "limited international conventions",
+    "few behavioral families",
+    "short bounded evidence contexts",
+    "shared profile scaffolding and generic JD connective language"
+  ]
+}

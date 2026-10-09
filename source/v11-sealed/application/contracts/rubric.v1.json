@@ -1,0 +1,123 @@
+{
+  "version": "stage4c0-v1",
+  "scale": {
+    "0": "Unusable or harmful",
+    "1": "Major defects",
+    "2": "Material revision needed",
+    "3": "Professional and usable with minor optional edits",
+    "4": "Specific, concise, coherent and publication-ready content"
+  },
+  "dimensions": {
+    "grounding": {
+      "weight": 0,
+      "minimum": 4,
+      "hard_gate": true,
+      "principle_ids": [
+        "TRUTH01",
+        "TRUTH02",
+        "TRUTH03",
+        "TRUTH04",
+        "RES07",
+        "TECH05"
+      ],
+      "anchor_4": "Every factual atom entailed by visible same-scope sources; exact fields match; uncertainty and provenance preserved.",
+      "anchor_2": "At least one material unsupported or stronger-than-source fact; automatic rejection regardless of prose."
+    },
+    "task_completion": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "JOB06",
+        "APP01",
+        "APP04",
+        "CONV02"
+      ],
+      "anchor_4": "All applicable requested components, explicit constraints and output routing satisfied.",
+      "anchor_2": "Missing substantive section, question component, requirement or required user input."
+    },
+    "job_relevance": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES01",
+        "ATS04",
+        "CL02",
+        "OUT05"
+      ],
+      "anchor_4": "Strongest supported content prioritized against actual posting requirements without keyword stuffing.",
+      "anchor_2": "Generic or weak selection despite available relevant evidence."
+    },
+    "specificity": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES02",
+        "TECH01",
+        "TECH02",
+        "APP03",
+        "CONV01"
+      ],
+      "anchor_4": "Concrete role, contribution, context and supported result/purpose; qualitative impact accepted.",
+      "anchor_2": "Vague duties or technology list without contribution/context where evidence permits it."
+    },
+    "writing": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES04",
+        "RES08",
+        "CL01",
+        "CL06",
+        "OUT02"
+      ],
+      "anchor_4": "Natural professional voice, strong precise verbs, readable syntax and accurate tense; no filler.",
+      "anchor_2": "Boilerplate, awkward repetition, generic flattery or inconsistent tense obscures substance."
+    },
+    "structure_coherence": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "RES09",
+        "RES11",
+        "ATS01",
+        "ATS02",
+        "ACC01",
+        "ACC02",
+        "CL02"
+      ],
+      "anchor_4": "Ordered complete artifact; sections complement one another; chronology and terms consistent; minimal redundant events.",
+      "anchor_2": "Locally fluent fragments form an incomplete, repetitive or incoherent artifact."
+    },
+    "uncertainty_handling": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "APP02",
+        "APP05",
+        "APP07",
+        "APP08",
+        "JOB04",
+        "TRUTH02"
+      ],
+      "anchor_4": "Material missing facts/preferences/conflicts identified precisely; optional omissions do not force unnecessary blocking.",
+      "anchor_2": "Unnecessary blocking or incomplete gap requests; any guessed material answer also fails grounding."
+    },
+    "downstream_usability": {
+      "weight": 1,
+      "minimum": 3,
+      "principle_ids": [
+        "ATS03",
+        "ATS05",
+        "ATS06",
+        "ACC03",
+        "ACC04",
+        "CONV03"
+      ],
+      "anchor_4": "Strict schema, directly renderable content, exact identifiable fields, actionable gap requests, no false ATS/accessibility guarantee.",
+      "anchor_2": "Requires substantive repair before renderer/application can use it."
+    }
+  },
+  "not_applicable": "Use 4 only when the dimension is genuinely inapplicable and record a brief public assessment; never drop a dimension to inflate the mean.",
+  "professional_mean_minimum": 3.5,
+  "teacher_self_scores_are_acceptance_evidence": false
+}

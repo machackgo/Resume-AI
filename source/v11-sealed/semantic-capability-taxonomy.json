@@ -1,0 +1,36 @@
+{
+  "types": {
+    "COMPUTER_VISION": "computer vision|object detection|image segmentation",
+    "IMAGE_PROCESSING": "image[ -]processing|process(?:ed|ing)? images|images?|pixels?|photographs?|opencv|webcam",
+    "STATE_MANAGEMENT": "numeric|button history|state/features|state management|game state",
+    "UI_INTERACTION": "button|click|user interaction",
+    "DATABASE": "postgresql|postgres|sqlite|database|cloud sql|pgvector",
+    "VECTOR_RETRIEVAL": "vector (?:search|retrieval|storage)|pgvector|nearest neighbor|retrieval.augmented|\\bRAG\\b",
+    "NLP": "question.answering|natural language|\\bNLP\\b|\\bBERT\\b",
+    "LLM_INFERENCE": "\\bLLM|\\bQwen|language model|model inference",
+    "MODEL_TRAINING": "\\btrain(?:ed|ing)?\\b|fine.tun",
+    "MODEL_ARCHITECTURE": "classifier|classification|neural network|\\bCNN\\b|model architecture",
+    "DATA_PROCESSING": "data processing|feature pipeline|filtering|vectorization",
+    "BACKEND_API": "\\bAPI\\b|\\bAPIs\\b|backend|fastapi|flask",
+    "FRONTEND": "frontend|next\\.js|react|typescript",
+    "DEPLOYMENT": "deploy|docker|container|kubernetes|\\bAWS\\b|\\bGCP\\b",
+    "OBSERVABILITY": "observability|monitoring|prometheus|grafana"
+  },
+  "hierarchy": {
+    "COMPUTER_VISION": [
+      "IMAGE_PROCESSING"
+    ],
+    "VECTOR_RETRIEVAL": [
+      "DATA_PROCESSING"
+    ],
+    "LLM_INFERENCE": [
+      "NLP"
+    ]
+  },
+  "platform_types": {
+    "AWS": "\\bAWS\\b|Amazon Web Services",
+    "GCP": "\\bGCP\\b|Google Cloud",
+    "AZURE": "\\bAzure\\b"
+  },
+  "policy": "All evaluated component capability types must be present, allowing explicit parent compatibility. Negative mentions do not confer capabilities. Docker/container/OCI/VM/disk image phrases do not establish visual image processing. Technology aliases are a necessary scoped check, not factual proof. Final licensing also requires independent factual, identity, action-strength, relationship and content acceptance."
+}

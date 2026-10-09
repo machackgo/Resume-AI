@@ -1,0 +1,55 @@
+{
+ "location": "local macOS home directory",
+ "computed_utc": "2026-10-09",
+ "archives": [
+  {
+   "file": "resume-ai-final-remediation-20261007-full-v7-final.zip",
+   "bytes": 25887184,
+   "sha256": "d2c05348e4f81f46b1f4cb674d5f3a862811736eb719daec6943792d7d20a53a",
+   "recorded_sha256": "d2c05348e4f81f46b1f4cb674d5f3a862811736eb719daec6943792d7d20a53a",
+   "recorded_match": true
+  },
+  {
+   "file": "resume-ai-preagent-acceptance-20261007.zip",
+   "bytes": 6222169,
+   "sha256": "388497e42654dcc9306dd3e36cda497df406f8d6e8e30125c141650b2356ba63",
+   "recorded_sha256": null,
+   "recorded_match": null
+  },
+  {
+   "file": "resume-ai-remediation-20261007-continuation-checkpoint.zip",
+   "bytes": 6939418,
+   "sha256": "d62e28f676ba01c327b0d4a0f1bcc1ab6d71599b04750eb9c110ae006b2e64a3",
+   "recorded_sha256": "d62e28f676ba01c327b0d4a0f1bcc1ab6d71599b04750eb9c110ae006b2e64a3",
+   "recorded_match": true
+  },
+  {
+   "file": "resume-ai-remediation-20261007-turing-validation.zip",
+   "bytes": 11635057,
+   "sha256": "0a9882263da706a0126cac123a93ca8673e7935f94a6dee9ce311ea4adee5023",
+   "recorded_sha256": "0a9882263da706a0126cac123a93ca8673e7935f94a6dee9ce311ea4adee5023",
+   "recorded_match": true
+  },
+  {
+   "file": "resume-ai-repair-acceptance-20261007.zip",
+   "bytes": 18148315,
+   "sha256": "c4e5e16540c49151ca13208b97aa32422b6ba1255f746c3ba0377e3500d43682",
+   "recorded_sha256": "c4e5e16540c49151ca13208b97aa32422b6ba1255f746c3ba0377e3500d43682",
+   "recorded_match": true
+  },
+  {
+   "file": "resume-ai-semantic-contracts-20261008-network-blocked-checkpoint.zip",
+   "bytes": 24429777,
+   "sha256": "10211a792a6fd4614baf39fed3be7b6e79c5ba2dc51117ae856be1ea2a10dc8e",
+   "recorded_sha256": "10211a792a6fd4614baf39fed3be7b6e79c5ba2dc51117ae856be1ea2a10dc8e",
+   "recorded_match": true
+  },
+  {
+   "file": "resume-ai-semantic-validation-20261008-final.zip",
+   "bytes": 80189386,
+   "sha256": "f284b393b9d6e3ae18de49b994f249f5e43d7f844f6191470bcc83ee01fd3c72",
+   "recorded_sha256": "f284b393b9d6e3ae18de49b994f249f5e43d7f844f6191470bcc83ee01fd3c72",
+   "recorded_match": true
+  }
+ ]
+}

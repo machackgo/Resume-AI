@@ -1,0 +1,17 @@
+# Large or private artifacts never belong in this repository
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+*.sqlite3
+*.db
+*.zip
+*.tar.gz
+__pycache__/
+*.pyc
+/.venv/
+/models/
+/adapters/
+/datasets/
+.env
+.env.*

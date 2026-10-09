@@ -1,0 +1,186 @@
+[
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/cpu-retrieval-license-probe-v10.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/cpu-retrieval-license-probe-v11.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J01-J02-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J03-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J04-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J05-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J06-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J07-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J11-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J13-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J17-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-J19-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-S02-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-S03-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-S04-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-S06-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/full-S09-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J08-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J09-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J12-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J14-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J15-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-J20-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-S05-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v11-S07-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-J08-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-J09-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-J12-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-J14-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-J15-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v7-S05-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J08-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J09-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J12-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J14-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J15-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-J20-S07-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/historical-v8-S05-review.txt",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/independent-eligibility-profiles.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/independent-historical-v6-audit.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/independent-multidimensional-audit-final.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/independent-resume-worthiness-audit.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/new-fallback-forensic-J11.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "sealed-v11/resume-ai-semantic-validation-20261008/qa-source-scope-review.json",
+  "reason": "contains verbatim owner resume/report text"
+ },
+ {
+  "path": "turing-root/release/resume-ai-stage4c0-v1.tar.gz",
+  "reason": "binary release archive (dataset/report bundle) -> artifact store"
+ },
+ {
+  "path": "turing-root/release/resume-ai-stage4c1-final-report-20261002.tar.gz",
+  "reason": "binary release archive (dataset/report bundle) -> artifact store"
+ }
+]

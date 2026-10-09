@@ -1,0 +1,252 @@
+{
+  "version": "stage4c0-catalog-v2-input-audit",
+  "catalog_sha256": "97b88b6e04ebf1e19400046261d19fb12a44998deb58db2c12b95921573cd579",
+  "basis": "inputs_only_no_teacher_critic_targets",
+  "source_records": 155,
+  "original_records": 143,
+  "candidate_variants": 45,
+  "candidate_families": 37,
+  "splits": {
+    "train": 125,
+    "validation": 14,
+    "test": 16
+  },
+  "task_counts": {
+    "GENERATE_RESUME": 34,
+    "MAP_JOB_TO_CANDIDATE": 30,
+    "ANALYZE_JOB": 10,
+    "SELECT_RESUME_CONTENT": 12,
+    "ANSWER_APPLICATION_QUESTION": 18,
+    "GENERATE_COVER_LETTER": 12,
+    "GENERATE_RESUME_SECTION": 12,
+    "REWRITE_BULLET_FOR_JOB": 9,
+    "IDENTIFY_MISSING_INFORMATION": 13,
+    "DRAFT_OUTREACH": 5
+  },
+  "role_counts": {
+    "MLOps Engineer": 18,
+    "AI Engineer": 18,
+    "Generative AI Engineer": 12,
+    "Software Engineer \u2014 AI": 15,
+    "Backend / ML Platform Engineer": 17,
+    "Machine Learning Engineer": 16,
+    "Data Scientist": 28,
+    "NLP Engineer": 10,
+    "Applied Scientist": 11,
+    "Research Engineer": 10
+  },
+  "seniority_counts": {
+    "early_career": 52,
+    "mid_level": 52,
+    "entry_level": 21,
+    "student_new_graduate": 14,
+    "senior": 16
+  },
+  "fit_counts": {
+    "moderate": 50,
+    "strong": 68,
+    "weak": 11,
+    "mixed": 26
+  },
+  "difficulty_counts": {
+    "hard": 119,
+    "standard": 36
+  },
+  "education": {
+    "old_candidate_variants": 40,
+    "old_distinct_paths": 2,
+    "new_distinct_paths": 37,
+    "new_distinct_degree_titles": 48,
+    "degree_free_candidates": 3,
+    "graduate_degree_candidates": 19,
+    "degree_title_candidate_counts": {
+      "Bachelor of Science in Electrical Engineering": 3,
+      "Bachelor of Science in Applied Mathematics": 2,
+      "Master of Science in Computational Mathematics": 2,
+      "Bachelor of Arts in Information Science": 2,
+      "Associate of Applied Science in Software Development": 2,
+      "Bachelor of Science in Energy Engineering": 2,
+      "Master of Science in Data Analytics": 2,
+      "Bachelor of Science in Statistics": 3,
+      "Bachelor of Arts in Linguistics": 2,
+      "Master of Science in Computational Linguistics": 1,
+      "Bachelor of Engineering in Mechatronics": 1,
+      "Master of Science in Robotics": 1,
+      "Bachelor of Science in Mathematics": 1,
+      "Doctor of Philosophy in Statistics": 1,
+      "Bachelor of Science in Environmental Science": 1,
+      "Bachelor of Science in Physics": 2,
+      "Doctor of Philosophy in Computational Biology": 1,
+      "Bachelor of Science in Industrial Engineering": 1,
+      "Bachelor of Arts in Education Studies": 1,
+      "Master of Science in Learning Analytics": 1,
+      "Bachelor of Arts in Digital Humanities": 1,
+      "Bachelor of Science in Computer Engineering": 1,
+      "Bachelor of Science in Acoustical Engineering": 1,
+      "Master of Science in Signal Processing": 1,
+      "Bachelor of Science in Agricultural Economics": 1,
+      "Master of Science in Statistics": 1,
+      "Bachelor of Science in Ecology": 1,
+      "Master of Science in Environmental Data Science": 1,
+      "Bachelor of Science in Information Technology": 1,
+      "Bachelor of Engineering in Mechanical Engineering": 1,
+      "Master of Science in Information Systems": 1,
+      "Associate of Applied Science in Network Systems": 1,
+      "Bachelor of Arts in History": 1,
+      "Master of Public Policy": 1,
+      "Bachelor of Science in Geography": 1,
+      "Bachelor of Science in Agronomy": 1,
+      "Master of Science in Biostatistics": 1,
+      "Bachelor of Science in Geospatial Engineering": 1,
+      "Master of Science in Embedded Systems": 1,
+      "Master of Science in Instrumentation": 1,
+      "Bachelor of Science in Transportation Engineering": 1,
+      "Bachelor of Arts in Technical Communication": 1,
+      "Bachelor of Science in Information Systems": 1,
+      "Bachelor of Arts in Cognitive Science": 1,
+      "Master of Science in Human-Computer Interaction": 1,
+      "Bachelor of Science in Mechanical Engineering": 1,
+      "Master of Science in Computer Science": 1,
+      "Bachelor of Science in Building Services Engineering": 2
+    }
+  },
+  "profile_skeleton": {
+    "common_field_types": [
+      "claim",
+      "end_date",
+      "institution",
+      "name",
+      "start_date"
+    ],
+    "largest_identical_event_field_skeleton_candidate_count": 6,
+    "distinct_work_role_date_patterns": 31,
+    "largest_work_role_date_pattern_count": 2
+  },
+  "jd_lexical_audit": {
+    "method": "Unique raw JD text; lowercase Unicode word tokenization; four-token shingle Jaccard; compare different-split pairs. Formatting, role and synthetic names are retained.",
+    "unique_jd_texts": 37,
+    "cross_split_pair_count": 295,
+    "median_jaccard": 0.010638297872340425,
+    "max_jaccard": 0.0967741935483871,
+    "pairs_ge_0_5": 0,
+    "highest_pair": [
+      0.0967741935483871,
+      "monitoring_holdout",
+      "v2_field_routing"
+    ],
+    "semantic_leakage_proof": false
+  },
+  "actual_renderer_branches": {
+    "benchmark_memo": {
+      "splits": [
+        "validation"
+      ],
+      "substantive_families": 1
+    },
+    "heldout_accessibility_screening_letter": {
+      "splits": [
+        "test"
+      ],
+      "substantive_families": 1
+    },
+    "heldout_embedded_recruitment_card": {
+      "splits": [
+        "validation"
+      ],
+      "substantive_families": 1
+    },
+    "heldout_geospatial_service_request": {
+      "splits": [
+        "validation"
+      ],
+      "substantive_families": 1
+    },
+    "heldout_instrument_team_brief": {
+      "splits": [
+        "validation"
+      ],
+      "substantive_families": 1
+    },
+    "heldout_transport_problem_memo": {
+      "splits": [
+        "test"
+      ],
+      "substantive_families": 1
+    },
+    "incident_brief": {
+      "splits": [
+        "validation"
+      ],
+      "substantive_families": 1
+    },
+    "problem_statement": {
+      "splits": [
+        "test"
+      ],
+      "substantive_families": 1
+    },
+    "research_call": {
+      "splits": [
+        "test"
+      ],
+      "substantive_families": 1
+    },
+    "rubric_card": {
+      "splits": [
+        "test"
+      ],
+      "substantive_families": 1
+    },
+    "shared_checklist": {
+      "splits": [
+        "train"
+      ],
+      "substantive_families": 3
+    },
+    "shared_default_intro_requirements_location": {
+      "splits": [
+        "train"
+      ],
+      "substantive_families": 14
+    },
+    "shared_narrative": {
+      "splits": [
+        "train"
+      ],
+      "substantive_families": 4
+    },
+    "shared_question_led": {
+      "splits": [
+        "train"
+      ],
+      "substantive_families": 3
+    },
+    "shared_requirements_first": {
+      "splits": [
+        "train"
+      ],
+      "substantive_families": 3
+    }
+  },
+  "polarity_candidate_counts": {
+    "negative": 4,
+    "positive": 45,
+    "instruction": 1,
+    "conflict": 1
+  },
+  "question_type_counts_for_application_answers": {
+    "BEHAVIORAL": 10,
+    "PREFERENCE": 2,
+    "FACTUAL": 2,
+    "ELIGIBILITY": 3,
+    "MOTIVATION": 1
+  },
+  "max_rag_source_characters": 246,
+  "largest_source_groups": 5,
+  "largest_action_claims_per_candidate": 15,
+  "new_behaviors_heldout_validation": false,
+  "coverage_saturation_claim": false,
+  "teacher_output_quality_measured": false,
+  "test_run": "PYTHONDONTWRITEBYTECODE=1 python3 -B -m unittest stage4c0.test_catalog_v2 stage4c0.test_factory",
+  "tests_passed": 41
+}

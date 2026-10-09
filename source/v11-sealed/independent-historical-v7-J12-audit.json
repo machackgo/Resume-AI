@@ -1,0 +1,23 @@
+{
+  "case": "J12",
+  "raw_sha256": "6a9068f4689752fb7c4ea1091caa0e84f69c6abe7bcae0de48ac98fc760a9a49",
+  "historical_gate_passed": false,
+  "claims": [
+    {
+      "claim_id": "resume_claim_ed1bb821f1146f8fd8bba175bcc8e974e412fd85a39d926b16a77fac473786f9",
+      "factual_class": "SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "PARTIAL",
+      "rationale": "Exact GCP data-engineering claim is supported by its candidate resume section and is substantive. However it says Cloud SQL, not PostgreSQL. The content reviewer obtains PostgreSQL from review_983910d461c2a2e15565b1dc in an AWS repository describing an unspecified GCP event. No canonical same-project identity was established between that secondary source and the named Google Cloud AI Traffic Safety Platform claim. PostgreSQL component license is therefore not established by this claim.",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        3235,
+        3498
+      ]
+    }
+  ],
+  "first_bad_stage": "licensing.secondary_source_positive_support",
+  "general_fix": "Apply identity firewall to secondary positive support; require explicitly scoped technologies in the claim/heading for technology-specific component licensing. Retain all secondary counterevidence. Exclude deterministically incompatible targets from content significance decision while retaining veto trace.",
+  "model_work_justified": false
+}

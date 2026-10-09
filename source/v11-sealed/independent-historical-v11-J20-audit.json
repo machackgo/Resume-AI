@@ -1,0 +1,36 @@
+{
+  "case": "J20",
+  "raw_sha256": "417fd1721f3613bbf7c3ca013f94102da7bb9ea517ac8070f89dc7d1cea50a41",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "The final exact CS3-QA-Monitoring overview stays bound to that course project, with qualified project attribution. Its Docker/container deployment component is directly established. FastAPI QA support cites canonical same-project qa-local/backend/main.py (import span 0:27); independent inspection confirms app=FastAPI, POST /qa and the question-answering pipeline, so this is corroboration of the same system capability rather than cross-project technology borrowing. The named Resume AI ingestion/provenance requirement is vetoed and omitted. VeriBridge workflow evidence is rejected, and no unsupported PyTorch/full-conjunction linkage is emitted. The integrated monitoring/QA system is substantive, not generic setup.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_25e731c9dedabf7c8b95f61f99f7c3b76381e39685367d52ca13eba241f440d8",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENTS",
+      "source_id": "source_2c30a6901d880ddfd886b296bd743caccc227e136c59b6e1b3cd78ad44ece120",
+      "span": [
+        86,
+        557
+      ],
+      "rationale": "The final exact CS3-QA-Monitoring overview stays bound to that course project, with qualified project attribution. Its Docker/container deployment component is directly established. FastAPI QA support cites canonical same-project qa-local/backend/main.py (import span 0:27); independent inspection confirms app=FastAPI, POST /qa and the question-answering pipeline, so this is corroboration of the same system capability rather than cross-project technology borrowing. The named Resume AI ingestion/provenance requirement is vetoed and omitted. VeriBridge workflow evidence is rejected, and no unsupported PyTorch/full-conjunction linkage is emitted. The integrated monitoring/QA system is substantive, not generic setup."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 146,
+    "unit_count": 128,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 1,
+    "remaining_candidates": 51,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-1-mechanical-audit-interim3.json",
+  "cross_project_contamination": 0
+}

@@ -1,0 +1,8 @@
+{
+  "original": "historical-v7-shard-0-mechanical-audit.json",
+  "corrected": "historical-v7-shard-0-mechanical-audit-v2.json",
+  "cause": "Initial audit compared expanded canonical review context against original retrieved chunk span. Review envelopes preserve the original citation reference; the exact expanded context span is declared elsewhere in the same artifact.",
+  "correction": "Resolve only a unique matching reference+content declared context_span. Verify canonical source substring exactly and require expanded window to contain the original chunk. No fuzzy match or arbitrary text-location lookup is used.",
+  "application_changed": false,
+  "original_report_preserved": true
+}

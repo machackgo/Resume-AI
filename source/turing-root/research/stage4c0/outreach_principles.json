@@ -1,0 +1,105 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "outreach",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "OUT01",
+      "version": "1.0.0",
+      "principle": "Use an actual relevant professional connection and a clear reason for contacting the supplied recipient.",
+      "provenance": [
+        {
+          "source_id": "S14",
+          "source_url": "https://capd.mit.edu/resources/conducting-informational-interviews/"
+        },
+        {
+          "source_id": "S15",
+          "source_url": "https://capd.mit.edu/blog/2025/06/01/building-a-network-digital-and-in-person-strategies-for-students-recent-graduates-and-postdocs/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Personalization cites provided contact or job context.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "OUT02",
+      "version": "1.0.0",
+      "principle": "Make one concise, reasonable request and respect the recipient’s time.",
+      "provenance": [
+        {
+          "source_id": "S14",
+          "source_url": "https://capd.mit.edu/resources/conducting-informational-interviews/"
+        },
+        {
+          "source_id": "S15",
+          "source_url": "https://capd.mit.edu/blog/2025/06/01/building-a-network-digital-and-in-person-strategies-for-students-recent-graduates-and-postdocs/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Single proportionate call to action; no pressure or manufactured urgency.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "OUT03",
+      "version": "1.0.0",
+      "principle": "Do not invent referrals, prior meetings, contact details or the recipient’s hiring authority.",
+      "provenance": [
+        {
+          "source_id": "S14",
+          "source_url": "https://capd.mit.edu/resources/conducting-informational-interviews/"
+        },
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Every relationship and recipient-role claim has provenance.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "OUT04",
+      "version": "1.0.0",
+      "principle": "Distinguish informational networking from an application-status or recruiter message.",
+      "provenance": [
+        {
+          "source_id": "S14",
+          "source_url": "https://capd.mit.edu/resources/conducting-informational-interviews/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Purpose matches supplied application state and recipient context.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "OUT05",
+      "version": "1.0.0",
+      "principle": "Personalize selectively using the strongest relevant supported evidence.",
+      "provenance": [
+        {
+          "source_id": "S15",
+          "source_url": "https://capd.mit.edu/blog/2025/06/01/building-a-network-digital-and-in-person-strategies-for-students-recent-graduates-and-postdocs/"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Avoid generic flattery and long resume repetition; no bulk-send instruction.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

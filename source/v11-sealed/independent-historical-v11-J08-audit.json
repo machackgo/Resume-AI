@@ -1,0 +1,35 @@
+{
+  "case": "J08",
+  "raw_sha256": "e4a9a07a02bee49fd28bc52b8ffbe3de4108c8b0d7446e1804b1d5c9aabf6465",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "The exact candidate resume assertion describes specific VeriBridge product architecture across named workflows. Repository architecture corroborates design scope; unimplemented backend/auth counterevidence does not refute architectural design, and no implementation claim is inferred. It licenses only actual Next.js/TypeScript use in VeriBridge. Generic frontend setup was rejected. QA implementation and built API-route relationships remain vetoed.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_fe6dffbea3e4e1462dae3218e73463be25268569dd75921f596fa3a1997dbd26",
+      "factual_class": "SUPPORTED",
+      "content_class": "STRONG ACHIEVEMENT",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_FULL_REQUIREMENT",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        1559,
+        1761
+      ],
+      "rationale": "The exact candidate resume assertion describes specific VeriBridge product architecture across named workflows. Repository architecture corroborates design scope; unimplemented backend/auth counterevidence does not refute architectural design, and no implementation claim is inferred. It licenses only actual Next.js/TypeScript use in VeriBridge. Generic frontend setup was rejected. QA implementation and built API-route relationships remain vetoed."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 56,
+    "unit_count": 56,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 1,
+    "remaining_candidates": 20,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-0-mechanical-audit-interim1.json"
+}

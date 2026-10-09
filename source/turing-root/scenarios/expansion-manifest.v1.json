@@ -1,0 +1,16 @@
+{
+  "version": "stage4c0-coverage-expansion-v1",
+  "authored_on": "2026-09-29",
+  "reason": "Pre-generation coverage audit found train gaps in conflict/injection/corroboration, trusted versus missing preference routing, portfolio lookup, sentence/character limits, and summary/skills/education/certification sections.",
+  "records": 21,
+  "new_families": 7,
+  "split": "train",
+  "target_generation_performed": false,
+  "original_inputs_modified": false,
+  "challenge_consulted_for_expansion": false,
+  "source_sha256": "d63f6793459aeefe3f06c00a9538966f44fa4b0a4b2abef122879fd144e03bc1",
+  "sha256": {
+    "pool-expansion-v1-inputs.jsonl": "07723c66582d964c3478f98d937a46a606c0fbfa0269e08fd51519b09a23b01c",
+    "pool-expansion-v1.jsonl": "15211a473ae21296cfe0684cec94be475a2dbe2bcee8cdb74196c1976a1b5da1"
+  }
+}

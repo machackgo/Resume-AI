@@ -1,0 +1,23 @@
+{
+  "case": "J04",
+  "raw_sha256": "12e4e17227c2293ec5d86a1cf7111d0ccc806199d8e2a4d8b293c8b85c07fc8b",
+  "case_passed": false,
+  "claims": [],
+  "rationale": "No resume was emitted. All three requirements were omitted, preventing unsupported pgvector, cross-project borrowing, and generic QLoRA loading/setup achievements. Canonical Resume-AI sources do contain component retrieval and quantized-loading implementation artifacts, but current extractive eligibility admits no substantial source-bound standalone assertion from those artifacts; fallback exhausted its bounded pool. This is safe abstention, not a successful usable resume. Record the usability/recovery limitation separately from factual safety.",
+  "safety_passed": true,
+  "usability": "NO_RESUME",
+  "outcome_kind": "SAFE_ABSTENTION",
+  "failure_class": "CONTENT ELIGIBILITY / RECOVERY",
+  "fallback_pool": {
+    "discovered_unit_count": 174,
+    "unit_count": 128,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 9,
+    "attempted_candidates": 45,
+    "remaining_candidates": 0,
+    "stop_reason": "pool_exhausted"
+  },
+  "requirements_omitted": 3
+}

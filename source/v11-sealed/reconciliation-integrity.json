@@ -1,0 +1,19 @@
+{
+  "historical": [
+    {
+      "run": "historical-v11-shard-0",
+      "inputs_and_application_unchanged": true
+    },
+    {
+      "run": "historical-v11-shard-1",
+      "inputs_and_application_unchanged": true
+    }
+  ],
+  "prior_full_v7": {
+    "files": 36,
+    "remote_matches_sealed_transfer": true,
+    "local_matches_remote": true
+  },
+  "new_full_acceptance_run_exists": false,
+  "application_changes": false
+}

@@ -1,0 +1,89 @@
+{
+  "version": "stage4c0-v1",
+  "status": "design_frozen_before_pilot",
+  "task_vocabulary": [
+    "ANALYZE_JOB",
+    "MAP_JOB_TO_CANDIDATE",
+    "GENERATE_RESUME",
+    "GENERATE_COVER_LETTER",
+    "ANSWER_APPLICATION_QUESTION",
+    "IDENTIFY_MISSING_INFORMATION",
+    "DRAFT_OUTREACH",
+    "SELECT_RESUME_CONTENT",
+    "REWRITE_BULLET_FOR_JOB",
+    "GENERATE_RESUME_SECTION"
+  ],
+  "section_vocabulary": [
+    "SUMMARY",
+    "SKILLS",
+    "EXPERIENCE",
+    "PROJECTS",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "tentative_task_percent": {
+    "ANALYZE_JOB": 10,
+    "MAP_JOB_TO_CANDIDATE": 12,
+    "GENERATE_RESUME": 18,
+    "GENERATE_COVER_LETTER": 10,
+    "ANSWER_APPLICATION_QUESTION": 16,
+    "IDENTIFY_MISSING_INFORMATION": 10,
+    "DRAFT_OUTREACH": 6,
+    "SELECT_RESUME_CONTENT": 6,
+    "REWRITE_BULLET_FOR_JOB": 7,
+    "GENERATE_RESUME_SECTION": 5
+  },
+  "tentative_future_stage4a_replay_percent": 30,
+  "mixture_note": "Professional proportions sum to 100 within the new pool. Future training mixture is 70% professional / 30% immutable Stage4A replay, subject to a separate authorized training design. No historical data copied into teacher requests.",
+  "difficulty_percent": {
+    "straightforward": 30,
+    "selection_and_synthesis": 40,
+    "ambiguity_conflict_or_adversarial": 30
+  },
+  "seed_policy": "Finite original family-disjoint seed pool; expand only for observed coverage deficits or failure modes. Record attempts, accepted rows, rejected rows and review coverage. No promised thousands or acceptance-rate-driven weakening.",
+  "split_policy": {
+    "group_key": "scenario_family_id",
+    "connected_components": [
+      "candidate lineage",
+      "job template lineage",
+      "event lineage",
+      "counterfactual lineage",
+      "paraphrase lineage",
+      "derived task lineage"
+    ],
+    "assignment": "Deterministic hash of frozen split salt and connected-component family ID before teacher generation; whole group assigned to one split.",
+    "nominal_percent": {
+      "train": 80,
+      "validation": 10,
+      "test": 10
+    },
+    "small_pool_rule": "Use a preregistered explicit family assignment to ensure validation/test exist; never split a family or pretend a tiny holdout is a reliable generalization estimate.",
+    "evaluation_access": "Test reference artifacts are sealed from training teachers and curriculum tuning. Evaluation judge receives generated artifact and visible evidence, not historical test answers.",
+    "near_duplicate_audit": "Normalize text, check exact hashes and token-shingle similarity; inspect cross-split near matches, union connected families and resplit before release."
+  },
+  "coverage_axes": [
+    "all ten tasks",
+    "all six section variants",
+    "complete resume",
+    "qualitative impact without metrics",
+    "exact same-event metrics",
+    "personal/course/employment distinction",
+    "technology/action near misses",
+    "partial/missing/conflicting evidence",
+    "sensitive facts and preferences",
+    "eligibility and qualifications",
+    "job alternatives and thresholds",
+    "same-text multi-source provenance",
+    "untrusted retrieved instructions",
+    "length and application constraints",
+    "supported skill selection",
+    "honest outreach relationship"
+  ],
+  "research_version": "stage4c0-research-v1",
+  "requested_teacher": {
+    "model": "gpt-6-astra",
+    "reasoning": "ultra",
+    "observed_runtime_model": null,
+    "observed_runtime_reasoning": null
+  }
+}

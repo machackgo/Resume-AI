@@ -1,0 +1,11 @@
+BLOCKED CHECKPOINT — NO ACCEPTANCE PASS
+Restore working network/VPN access first. Do not resubmit or cancel job 2351801 without checking its actual state.
+The current source revision is v11. Both shards used identical tested code; seven historical cases passed independent audit.
+1. Reconnect to Turing using normal host-key/authentication checks.
+2. Download historical-v11-shard-1 with sync_historical.py; collect S07 and e2e-execution.json and inspect any e2e-error.json.
+3. Independently audit S07 against canonical sources and all four dimensions; verify mechanical checks, especially secondary support identity and exact spans.
+4. Only if all eight historical cases pass, assemble historical-v11, construct its independent decisions and passing historical-gate.json, then use prepare_full.py.
+5. Run the unchanged 20+10 suite fresh on approved BASE Qwen, independently audit every claim and expected omission, verify final frozen/input hashes and all no-regression checks.
+6. Complete and seal a NEW final archive, upload it to Turing alongside immutable history and verify SHA-256 remotely.
+This checkpoint archive is immutable evidence. Continue in a new working package copied from this checkpoint if preserving the sealed tree. Do not modify previous packages, weights, benchmark inputs or protected content.
+No QLoRA retraining, adapter promotion or agent development is authorized.

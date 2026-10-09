@@ -1,0 +1,11 @@
+{
+  "case": "S07",
+  "raw_sha256": "f4069930d928b91a28092208d030ae0e9bc26a7ce2d326e01844f72938191d55",
+  "historical_failure_reproduced": false,
+  "case_passed": false,
+  "claims": [],
+  "acceptance_credit": false,
+  "remaining_root_cause": "RETRIEVAL / LICENSING: initial 20-depth pool exhausted safely with no standalone achievement. General recovery and same-entity supporting-technology handling still require fresh validation.",
+  "safe_omission": true,
+  "resume_usable": false
+}

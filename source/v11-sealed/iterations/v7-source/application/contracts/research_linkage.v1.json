@@ -1,0 +1,1176 @@
+{
+  "version": "stage4c0-v1",
+  "research_version": "stage4c0-research-v1",
+  "global_dataset_principle_ids": [
+    "TRUTH05"
+  ],
+  "tasks": {
+    "ANALYZE_JOB": [
+      {
+        "principle_id": "JOB01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S22",
+          "S29",
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "JOB02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23",
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "JOB03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S24"
+        ]
+      },
+      {
+        "principle_id": "JOB04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23"
+        ]
+      },
+      {
+        "principle_id": "JOB05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S22",
+          "S29"
+        ]
+      },
+      {
+        "principle_id": "JOB06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S25",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "JOB07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S22"
+        ]
+      },
+      {
+        "principle_id": "JOB08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21"
+        ]
+      },
+      {
+        "principle_id": "CONV02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      }
+    ],
+    "MAP_JOB_TO_CANDIDATE": [
+      {
+        "principle_id": "JOB02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23",
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "JOB04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23"
+        ]
+      },
+      {
+        "principle_id": "JOB05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S22",
+          "S29"
+        ]
+      },
+      {
+        "principle_id": "JOB08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21"
+        ]
+      },
+      {
+        "principle_id": "ATS04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "RES01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "TECH07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ],
+    "GENERATE_RESUME": [
+      {
+        "principle_id": "RES01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04",
+          "S07"
+        ]
+      },
+      {
+        "principle_id": "RES03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "RES04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04"
+        ]
+      },
+      {
+        "principle_id": "RES05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S05",
+          "S06",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "RES06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "RES08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES09",
+        "version": "1.0.0",
+        "source_ids": [
+          "S05",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "RES10",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES11",
+        "version": "1.0.0",
+        "source_ids": [
+          "S06",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "ATS01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S02"
+        ]
+      },
+      {
+        "principle_id": "ATS02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S27"
+        ]
+      },
+      {
+        "principle_id": "ATS03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S02"
+        ]
+      },
+      {
+        "principle_id": "ATS04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "ATS05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S02",
+          "S21"
+        ]
+      },
+      {
+        "principle_id": "ATS06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "ATS07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "TECH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08"
+        ]
+      },
+      {
+        "principle_id": "TECH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04",
+          "S08"
+        ]
+      },
+      {
+        "principle_id": "TECH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "TECH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08",
+          "S20"
+        ]
+      },
+      {
+        "principle_id": "TECH05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "TECH06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TECH07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "TECH08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "ACC01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "principle_id": "ACC02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S28"
+        ]
+      },
+      {
+        "principle_id": "ACC03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S27"
+        ]
+      },
+      {
+        "principle_id": "ACC04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "principle_id": "CONV01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S20"
+        ]
+      },
+      {
+        "principle_id": "CONV02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ],
+    "GENERATE_COVER_LETTER": [
+      {
+        "principle_id": "CL01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S11"
+        ]
+      },
+      {
+        "principle_id": "CL02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S11",
+          "S12"
+        ]
+      },
+      {
+        "principle_id": "CL03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S11",
+          "S12"
+        ]
+      },
+      {
+        "principle_id": "CL04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "CL05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S11"
+        ]
+      },
+      {
+        "principle_id": "CL06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "APP06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S25",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "CONV02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "CONV03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ],
+    "ANSWER_APPLICATION_QUESTION": [
+      {
+        "principle_id": "APP01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S18",
+          "S19"
+        ]
+      },
+      {
+        "principle_id": "APP06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S25",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "APP07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "JOB04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ],
+    "IDENTIFY_MISSING_INFORMATION": [
+      {
+        "principle_id": "APP02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S18",
+          "S19"
+        ]
+      },
+      {
+        "principle_id": "APP07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S13"
+        ]
+      },
+      {
+        "principle_id": "APP08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "JOB04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S23"
+        ]
+      },
+      {
+        "principle_id": "JOB08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S21"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      }
+    ],
+    "DRAFT_OUTREACH": [
+      {
+        "principle_id": "OUT01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S14",
+          "S15"
+        ]
+      },
+      {
+        "principle_id": "OUT02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S14",
+          "S15"
+        ]
+      },
+      {
+        "principle_id": "OUT03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S14",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "OUT04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S14"
+        ]
+      },
+      {
+        "principle_id": "OUT05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S15"
+        ]
+      },
+      {
+        "principle_id": "CL04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "CL05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S11"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ],
+    "SELECT_RESUME_CONTENT": [
+      {
+        "principle_id": "RES01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S05",
+          "S06",
+          "S26"
+        ]
+      },
+      {
+        "principle_id": "RES06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES09",
+        "version": "1.0.0",
+        "source_ids": [
+          "S05",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "RES11",
+        "version": "1.0.0",
+        "source_ids": [
+          "S06",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "TECH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "CONV01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S20"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      }
+    ],
+    "REWRITE_BULLET_FOR_JOB": [
+      {
+        "principle_id": "RES02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04",
+          "S07"
+        ]
+      },
+      {
+        "principle_id": "RES03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "RES04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04"
+        ]
+      },
+      {
+        "principle_id": "RES08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "ATS04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TECH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08"
+        ]
+      },
+      {
+        "principle_id": "TECH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04",
+          "S08"
+        ]
+      },
+      {
+        "principle_id": "TECH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "TECH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08",
+          "S20"
+        ]
+      },
+      {
+        "principle_id": "TECH05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "TECH06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TECH07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S30"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      }
+    ],
+    "GENERATE_RESUME_SECTION": [
+      {
+        "principle_id": "RES01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04",
+          "S07"
+        ]
+      },
+      {
+        "principle_id": "RES03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "RES04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S04"
+        ]
+      },
+      {
+        "principle_id": "RES06",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES07",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "RES08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03"
+        ]
+      },
+      {
+        "principle_id": "RES09",
+        "version": "1.0.0",
+        "source_ids": [
+          "S05",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "ATS01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S02"
+        ]
+      },
+      {
+        "principle_id": "ATS02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S27"
+        ]
+      },
+      {
+        "principle_id": "ATS03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S01",
+          "S02"
+        ]
+      },
+      {
+        "principle_id": "ATS04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TECH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S08"
+        ]
+      },
+      {
+        "principle_id": "TECH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S09"
+        ]
+      },
+      {
+        "principle_id": "TECH05",
+        "version": "1.0.0",
+        "source_ids": [
+          "S07",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "TECH08",
+        "version": "1.0.0",
+        "source_ids": [
+          "S03",
+          "S16"
+        ]
+      },
+      {
+        "principle_id": "ACC01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "principle_id": "ACC02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S28"
+        ]
+      },
+      {
+        "principle_id": "TRUTH01",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S10"
+        ]
+      },
+      {
+        "principle_id": "TRUTH02",
+        "version": "1.0.0",
+        "source_ids": [
+          "S16",
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH03",
+        "version": "1.0.0",
+        "source_ids": [
+          "S17"
+        ]
+      },
+      {
+        "principle_id": "TRUTH04",
+        "version": "1.0.0",
+        "source_ids": [
+          "S10",
+          "S17"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "version": "stage4c0-research-v1",
+  "status": "research_snapshot_complete_pending_release_integration",
+  "date": "2026-09-29",
+  "source_count": 30,
+  "principle_count": 65,
+  "coverage": {
+    "A": [
+      "S01",
+      "S02",
+      "S05",
+      "S21",
+      "S26",
+      "S27"
+    ],
+    "B": [
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S10",
+      "S26"
+    ],
+    "C": [
+      "S03",
+      "S04",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S20",
+      "S30"
+    ],
+    "D": [
+      "S07",
+      "S13",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S29",
+      "S30"
+    ],
+    "E": [
+      "S10",
+      "S11",
+      "S12"
+    ],
+    "F": [
+      "S13",
+      "S18",
+      "S19",
+      "S23",
+      "S25"
+    ],
+    "G": [
+      "S14",
+      "S15"
+    ],
+    "H": [
+      "S10",
+      "S16",
+      "S17",
+      "S18",
+      "S19"
+    ],
+    "I": [
+      "S05",
+      "S10",
+      "S17",
+      "S20",
+      "S21",
+      "S26"
+    ],
+    "J": [
+      "S01",
+      "S02",
+      "S17",
+      "S27",
+      "S28"
+    ]
+  },
+  "teacher_configuration": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "ultra",
+    "observed_runtime_model": null,
+    "observed_runtime_reasoning": null,
+    "verification": "Requested collaboration configuration; runtime identity is not independently exposed to this agent."
+  },
+  "snapshot_scope": "Original paraphrased notes and verified bibliographic provenance, not copyrighted page-body archives",
+  "known_access_failures": [
+    {
+      "url": "https://help.lever.co/s/article/Understanding-Resume-Parsing",
+      "disposition": "Not bypassed; relied only on verified public indexed text when separately returned"
+    },
+    {
+      "url": "https://www.acm.org/code-of-ethics",
+      "disposition": "Not bypassed; relied only on verified public indexed text when separately returned"
+    }
+  ],
+  "external_training_corpora_included": 0,
+  "public_job_postings_copied": 0,
+  "private_candidate_records_used": 0
+}

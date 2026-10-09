@@ -1,0 +1,35 @@
+{
+  "case": "J12",
+  "raw_sha256": "4c32c9ede84ce70b8ea595acc3f3f67dc5c9971cba0a8988b435f776a848ee03",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "The exact GCP-only authenticated PostgreSQL serving statement is independently licensed after eight fallback proposals, despite prior selector/alternative rejections. Its assertion event differs from the AWS source container and remains explicitly GCP. Only PostgreSQL connectivity is covered; SQLite fallback, Resume AI RAG/fine-tuning, candidate-scoped vector retrieval and production-scale claims remain unlicensed. This is a concrete data-serving capability with qualified project attribution, not generic database setup.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8a6c8253de94410f8827d0e9c9cd125f3b251d51450268b3460010961c621799",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_8545333783dbadd1130f408fd7e5bdfd32706e4a98b0adc844beef4072c2579f",
+      "span": [
+        6893,
+        7042
+      ],
+      "rationale": "The exact GCP-only authenticated PostgreSQL serving statement is independently licensed after eight fallback proposals, despite prior selector/alternative rejections. Its assertion event differs from the AWS source container and remains explicitly GCP. Only PostgreSQL connectivity is covered; SQLite fallback, Resume AI RAG/fine-tuning, candidate-scoped vector retrieval and production-scale claims remain unlicensed. This is a concrete data-serving capability with qualified project attribution, not generic database setup."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 62,
+    "unit_count": 62,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 1,
+    "attempted_candidates": 8,
+    "remaining_candidates": 37,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-0-mechanical-audit-interim2.json"
+}

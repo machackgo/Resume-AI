@@ -1,0 +1,10 @@
+{
+  "case": "S05",
+  "raw_sha256": "a547e15b8d4891b6db21ed4ada715c38182bd68729e3340ac87a605d25717ea1",
+  "historical_gate_passed": false,
+  "claims": [],
+  "first_bad_stage": "licensing.component_selection",
+  "root_cause": "Literal token overlap missed a valid Dockerized APIs component for evidence phrased API and Docker containerization; it fell back to evaluating the whole conjunctive requirement. Corrected decomposition itself retained Docker/API, AWS deployment, and PostgreSQL vector search relationships.",
+  "general_fix": "Choose viable structured components using conservative capability/technology compatibility as discovery only, followed by all independent factual/content/relationship gates. Preserve explicit exclusions rather than narrowing them away.",
+  "model_work_justified": false
+}

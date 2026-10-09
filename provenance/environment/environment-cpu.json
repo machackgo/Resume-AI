@@ -1,0 +1,16 @@
+{
+  "cuda": "13.0",
+  "job": "2334208",
+  "model_source": "/scratch/mohammedmubashir/resume-ai/.venv/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py",
+  "model_source_sha256": "762feb6c7426a7f15b5bf830df54c07438bf9e7c27b8cdb23179045920412c3b",
+  "versions": {
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2",
+    "datasets": "5.0.1",
+    "peft": "0.21.0",
+    "tokenizers": "0.23.2",
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "trl": "1.13.0"
+  }
+}

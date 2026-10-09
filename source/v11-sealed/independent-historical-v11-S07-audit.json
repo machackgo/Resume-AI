@@ -1,0 +1,35 @@
+{
+  "case": "S07",
+  "raw_sha256": "fe89b4e33a536284628bb6e389caa45b00fd95102e92f3e2451270b2c9cd6f39",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "Bounded expansion recovered a substantial FastAPI/Vertex AI inference-decoupling assertion in the candidate-supplied Google Cloud AI Traffic Safety Platform section. Generic setup and the contradicted VeriBridge workflow remain rejected. The first substantial data-pipeline candidate received independent review and was rejected for the FastAPI relation; the next actual FastAPI-serving candidate was independently licensed. Its exact source states the architectural capabilities; approved GCP serving/main.py and vertex_client.py corroborate separate inference serving and local-model fallback behavior. The phrase for zero-downtime reliability describes the fallback purpose/capability, not a measured uptime SLA; no measured availability, user scale or production guarantee is inferred. This is meaningful system implementation, not package/model loading. One claim covers duplicate identical requirements with both original relationship identities retained and explicit decision reuse.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8743ee7662a06cd6467d0486ae4d67063c4fcab6a36b6cd7a22e8b1c251b07b2",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_FULL_REQUIREMENT_WITH_DUPLICATE_OCCURRENCE_LINEAGE",
+      "source_id": "source_e88692f5d3a630be2984dcbcafe0e4b67eb7a36888f192355da8b6ca18cee2fd",
+      "span": [
+        3502,
+        3730
+      ],
+      "rationale": "Bounded expansion recovered a substantial FastAPI/Vertex AI inference-decoupling assertion in the candidate-supplied Google Cloud AI Traffic Safety Platform section. Generic setup and the contradicted VeriBridge workflow remain rejected. The first substantial data-pipeline candidate received independent review and was rejected for the FastAPI relation; the next actual FastAPI-serving candidate was independently licensed. Its exact source states the architectural capabilities; approved GCP serving/main.py and vertex_client.py corroborate separate inference serving and local-model fallback behavior. The phrase for zero-downtime reliability describes the fallback purpose/capability, not a measured uptime SLA; no measured availability, user scale or production guarantee is inferred. This is meaningful system implementation, not package/model loading. One claim covers duplicate identical requirements with both original relationship identities retained and explicit decision reuse."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 80,
+    "unit_count": 80,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 2,
+    "attempted_candidates": 37,
+    "remaining_candidates": 16,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-1-mechanical-audit.json"
+}

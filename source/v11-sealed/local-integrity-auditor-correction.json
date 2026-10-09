@@ -1,0 +1,7 @@
+{
+  "issue": "Interim verifier compared digest strings to manifest {bytes,sha256} objects, falsely reporting all 1983 mismatches.",
+  "correction": "Normalize dictionary manifest entries to their sha256 fields before comparison.",
+  "evidence": "integrity-local-interim-corrected.json",
+  "prior_files_modified": false,
+  "actual_mismatches": 0
+}

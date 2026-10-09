@@ -1,0 +1,60 @@
+{
+  "arms": [
+    "Stage4A evidence-only fresh QLoRA",
+    "Stage4A + professional interleaved fresh QLoRA"
+  ],
+  "base": "models/Qwen3.8-27B",
+  "budget": "P = sum assistant-target tokens of accepted professional TRAIN; interleaved target budget 2P with P immutable Stage4A replay; match evidence-only arm to 2P within one complete-example granularity; do not truncate or silently resample professional targets beyond cap",
+  "control": "frozen base Qwen + frozen Stage3J RAG",
+  "evaluation": "Base/evidence/professional on frozen evidence tests and sealed professional tests; validation selects one checkpoint; challenge evaluated once; per-dimension scores and catastrophic gate in docs/future_training_and_evaluation.md",
+  "execute_training": false,
+  "historical_data": "datasets/stage4a/v1/train.jsonl",
+  "merge_adapters": false,
+  "mixing_unit": "assistant-target tokens",
+  "professional_data": "prospective Stage4C0 v1 train only; not pilot",
+  "professional_exposure_cap": 1,
+  "professional_task_order_weights": {
+    "ANALYZE_JOB": 10,
+    "ANSWER_APPLICATION_QUESTION": 15,
+    "DRAFT_OUTREACH": 2,
+    "GENERATE_COVER_LETTER": 8,
+    "GENERATE_RESUME": 20,
+    "GENERATE_RESUME_SECTION": 10,
+    "IDENTIFY_MISSING_INFORMATION": 7,
+    "MAP_JOB_TO_CANDIDATE": 15,
+    "REWRITE_BULLET_FOR_JOB": 3,
+    "SELECT_RESUME_CONTENT": 10
+  },
+  "professional_token_fraction": 0.5,
+  "qlora_proposal": {
+    "alpha": 16,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "bias": "none",
+    "dropout": 0.05,
+    "eps": 1e-08,
+    "gradient_accumulation": 2,
+    "learning_rate": 5e-05,
+    "loss": "assistant-only causal loss; prompt/RAG masked",
+    "max_complete_sequence": 4233,
+    "memory_strategy": "reuse audited Stage4B nonreentrant checkpointing, frozen BF16 embeddings/head, FP32 1D parameters, CPU activation offload and 64-supervised-position checkpointed vocabulary loss",
+    "microbatch": 1,
+    "optimizer": "bitsandbytes PagedAdamW8bit",
+    "packing": false,
+    "quantization": "NF4 double-quantized 4bit BF16 compute",
+    "rank": 8,
+    "resource": "one A30 only, future stage",
+    "scheduler": "constant for first matched-budget experiment",
+    "targets": "same audited 64 q_proj/k_proj/v_proj/o_proj modules as Stage4B",
+    "trainable_parameter_assertion": 5242880,
+    "truncation": false,
+    "weight_decay": 0.01
+  },
+  "sampling": "prioritize declared task weights while examples remain; exhaust at most once, report realized token weights rather than claim impossible exact proportions",
+  "seed": 430001,
+  "stage4a_token_fraction": 0.5,
+  "status": "DESIGN_ONLY_REQUIRES_READY_DATA_AND_SEPARATE_TRAINING_AUTHORIZATION",
+  "version": "stage4c0-future-experiment-v1"
+}

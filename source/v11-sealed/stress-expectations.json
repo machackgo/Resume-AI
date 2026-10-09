@@ -1,0 +1,57 @@
+{
+  "registered_at": "2026-10-07T15:16:29.456395+00:00",
+  "before_stress_execution": true,
+  "cases": [
+    {
+      "id": "S01",
+      "category": "unsupported_skill",
+      "expected_behavior": "No positive Erlang experience claim; UNKNOWN/insufficient-evidence failure is safe but not completion."
+    },
+    {
+      "id": "S02",
+      "category": "ambiguous_name",
+      "expected_behavior": "Do not silently equate Go with GCP or another technology. Ambiguity or absent evidence must remain explicit."
+    },
+    {
+      "id": "S03",
+      "category": "long_jd",
+      "expected_behavior": "Preserve input and handle within declared budgets. An explicit preflight resource-limit failure is legitimate; generation truncation or incomplete requirement coverage is a robustness failure."
+    },
+    {
+      "id": "S04",
+      "category": "buried_evidence",
+      "expected_behavior": "Preserve relevant FastAPI evidence amid irrelevant terms; no invented ownership, deployment or stack."
+    },
+    {
+      "id": "S05",
+      "category": "multiple_requirements",
+      "expected_behavior": "Preserve all action/technology components and relations; partial evidence must not become full compound support."
+    },
+    {
+      "id": "S06",
+      "category": "distributed_sources",
+      "expected_behavior": "Allow evidence from distinct sources without losing provenance; do not invent a shared project or unsupported technology."
+    },
+    {
+      "id": "S07",
+      "category": "duplicate_evidence",
+      "expected_behavior": "Keep duplicate requirement occurrences traceable and generated claim IDs unique; preserve source provenance."
+    },
+    {
+      "id": "S08",
+      "category": "wrong_similar_skill",
+      "expected_behavior": "Do not infer Redis vector search from SQLite similarity; no unsupported Redis claim."
+    },
+    {
+      "id": "S09",
+      "category": "weak_to_strong",
+      "expected_behavior": "No unsupported personal leadership, 70B model, ten-million-user scale or 99.99% uptime claim."
+    },
+    {
+      "id": "S10",
+      "category": "multi_component",
+      "expected_behavior": "Both RAG and fine-tuning plus deployed PostgreSQL must be supported in the required scope before full support; partial matches cannot license the complete conjunction."
+    }
+  ],
+  "blocked_cases_never_count_as_pipeline_completion": true
+}

@@ -1,0 +1,37 @@
+{
+  "version": "stage4c0-catalog-v2",
+  "status": "frozen_prospective_inputs_before_full_teacher_generation",
+  "authored_on": "2026-09-29",
+  "rationale": "Prospective input audit found universal CS bachelor credentials, repeated career scaffolds, missing explicit project origins, and limited contradiction/motivation/personal-field/large-history coverage. No full teacher targets were consulted.",
+  "records": 155,
+  "retained_technical_scenarios": 143,
+  "new_records": 12,
+  "source_sha256": "c4dad9409f41c36f64adec619a09ade06c79212853ed46107bfd0d045048a21e",
+  "parents_and_protected_inputs_sha256": {
+    "pool.jsonl": "59272b81d5cb6f6f3f56078fb1b5dbd9aca9b8b7d73806436e0745002c7752e4",
+    "pool-expansion-v1.jsonl": "15211a473ae21296cfe0684cec94be475a2dbe2bcee8cdb74196c1976a1b5da1",
+    "heldout-coverage-v1.2.jsonl": "4282d0501e29b0a4a81bfbb3b7db33ee2ef70b46c0e66e014dcd29b26003c974",
+    "pilot.jsonl": "17eed430febc34d5cd99015edf0a39c4851cfd1777129927eac1dd8fbc331d2c",
+    "challenge.jsonl": "17f80afa54949e3d04bce68bf09827f3bea3f98c911b1a667146f735f8188685"
+  },
+  "sha256": {
+    "catalog.jsonl": "97b88b6e04ebf1e19400046261d19fb12a44998deb58db2c12b95921573cd579",
+    "catalog_inputs.jsonl": "e3333d694b23325c54868439cd645474947cca94c104787b062548452fd782e3"
+  },
+  "full_teacher_outputs_consulted": false,
+  "pilot_modified": false,
+  "challenge_modified": false,
+  "teacher_target_generation_performed": false,
+  "selection_policy": "Use catalog v2 instead of the original full143+additions; never concatenate v1 and v2 as independent evidence.",
+  "coverage_saturation_claim": false,
+  "audit": {
+    "status": "PASS",
+    "records": 155,
+    "splits": {
+      "train": 125,
+      "validation": 14,
+      "test": 16
+    },
+    "maximum_rag_characters": 246
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "case": "J08",
+  "raw_sha256": "cbf205ae41d65545f166b85c5e15d72727f3e21c24c4fd143c9cae494b08edbf",
+  "claims": [
+    {
+      "claim_id": "resume_claim_fe6dffbea3e4e1462dae3218e73463be25268569dd75921f596fa3a1997dbd26",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "rationale": "Canonical resume VeriBridge section supports product-flow architecture and named technologies. Project README confirms stack and purpose; implementation limitations do not contradict a design-only claim. Exact final link is only Next.js/TypeScript in VeriBridge; QA/API-build links rejected. This is substantive system architecture, not folder/framework setup. No completed implementation is asserted.",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        1559,
+        1761
+      ]
+    }
+  ],
+  "semantic_annotation_issue": "Object annotation stops at internal period in Next.js and records Next. Full original requirement/technology and final link remain correct, but dotted identifiers need general punctuation-safe relationship annotation before final gate."
+}

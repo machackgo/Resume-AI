@@ -1,0 +1,22 @@
+{
+  "case": "J18",
+  "raw_sha256": "5b7b0ea6fda0ab5584234fbf9b3800f801f3a52e07b2db1ff79a07d784362f00",
+  "case_passed": true,
+  "rationale": "The exact GCP-only PostgreSQL connector assertion is correctly separated from its AWS source-container identity. Independent fallback accepts the PostgreSQL-connectivity component after the incompatible candidate, without claiming same-event SQLite fallback, Resume-AI pgvector, Kubernetes or Terraform. Canonical source span and explicit On GCP scope match the independently audited historical connector evidence. The concrete authenticated data-serving capability is a valid narrow bullet.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_8a6c8253de94410f8827d0e9c9cd125f3b251d51450268b3460010961c621799",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_8545333783dbadd1130f408fd7e5bdfd32706e4a98b0adc844beef4072c2579f",
+      "span": [
+        6893,
+        7042
+      ],
+      "rationale": "The exact GCP-only PostgreSQL connector assertion is correctly separated from its AWS source-container identity. Independent fallback accepts the PostgreSQL-connectivity component after the incompatible candidate, without claiming same-event SQLite fallback, Resume-AI pgvector, Kubernetes or Terraform. Canonical source span and explicit On GCP scope match the independently audited historical connector evidence. The concrete authenticated data-serving capability is a valid narrow bullet."
+    }
+  ]
+}

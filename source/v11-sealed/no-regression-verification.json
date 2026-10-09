@@ -1,0 +1,65 @@
+{
+  "regression": {
+    "passed": 534,
+    "failed": 1,
+    "skipped": 46,
+    "protected_blocked": 3,
+    "skipped_reasons": {
+      "CPU prepared artifacts not yet built": 1,
+      "retrieval artifacts required": 44,
+      "prepared artifacts not yet built; mandatory final check runs these": 1
+    },
+    "protected_checks": [
+      "test_dataset_integrity (test_embedding_eval.EvaluationTests.test_dataset_integrity)",
+      "test_demonstration (test_ingestion.IngestionTests.test_demonstration)",
+      "test_fixture_distinctions (test_reranking.RerankingTests.test_fixture_distinctions)"
+    ],
+    "note": "The original CPU suite passed before inference. A new general regression derived from the independent full-suite audit reproduces premature discovery-membership rejection; the two preservation checks pass. No application change or new GPU request followed this finding. Legacy skips and protected blocks remain separately counted.",
+    "tests_accounted": 584,
+    "base_suite": {
+      "passed": 532,
+      "failed": 0,
+      "skipped": 46,
+      "protected_blocked": 3
+    },
+    "additional_contract_regression": {
+      "passed": 2,
+      "failed": 1,
+      "source": "discovery-license-regression-results.json"
+    },
+    "passed_gate": false,
+    "test_executions": 582,
+    "skip_events": 46,
+    "individual_test_skips": 44,
+    "class_setup_skips": 2,
+    "accounting_correction": "Verbose log contains 532 successful tests. unittest testsRun excludes two class setup skip events; subtracting all 46 skips from testsRun undercounted passes by two. Raw results and original CPU gate preserved."
+  },
+  "mechanical_failures": 0,
+  "controls_passed": 40,
+  "controls_failed": 0,
+  "canonical_context_span_checks": 2684,
+  "maximum_input_tokens": 8191,
+  "input_limit": 8192,
+  "embedding_failures": 0,
+  "evidence_id_collision_failures": 0,
+  "candidate_isolation_failures": 0,
+  "contradiction_blocking_failures": 0,
+  "protected_runtime_open_successes": 0,
+  "protected_cpu_checks_denied": 3,
+  "protected_metadata_files_unchanged": 894,
+  "frozen_artifacts_unchanged": true,
+  "benchmark_inputs_unchanged": true,
+  "application_changes_after_reconciliation": 0,
+  "evidence": [
+    "full-v1-acceptance-metrics.json",
+    "integrity-local-final.json",
+    "integrity-remote-final.json",
+    "checkpoint-integrity-final.json",
+    "integrity-remote-history-final.json",
+    "protected-metadata-final.json",
+    "application-continuation-integrity.json",
+    "input-integrity.json"
+  ],
+  "semantic_gate_passed": false,
+  "note": "Mechanical integrity is healthy. Semantic no-regression is not globally passed: see remaining-root-cause-blockers.json. Legacy skipped checks were not counted as passed."
+}

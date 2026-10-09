@@ -1,0 +1,52 @@
+{
+  "case": "J14",
+  "raw_sha256": "3296b9a4a5457b8d8d44d012e4773718055dfd4cc0373a3317b4013c42c9d61b",
+  "historical_failure_reproduced": false,
+  "case_passed": true,
+  "rationale": "Both exact docstrings are corroborated by actual state_cnn/buttons_cnn Conv2d branches and concatenated action-logit head in the same canonical model.py. They describe numeric state/features and button history, not images. Final licensing covers only the two-branch CNN component; image-processing and PPO/reward-training requirements remain unlicensed. A stronger DRL-framework assertion is independently contradicted and rejected. Specific implemented architecture is a valid narrow capability with qualified project attribution. Two identical wordings from separate canonical spans are a minor presentation duplication, not additional achievements.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_62eaf342fc40a06db11a20dc5d6c6c3b60cb53444d6ead1bb4c479eed1dd3956",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        114,
+        187
+      ],
+      "rationale": "Both exact docstrings are corroborated by actual state_cnn/buttons_cnn Conv2d branches and concatenated action-logit head in the same canonical model.py. They describe numeric state/features and button history, not images. Final licensing covers only the two-branch CNN component; image-processing and PPO/reward-training requirements remain unlicensed. A stronger DRL-framework assertion is independently contradicted and rejected. Specific implemented architecture is a valid narrow capability with qualified project attribution. Two identical wordings from separate canonical spans are a minor presentation duplication, not additional achievements."
+    },
+    {
+      "claim_id": "resume_claim_dfe6cef4cf0e48ecd1f2b3411d34f2b3912f206c5d514b058b59c94f7622d6bf",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2b006b53f6c8b3782043b79034bcb23fef27b53f4832a2ad052e9305ff6c86b5",
+      "span": [
+        2025,
+        2098
+      ],
+      "rationale": "Both exact docstrings are corroborated by actual state_cnn/buttons_cnn Conv2d branches and concatenated action-logit head in the same canonical model.py. They describe numeric state/features and button history, not images. Final licensing covers only the two-branch CNN component; image-processing and PPO/reward-training requirements remain unlicensed. A stronger DRL-framework assertion is independently contradicted and rejected. Specific implemented architecture is a valid narrow capability with qualified project attribution. Two identical wordings from separate canonical spans are a minor presentation duplication, not additional achievements."
+    }
+  ],
+  "fallback": {
+    "discovered_unit_count": 72,
+    "unit_count": 72,
+    "pool_limit": 128,
+    "max_attempts": 12,
+    "provenance_policy": "Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed",
+    "review_calls": 5,
+    "attempted_candidates": 7,
+    "remaining_candidates": 14,
+    "stop_reason": "recovery_complete"
+  },
+  "mechanical_audit": "historical-v11-shard-1-mechanical-audit-interim2.json",
+  "minor_issues": [
+    "Identical supported wording is repeated from two canonical source spans."
+  ]
+}

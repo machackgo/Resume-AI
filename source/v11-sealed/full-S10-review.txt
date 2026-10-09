@@ -1,0 +1,5 @@
+
+CASE S10 STATUS FAILED SHA e4332f285648b97055dd25b64ff0422bc6fb594cac9ffac769f63307ae3f9c6e ERROR {'type': 'ValueError', 'message': 'no grounded resume content selected; No identity/capability/action-compatible requirement relationship; Procedure or prospective work is not an achieved activity; Technology/component label without demonstrated action or system capability; Internal evaluation mechanics or policy is supporting context only; Tool usage alone does not demonstrate a substantive system contribution'}
+REQUIREMENTS [('req_485059c2b77493d6', 'Implemented both retrieval augmented generation and fine-tuning for a deployed PostgreSQL-backed application.')]
+FALLBACK {'discovered_unit_count': 115, 'unit_count': 115, 'pool_limit': 128, 'max_attempts': 12, 'provenance_policy': 'Canonical source/hash/scope verified; quote-level attempts; every candidate independently licensed', 'review_calls': 0, 'attempted_candidates': 91, 'remaining_candidates': 0, 'stop_reason': 'pool_exhausted'}
+COVERAGE [('req_485059c2b77493d6', 'UNSUPPORTED', True)]

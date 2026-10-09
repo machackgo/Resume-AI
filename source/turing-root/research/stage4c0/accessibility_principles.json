@@ -1,0 +1,88 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "accessibility",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "ACC01",
+      "version": "1.0.0",
+      "principle": "Represent section hierarchy and reading sequence explicitly before document rendering.",
+      "provenance": [
+        {
+          "source_id": "S27",
+          "source_url": "https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3"
+        },
+        {
+          "source_id": "S28",
+          "source_url": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Ordered semantic structure; renderer later verifies PDF/DOCX reading order.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ACC02",
+      "version": "1.0.0",
+      "principle": "Use descriptive real headings rather than relying only on font size, color or visual placement.",
+      "provenance": [
+        {
+          "source_id": "S28",
+          "source_url": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Structured section labels map to semantic document headings.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ACC03",
+      "version": "1.0.0",
+      "principle": "Accessibility and ATS checks overlap but neither guarantees the other.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S27",
+          "source_url": "https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Report separate text-extraction, reading-order and parser-specific results.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ACC04",
+      "version": "1.0.0",
+      "principle": "Structured content validation cannot certify the accessibility of a future binary document.",
+      "provenance": [
+        {
+          "source_id": "S27",
+          "source_url": "https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3"
+        },
+        {
+          "source_id": "S28",
+          "source_url": "https://www.w3.org/WAI/tutorials/page-structure/headings/"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "PDF/DOCX tagging, reading order and assistive-technology checks remain File Generator responsibilities.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

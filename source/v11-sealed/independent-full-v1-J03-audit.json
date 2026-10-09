@@ -1,0 +1,22 @@
+{
+  "case": "J03",
+  "raw_sha256": "8e854fd7d3e01460c02d13523ddb3d79174d6b208d0359b85b89471e512d59cc",
+  "case_passed": true,
+  "rationale": "The qualified course-project overview is supported by canonical CS3 documentation and implementation. Only the question-answering component is licensed; BERT/FastAPI specificity, personal fine-tuning and production Kubernetes/Terraform are not claimed. The stronger candidate model/latency deployment bundle was rejected before this independently licensed fallback. General Grafana visualization is distinct from the unresolved completed custom inference-dashboard assertion.",
+  "claims": [
+    {
+      "claim_id": "resume_claim_25e731c9dedabf7c8b95f61f99f7c3b76381e39685367d52ca13eba241f440d8",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED_PARTIAL_COMPONENT",
+      "source_id": "source_2c30a6901d880ddfd886b296bd743caccc227e136c59b6e1b3cd78ad44ece120",
+      "span": [
+        86,
+        557
+      ],
+      "rationale": "The qualified course-project overview is supported by canonical CS3 documentation and implementation. Only the question-answering component is licensed; BERT/FastAPI specificity, personal fine-tuning and production Kubernetes/Terraform are not claimed. The stronger candidate model/latency deployment bundle was rejected before this independently licensed fallback. General Grafana visualization is distinct from the unresolved completed custom inference-dashboard assertion."
+    }
+  ]
+}

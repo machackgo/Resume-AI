@@ -1,0 +1,13 @@
+{
+  "tests_run": 3,
+  "passed": 2,
+  "failed": 1,
+  "skipped": 0,
+  "failures": [
+    {
+      "test": "test_discovery_bookkeeping_cannot_veto_unlicensed_pair (__main__.DiscoveryLicenseBoundary.test_discovery_bookkeeping_cannot_veto_unlicensed_pair)",
+      "error": "Traceback (most recent call last):\n  File \"/Users/mohammedmubashiruddinfaraz/resume-ai-semantic-validation-20261008/test_discovery_license_boundary.py\", line 24, in test_discovery_bookkeeping_cannot_veto_unlicensed_pair\n    self.assertNotIn((quote_key(q['quote']), 'frontend_requirement'), links,\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                     'No independent license has evaluated this canonical evidence/requirement pair.')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('designed a typed web interface for authenticated account views.', 'frontend_requirement') unexpectedly found in {('designed a typed web interface for authenticated account views.', 'frontend_requirement')} : No independent license has evaluated this canonical evidence/requirement pair.\n"
+    }
+  ],
+  "purpose": "New general contract regression derived from independent full-suite audit; application unchanged."
+}

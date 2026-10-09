@@ -1,0 +1,23 @@
+{
+  "version": "stage4c0-heldout-coverage-v1.1",
+  "authored_on": "2026-09-29",
+  "status": "frozen_inputs_before_final_target_generation",
+  "rationale": "Preregistered input-coverage audit: validation lacked job analysis, semantic/personal application answers, missing-information and outreach; test lacked selection, cover letters and outreach. This expansion addresses task coverage, not observed model performance.",
+  "supersedes": "stage4c0-heldout-coverage-v1",
+  "systemic_correction": "Make independently authored JD employer labels consistent with supplied company-context labels before any teacher target is generated.",
+  "records": 10,
+  "validation": 6,
+  "test": 4,
+  "new_families": 5,
+  "teacher_outputs_accessed": false,
+  "pilot_outputs_accessed": false,
+  "challenge_targets_accessed": false,
+  "original_catalogs_modified": false,
+  "source_sha256": "b2d387617cfe3b20ae90f0cacf24ce107c9d86bf672a5c7ed01a0bcdd9fae15d",
+  "factory_dependency_sha256": "578720bede7eaea1e789618650500e7a38175dea0104705a344669b678815f1e",
+  "sha256": {
+    "heldout-coverage-v1.1.jsonl": "9580eaf14fb7355d415362df87b75d94890b7ade4c2d091eeae66ee7af43a2f0",
+    "heldout-coverage-v1.1-inputs.jsonl": "14048b1a9e3a51ac7229aee40add5e1d48da3f64d28455f8d4e1704bd354113e"
+  },
+  "evaluation_limitation": "Task coverage is established, not statistically precise per-task performance. One or a few examples per held-out function give wide uncertainty; report failures individually and do not infer reliable population accuracy."
+}

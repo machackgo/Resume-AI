@@ -1,0 +1,68 @@
+[
+  {
+    "stage": "TOKEN_CONTEXT",
+    "evidence": "run-ledger.json / historical-v2",
+    "cause": "Token packing measured an obsolete one-pass prompt rather than both actual review envelopes.",
+    "repair": "Pack against maximum of actual factual/content envelopes."
+  },
+  {
+    "stage": "LICENSING",
+    "evidence": "historical-v3/control-nested_classifier_component.json",
+    "cause": "Unmet broader parent modifiers reintroduced as the decision target despite a correct narrower component.",
+    "repair": "Immutable target payload plus retained parent lineage; binding constraints prevent projection."
+  },
+  {
+    "stage": "FALLBACK",
+    "evidence": "historical-v4/case-J08.json",
+    "cause": "Malformed initial selector prevented independent canonical recovery.",
+    "repair": "Quarantine invalid selection; bounded canonical candidates receive independent license."
+  },
+  {
+    "stage": "LICENSING",
+    "evidence": "historical-v5/case-J08.json",
+    "cause": "Architecture was strengthened into completed implementation.",
+    "repair": "Action-strength veto and per-link rejection scope."
+  },
+  {
+    "stage": "IDENTITY",
+    "evidence": "historical-v6/case-J09.json",
+    "cause": "Source-container cloud ownership was assigned to an explicitly different assertion event.",
+    "repair": "Separate source owner from literal assertion scope; no invented target project."
+  },
+  {
+    "stage": "FALLBACK",
+    "evidence": "historical-v6/case-J12.json",
+    "cause": "Deterministic non-model rejections prematurely spent model-review budget.",
+    "repair": "Count actual model-reviewed candidates separately; keep original pool and inference bounds."
+  },
+  {
+    "stage": "DECOMPOSITION",
+    "evidence": "independent-historical-v7-J08-audit.json",
+    "cause": "Dotted object identifier was truncated at internal period.",
+    "repair": "Sentence punctuation boundary excludes internal identifier periods."
+  },
+  {
+    "stage": "IDENTITY / LICENSING",
+    "evidence": "independent-historical-v7-J12-audit.json",
+    "cause": "Unrelated secondary evidence supplied a missing technology without project/event proof.",
+    "repair": "Secondary typed assertion identities and positive-support firewall; technology-specific claim compatibility."
+  },
+  {
+    "stage": "DECOMPOSITION / LICENSING",
+    "evidence": "independent-historical-v7-S05-audit.json",
+    "cause": "Inflection prevented discovery of a valid structured component.",
+    "repair": "Capability/technology-compatible component discovery followed by independent licensing, preserving all exclusions."
+  },
+  {
+    "stage": "CAPABILITY",
+    "evidence": "historical-v7-J15-review.txt",
+    "cause": "Docker image overloaded the visual-image capability term.",
+    "repair": "Exclude nonvisual deployment/disk image senses while retaining actual visual-processing evidence."
+  },
+  {
+    "stage": "PROVENANCE",
+    "evidence": "iterations/cpu-22-before-whitespace-fix/test-results.json; historical-v8-shard-1-mechanical-audit-interim1.json",
+    "cause": "Secondary assertion end offset included trailing whitespace removed from text.",
+    "repair": "End offset excludes exactly the stripped trailing whitespace; whole source/context unchanged."
+  }
+]

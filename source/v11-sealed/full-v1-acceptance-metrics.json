@@ -1,0 +1,294 @@
+{
+  "suite": "unchanged full-v7: 20 original + 10 stress",
+  "cases": [
+    {
+      "case": "J01",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "7b591aeef3a7ee7576f26fe23ff8dba3a5fe66350f001596147f65b4d3d73cb6"
+    },
+    {
+      "case": "J02",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": false,
+      "outcome_kind": null,
+      "raw_sha256": "8ee4081d2e26448c29c121a6d664b67d0c653fea2ada76598cbc25e5f0e6a8ac"
+    },
+    {
+      "case": "J03",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "8e854fd7d3e01460c02d13523ddb3d79174d6b208d0359b85b89471e512d59cc"
+    },
+    {
+      "case": "J04",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": false,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "12e4e17227c2293ec5d86a1cf7111d0ccc806199d8e2a4d8b293c8b85c07fc8b"
+    },
+    {
+      "case": "J05",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "935bdf413fef9b9986c8c0070f48cd9c934a56a812d07386cf4b8f86c47063b5"
+    },
+    {
+      "case": "J06",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "85138d75f3998c563fbe2674429d7585481286df1ba0f991bb016199dfb8b012"
+    },
+    {
+      "case": "J07",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": false,
+      "outcome_kind": null,
+      "raw_sha256": "78298150a6e48caff073ed76b936b122eb13872d40a1a129d806fb73ceb63afa"
+    },
+    {
+      "case": "J08",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "e4a9a07a02bee49fd28bc52b8ffbe3de4108c8b0d7446e1804b1d5c9aabf6465"
+    },
+    {
+      "case": "J09",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "ca4965e757021a93b99a4f1c0348b8b1ceb6516911a28e9162ac745df822bbeb"
+    },
+    {
+      "case": "J10",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "2bc63cbdb91809a6d4750a809d392d2eb99b2ecac25f1447a0380986c4536cb4"
+    },
+    {
+      "case": "J11",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": false,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "da9618850fe1c4b0dfd5f4f85260b71b6b0fd1180eaf824bd01401b86dbe6759"
+    },
+    {
+      "case": "J12",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "4c32c9ede84ce70b8ea595acc3f3f67dc5c9971cba0a8988b435f776a848ee03"
+    },
+    {
+      "case": "J13",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": false,
+      "outcome_kind": null,
+      "raw_sha256": "773ec7f55f3ad36a53113db06de3f53733dfe23f8e31cf9f94c79bd0f56326be"
+    },
+    {
+      "case": "J14",
+      "runtime_status": "COMPLETE",
+      "claims": 2,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "3296b9a4a5457b8d8d44d012e4773718055dfd4cc0373a3317b4013c42c9d61b"
+    },
+    {
+      "case": "J15",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "f4c85268626d2e2fdfdebe753165d942463590f137f81db5917f64cd20569437"
+    },
+    {
+      "case": "J16",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "b53f80fbf4fe89ff04464cc718e801cbb106a44f514c36e9566220b2a0c60d9a"
+    },
+    {
+      "case": "J17",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "f3f40d143861c5869e788fa34daed40f20f52e7e38318322220c62ec843fd86c"
+    },
+    {
+      "case": "J18",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "5b7b0ea6fda0ab5584234fbf9b3800f801f3a52e07b2db1ff79a07d784362f00"
+    },
+    {
+      "case": "J19",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": false,
+      "outcome_kind": null,
+      "raw_sha256": "69bcb01f115ea9524f5baf92e8f1511c6e9cd1259fbde56dc48ba58e5c197021"
+    },
+    {
+      "case": "J20",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "417fd1721f3613bbf7c3ca013f94102da7bb9ea517ac8070f89dc7d1cea50a41"
+    },
+    {
+      "case": "S01",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "158161d5f23fe79b103ea3badbe0f79628e9b7cc097b5fc3f7b31727cb9bfcae"
+    },
+    {
+      "case": "S02",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "27c70a4c0a0344b357835b65251d36824603368aed049a84fd8936b77f55b674"
+    },
+    {
+      "case": "S03",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "8c0faaacffcfe5783520dcea9e16e99b870a230b10c9edf992c5e94232dcf079"
+    },
+    {
+      "case": "S04",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": false,
+      "outcome_kind": null,
+      "raw_sha256": "f876db4d3be6b8ff4d755551a03447cb2e85dd2cf4a80502298777c487a39dc9"
+    },
+    {
+      "case": "S05",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "8174fd787e5ac4d6c17342bae895dbe2fbe912d65eac531df24cc8f871d7788c"
+    },
+    {
+      "case": "S06",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "dde7758a0c4b788da1c622672491dca6e36bf66d67ebaf53879e7eee5b600fa3"
+    },
+    {
+      "case": "S07",
+      "runtime_status": "COMPLETE",
+      "claims": 1,
+      "independent_passed": true,
+      "outcome_kind": null,
+      "raw_sha256": "fe89b4e33a536284628bb6e389caa45b00fd95102e92f3e2451270b2c9cd6f39"
+    },
+    {
+      "case": "S08",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "e205604dd2b2e7429a8f6bf69e20de033bcf1a035a85bb1fcb1749c6288fd245"
+    },
+    {
+      "case": "S09",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "94e7f10b27fc6c62a237905052a2068707b58af71be5cdbfb6e035775a528d16"
+    },
+    {
+      "case": "S10",
+      "runtime_status": "FAILED",
+      "claims": 0,
+      "independent_passed": true,
+      "outcome_kind": "SAFE_ABSTENTION",
+      "raw_sha256": "e4332f285648b97055dd25b64ff0422bc6fb594cac9ffac769f63307ae3f9c6e"
+    }
+  ],
+  "runtime_status": {
+    "COMPLETE": 22,
+    "FAILED": 8
+  },
+  "claims_audited": 23,
+  "unique_claim_ids": 10,
+  "dimensions": {
+    "factual_class": {
+      "SUPPORTED": 19,
+      "PARTIALLY SUPPORTED": 4
+    },
+    "content_class": {
+      "STRONG ACHIEVEMENT": 7,
+      "VALID NARROW BULLET": 16
+    },
+    "identity_class": {
+      "CORRECT PROJECT/EVENT": 23
+    },
+    "capability_class": {
+      "COMPATIBLE": 23
+    },
+    "relationship_class": {
+      "SUPPORTED_PARTIAL_COMPONENT": 14,
+      "OVERSTATED_SPECIFIC_REQUIREMENT": 1,
+      "PARTIAL_PENDING_FACTUAL_SCOPE_RESOLUTION": 4,
+      "SUPPORTED_FULL_REQUIREMENT": 1,
+      "SUPPORTED_PARTIAL_COMPONENTS": 1,
+      "SUPPORTED": 1,
+      "SUPPORTED_FULL_REQUIREMENT_WITH_DUPLICATE_OCCURRENCE_LINEAGE": 1
+    }
+  },
+  "pipeline_requirement_coverage": {
+    "UNSUPPORTED": 170,
+    "OMITTED": 170,
+    "PARTIALLY_SUPPORTED": 28
+  },
+  "coverage_note": "Pipeline coverage is conservative final-claim coverage, not a finding that the corpus lacks every omitted capability. Repeated raw requirement occurrences are counted.",
+  "controls_passed": 40,
+  "controls_failed": 0,
+  "mechanical_failures": 0,
+  "model_calls": 215,
+  "maximum_input_tokens": 8191,
+  "canonical_context_checks": 2684,
+  "independently_passed_cases": 23,
+  "independently_failed_cases": 7,
+  "independent_audit_complete": true,
+  "reused_valid_fresh_historical_cases": 8,
+  "newly_generated_remaining_cases": 22,
+  "all_cases_passed": false
+}

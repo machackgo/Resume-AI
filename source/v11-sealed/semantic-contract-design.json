@@ -1,0 +1,15 @@
+{
+  "principle": "Retrieve broadly; license narrowly.",
+  "identity": {
+    "primary": "Candidate, canonical evidence, source version/span, section entity and explicit assertion event remain bound. Source-container ownership is distinct from an explicitly described other event.",
+    "secondary": "Each review source has a typed assertion anchor. Positive support requires the same candidate and compatible project/event identity. Unrelated windows remain available as counterevidence; they cannot supply positive factual support.",
+    "final": "Exact source quote, attribution, heading, semantic identity, parent requirement and evaluated component relationships are preserved."
+  },
+  "retrieval": "Existing embeddings, vectors, evidence IDs and retrieval architecture remain unchanged. Decomposition preserves coordinated action/object/technology relationships.",
+  "eligibility": "Source truth and resume worthiness are independent. Setup/tool labels cannot become standalone bullets. Specific system capabilities can qualify without numeric impact. Legacy runtime A denotes a fully supported eligible exact quote; independent audit distinguishes strong achievement from valid narrow bullet. Runtime B means the actual quote needs narrowing and is not emitted unchanged.",
+  "licensing": "Deterministic candidate/provenance/identity/capability/technology/action gates plus separate BASE factual and content/component reviews. Model rejection, ambiguity and contradiction vetoes remain binding. Similarity only orders discovery. Supporting setup/code technology anchors may corroborate a substantive same-event capability only when independently cited by the content review; they never become standalone achievements. Explicit platform events must match exactly, and unavailable corroboration fails closed.",
+  "fallback": "Each bounded canonical candidate is licensed independently. Discovery query does not restrict later valid requirement links. Deterministic vetoes do not spend the 12 model-reviewed-candidate budget. Pool bound remains 128. After pool exhaustion, existing exact queries retry at depths 40 and 80, under unchanged 128-unit/12-model-review bounds; original engine configuration is unchanged.",
+  "relationships": "Immutable full requirement and lineage remain in traces. A positive component decision covers only that component. Binding exclusion/professional/time constraints prevent projection. Dotted names and technology paraphrases retain meaning.",
+  "omission": "Requirements with no final license are omitted. Empty resumes remain unusable; partial coverage with useful supported content is not automatically a pipeline failure.",
+  "verification": "CPU gates precede fresh approved BASE inference; historical independent audit precedes full unchanged acceptance. Four final claim dimensions are audited independently of runtime self-labels."
+}

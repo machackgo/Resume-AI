@@ -1,0 +1,225 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "resume",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "RES01",
+      "version": "1.0.0",
+      "principle": "Select experiences for the target work instead of reproducing every true fact.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Content selection points to job requirements and bounded relevant evidence.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES02",
+      "version": "1.0.0",
+      "principle": "Use action, concrete task and supported result or purpose; an accomplishment need not contain a number.",
+      "provenance": [
+        {
+          "source_id": "S04",
+          "source_url": "https://careerdevelopment.princeton.edu/advanced-degree-resume-guide/accomplishment-statements"
+        },
+        {
+          "source_id": "S07",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-crafting-an-effective-resume/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Bullet identifies actual contribution; invented outcome or metric fails.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES03",
+      "version": "1.0.0",
+      "principle": "Choose verbs that preserve the candidate’s actual role and ownership.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        },
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Studied, used, consumed, implemented, operated and led remain distinguishable.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES04",
+      "version": "1.0.0",
+      "principle": "Use present tense for ongoing work and past tense for completed contributions.",
+      "provenance": [
+        {
+          "source_id": "S04",
+          "source_url": "https://careerdevelopment.princeton.edu/advanced-degree-resume-guide/accomplishment-statements"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Tense is compatible with event timing.",
+      "exceptions_or_limits": [
+        "A completed accomplishment in a current job can use past tense."
+      ]
+    },
+    {
+      "principle_id": "RES05",
+      "version": "1.0.0",
+      "principle": "Resume length depends on experience, purpose and explicit application instructions.",
+      "provenance": [
+        {
+          "source_id": "S05",
+          "source_url": "https://capd.mit.edu/blog/2026/06/23/interphase-2026-resume-resources/"
+        },
+        {
+          "source_id": "S06",
+          "source_url": "https://capd.mit.edu/resources/cvs/"
+        },
+        {
+          "source_id": "S26",
+          "source_url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": "Concise one page for many early-career cases; allow two pages when relevant experience warrants it.",
+      "observable_check": "Length preference and destination constraints preserved.",
+      "exceptions_or_limits": [
+        "Academic CVs differ; current US federal instructions cap resumes at two pages."
+      ]
+    },
+    {
+      "principle_id": "RES06",
+      "version": "1.0.0",
+      "principle": "Use a summary only if it adds specific supported positioning beyond nearby sections.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "medium",
+      "scope": "context_dependent",
+      "conservative_default": "Optional; omit a generic summary.",
+      "observable_check": "Summary adds relevant information without unsupported seniority or experience totals.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES07",
+      "version": "1.0.0",
+      "principle": "Preserve exact employment, education, credentials and chronology; tailoring changes emphasis rather than history.",
+      "provenance": [
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Structured facts and evidence match every emitted identity/date/credential.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES08",
+      "version": "1.0.0",
+      "principle": "Avoid first-person pronouns and generic responsibilities when specific contributions are available.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": "Concise action-led bullets.",
+      "observable_check": "Soft writing review; natural valid variation is allowed.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES09",
+      "version": "1.0.0",
+      "principle": "Check the whole document for repeated achievements and consistent terminology.",
+      "provenance": [
+        {
+          "source_id": "S05",
+          "source_url": "https://capd.mit.edu/blog/2026/06/23/interphase-2026-resume-resources/"
+        },
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Same-event repetition is justified or removed across sections.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "RES10",
+      "version": "1.0.0",
+      "principle": "Keep sensitive personal attributes off a typical US industry resume unless the user specifically requires appropriate inclusion.",
+      "provenance": [
+        {
+          "source_id": "S03",
+          "source_url": "https://capd.mit.edu/resources/resumes/"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "No inferred age, health, religion, family status or demographic facts.",
+      "exceptions_or_limits": [
+        "Geographic conventions and legitimate application instructions differ; route uncertain cases to user review."
+      ]
+    },
+    {
+      "principle_id": "RES11",
+      "version": "1.0.0",
+      "principle": "Education and project prominence should reflect the candidate’s relevant background and target position.",
+      "provenance": [
+        {
+          "source_id": "S06",
+          "source_url": "https://capd.mit.edu/resources/cvs/"
+        },
+        {
+          "source_id": "S09",
+          "source_url": "https://careerservices.cns.utexas.edu/explore-careers/career-guides-industry/technical-careers-guide"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Students can foreground relevant projects; experienced applicants prioritize relevant work, without one compulsory order.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+"""Novel general contract tests; no protected evaluation data or model claims."""
+import copy
+import unittest
+from resume_pipeline.semantic_contracts import *
+from rag.component.decompose import RequirementDecomposer
+from rag.retrieval import InformationNeed,NeedType
+from test_reranking import Harness
+import test_repair
+import json
+
+class Contracts(unittest.TestCase):
+    def test_shared_technology_does_not_transfer_identity(self):
+        for technology in ['Python','RAG','Qwen','LLMs']:
+            with self.subTest(technology=technology):
+                i=dict(project_label='Boreal',entity_id='b')
+                self.assertFalse(identity_compatible('Atlas used '+technology,i,['Atlas','Boreal'])['compatible'])
+                self.assertTrue(identity_compatible('Boreal used '+technology,i,['Atlas','Boreal'])['compatible'])
+    def test_named_product_identity(self):
+        self.assertFalse(identity_compatible('Resume AI evidence ingestion',dict(project_label='VeriBridge AI',entity_id='b'),['Resume-AI','VeriBridge AI'])['compatible'])
+    def test_metric_cannot_move(self):
+        self.assertFalse(identity_compatible('Reduced Project A latency by 20%',dict(project_label='Project B',entity_id='b'),['Project A','Project B'])['compatible'])
+    def test_unknown_named_project_is_not_unconstrained(self):
+        self.assertFalse(identity_compatible('Project Cedar used Python',dict(project_label='Boreal',entity_id='b'),['Boreal'])['compatible'])
+        self.assertTrue(identity_compatible('Project Boreal used Python',dict(project_label='Boreal',entity_id='b'),['Boreal'])['compatible'])
+    def test_multiple_named_entities_not_licensed_by_one(self):
+        self.assertFalse(identity_compatible('Atlas and Boreal used RAG',dict(project_label='Atlas',entity_id='a'),['Atlas','Boreal'])['compatible'])
+    def test_shared_prefix_is_not_a_project_alias(self):
+        self.assertFalse(identity_compatible('BrightBridge Cloud used Python',dict(project_label='BrightBridge Academic',entity_id='a'),['BrightBridge Cloud','BrightBridge Academic'])['compatible'])
+    def test_same_technology_different_achievement(self):
+        self.assertFalse(identity_compatible('Python image retrieval in Atlas',dict(project_label='Boreal',entity_id='b'),['Atlas','Boreal'])['compatible'])
+    def test_academic_startup_identity(self):
+        self.assertFalse(identity_compatible('Atlas Startup API',dict(project_label='Atlas Coursework',entity_id='b'),['Atlas Startup','Atlas Coursework'])['compatible'])
+    def test_context_entities_stay_separate(self):
+        names=['Atlas','Boreal','Cedar']
+        for a in names:
+            for b in names:self.assertEqual(identity_compatible(a+' RAG',dict(project_label=b,entity_id=b),names)['compatible'],a==b)
+    def test_setup_is_not_achievement(self):
+        for text in ['Installed a Python package.','Initialized a database.','Loaded a model.','Created a generic button.','The frontend lives in apps/site and uses React.','FastAPI backend for a student MVP.']:
+            self.assertFalse(achievement(text)['standalone'],text)
+    def test_substantial_implementation_can_advance_to_audit(self):
+        for text in ['Implemented image segmentation with OpenCV for live camera feeds.','Built a retrieval pipeline using PostgreSQL and vector indexing.','On the cloud, sensor data is served from PostgreSQL via an authenticated connector.','Two-branch CNN over short sequences of state/features and button history.']:
+            self.assertIsNone(achievement(text)['standalone'],text)
+    def test_numeric_processing_not_images(self):
+        self.assertFalse(compatible(capability_types('image processing'),capability_types('CNN processing numeric game state and button history')))
+    def test_images_are_images(self):
+        self.assertTrue(compatible(capability_types('image processing'),capability_types('Processed camera images using OpenCV')))
+    def test_hierarchical_vision(self):
+        self.assertTrue(compatible(capability_types('image processing'),capability_types('Implemented computer vision object detection')))
+    def test_generic_processing_not_images(self):
+        self.assertFalse(compatible(capability_types('image processing'),capability_types('generic processing')))
+    def test_negative_image_mention_not_positive_capability(self):
+        self.assertFalse(compatible(capability_types('image processing'),capability_types('Processed numeric state, not images.')))
+    def test_tool_usage_alone_is_supporting_detail(self):
+        self.assertFalse(achievement('Used OpenCV and NumPy.')['standalone'])
+    def test_review_payload_target_and_parent_coverage_are_separate(self):
+        from resume_pipeline.component_review import review_envelopes,decision_payload
+        task=dict(claim='Built a Python classifier with a decision tree.',requirements=[dict(requirement_id='r',text='Implemented Python classification using neural networks.')])
+        facts,relation=review_envelopes(task);payload=decision_payload(relation)
+        self.assertEqual(payload['requirements'][0]['text'],'Implemented Python classification')
+        self.assertEqual(relation['requirements'][0]['full_requirement'],task['requirements'][0]['text'])
+        self.assertTrue(payload['requirements'][0]['parent_relationship_id'])
+        self.assertEqual(facts['requirements'],[])
+    def test_review_payload_keeps_binding_constraints(self):
+        from resume_pipeline.component_review import review_envelopes,decision_payload
+        for text in ['Implemented APIs using Flask in Boreal.','Implemented an API without Flask.','Implemented APIs with three years of professional employment.']:
+            _,relation=review_envelopes(dict(claim='Built APIs.',requirements=[dict(requirement_id='r',text=text)]))
+            self.assertEqual(decision_payload(relation)['requirements'][0]['text'],text)
+    def test_generic_object_cannot_detach_technology(self):
+        from resume_pipeline.component_review import component_requirement
+        text='Implemented a project with FastAPI.'
+        self.assertEqual(component_requirement(dict(requirement_id='r',text=text))['text'],text)
+    def test_architecture_is_not_training_capability(self):
+        self.assertFalse(compatible(capability_types('Trained a neural network.'),capability_types('Two-branch CNN over numeric state.')))
+        self.assertTrue(compatible(capability_types('Trained a neural network.'),capability_types('Trained a CNN on sensor sequences.')))
+    def test_design_does_not_license_completed_implementation(self):
+        self.assertFalse(action_strength_compatible('Built API routes.','Architected API product flows.'))
+        self.assertTrue(action_strength_compatible('Designed API routes.','Architected API product flows.'))
+        self.assertTrue(action_strength_compatible('Used Python in API architecture.','Architected Python API product flows.'))
+        self.assertTrue(action_strength_compatible('Implemented API routes.','Designed and implemented API routes.'))
+    def test_shared_secondary_type_cannot_license_missing_primary_capability(self):
+        self.assertFalse(compatible(capability_types('Dockerized APIs.'),capability_types('Architected FastAPI routes.')))
+        self.assertTrue(compatible(capability_types('Dockerized APIs.'),capability_types('Deployed Dockerized APIs on a VM.')))
+    def test_container_project_is_not_assertion_event(self):
+        from types import SimpleNamespace
+        ref=dict(scope={'candidate_id':'A'},source_id='s',source_version=1,evidence_id='e')
+        unit=dict(text='On Azure, telemetry is served from an authenticated database connector.',start=0,end=71,source_context={'text':'## Database paths','start':0})
+        e=SimpleNamespace(metadata_json=json.dumps(dict(project='telemetry-gcp',evidence_type='implementation_artifact')))
+        value=identity(ref,unit,e)
+        self.assertEqual(value['source_container_project'],'telemetry-gcp');self.assertIsNone(value['project_label']);self.assertEqual(value['assertion_platforms'],['AZURE'])
+        self.assertFalse(event_scope_compatible('Implemented GCP database connectivity.',value))
+        self.assertTrue(event_scope_compatible('Implemented Azure database connectivity.',value))
+        self.assertFalse(identity_compatible('telemetry-gcp database implementation',value,['telemetry-gcp'])['compatible'])
+    def test_same_section_different_explicit_events_have_distinct_entities(self):
+        ref=dict(scope={'candidate_id':'A'},source_id='s',source_version=1,evidence_id='e')
+        a=dict(text='On AWS, telemetry is served through a database connector.',start=0,end=55,source_context={'text':'## Data','start':0})
+        b=dict(a,text='On Azure, telemetry is served through a database connector.')
+        self.assertNotEqual(identity(ref,a)['entity_id'],identity(ref,b)['entity_id'])
+    def test_link_veto_does_not_become_factual_veto(self):
+        from resume_pipeline.reselection import exclusions,quote_key
+        q=dict(evidence_id='e',quote='Architected a Python API.',requirement_ids=['implementation'])
+        texts,links=exclusions([dict(quote=q,accepted=False,support='NOT_ASSESSED',eligibility='C',link_only_rejection=True)],[])
+        self.assertNotIn(quote_key(q['quote']),texts);self.assertIn((quote_key(q['quote']),'implementation'),links)
+    def test_postgres_not_automatically_pgvector(self):
+        self.assertFalse(compatible(capability_types('pgvector vector retrieval'),capability_types('PostgreSQL connectivity')))
+        self.assertTrue(compatible(capability_types('PostgreSQL database'),capability_types('PostgreSQL data connector')))
+    def test_action_technology_relationship(self):
+        r=relationship('Build retrieval services using PostgreSQL','r')
+        self.assertEqual(r['action'],['Build']);self.assertEqual(r['object'],'retrieval services');self.assertEqual(r['technology'],['PostgreSQL'])
+    def test_dotted_object_identifier_is_not_sentence_boundary(self):
+        for text,expected in [('Use Next.js using TypeScript.', 'Next.js'), ('Build .NET APIs using PostgreSQL.', '.NET APIs'), ('Process version 2.1 images using OpenCV.', 'version 2.1 images')]:
+            self.assertEqual(relationship(text,'r')['object'],expected)
+        self.assertEqual(relationship('Process images. Deploy services.','r')['object'],None)
+    def test_technology_cannot_be_borrowed_from_nearby_project(self):
+        self.assertFalse(technology_compatible('Implemented PostgreSQL connectivity','Built a Cloud SQL data pipeline.'))
+        self.assertTrue(technology_compatible('Implemented PostgreSQL connectivity','Built a Postgres data pipeline.'))
+        self.assertFalse(technology_compatible('Implemented FastAPI services','Built Flask services.','Project Atlas'))
+        self.assertTrue(technology_compatible('Implemented LLM inference','Implemented Qwen inference.'))
+        self.assertTrue(technology_compatible('Used PyTorch','Implemented a two-branch neural network.','PyTorch coursework'))
+    def test_secondary_positive_support_requires_matching_entity(self):
+        a=dict(candidate_id='a',project_label='Atlas',entity_id='1',assertion_platforms=[])
+        b=dict(candidate_id='a',project_label='Boreal',entity_id='2',assertion_platforms=[])
+        self.assertFalse(same_support_entity(a,b,['Atlas','Boreal']))
+        self.assertTrue(same_support_entity(a,dict(a,entity_id='3'),['Atlas']))
+        self.assertFalse(same_support_entity(a,dict(a,candidate_id='b'),['Atlas']))
+        self.assertFalse(same_support_entity(dict(a,assertion_platforms=['AWS']),dict(a,entity_id='3',assertion_platforms=['GCP']),['Atlas']))
+        self.assertFalse(same_support_entity(dict(a,project_label=None),dict(b,project_label=None),[]))
+    def test_foreign_positive_rejected_but_counterevidence_retained(self):
+        from resume_pipeline.licensing import validate_review
+        task=dict(event_id='e',requirements=[],sources=[dict(evidence_id='a',positive_support_allowed=True),dict(evidence_id='b',positive_support_allowed=False)])
+        obj=dict(support='SUPPORTED',eligibility='A',event_id='e',links=[],evidence_ids=['b'],counterevidence_ids=[],reason='Foreign positive source')
+        with self.assertRaisesRegex(ValueError,'cross-entity'):validate_review(obj,task)
+        obj.update(support='CONTRADICTED',eligibility='F',evidence_ids=['a'],counterevidence_ids=['b'])
+        self.assertFalse(validate_review(obj,task))
+    def test_negative_technology_is_not_positive_support(self):
+        self.assertFalse(technology_compatible('Implemented PostgreSQL connectivity','Implemented SQLite connectivity, not PostgreSQL.'))
+        self.assertTrue(technology_compatible('Implemented PostgreSQL connectivity without SQLite','Implemented PostgreSQL connectivity.'))
+        self.assertFalse(technology_compatible('Used Next.js','Used Python, not Next.js.'))
+    def test_deployment_images_do_not_imply_visual_processing(self):
+        for name in ['Docker','container','OCI','VM','disk']:
+            self.assertNotIn('IMAGE_PROCESSING',capability_types('Bundled numeric records in a '+name+' image.'))
+        self.assertIn('IMAGE_PROCESSING',capability_types('Processed images using OpenCV in a Docker image.'))
+    def test_compound_paraphrase_component_not_lost_to_inflection(self):
+        from resume_pipeline.component_review import component_requirement
+        r=dict(requirement_id='r',text='Built and deployed Dockerized APIs on AWS and implemented PostgreSQL vector search.')
+        c=component_requirement(r,'This academic API deployment platform demonstrates Docker containerization and automated CI/CD orchestration.')
+        self.assertEqual(c['text'],'Dockerized APIs')
+        self.assertEqual(c['full_requirement'],r['text'])
+        self.assertTrue(c['selected_relationship']['retrieval_component_id'])
+    def test_compound_projection_never_discards_binding_exclusion(self):
+        from resume_pipeline.component_review import component_requirement
+        r=dict(requirement_id='r',text='Built Python APIs and processed images without OpenCV.')
+        c=component_requirement(r,'Built Python APIs using OpenCV.')
+        self.assertEqual(c['text'],r['text'])
+        self.assertEqual(c['coverage'],'FULL_REQUIREMENT')
+    def test_action_object_relationship(self):
+        r=relationship('Process images using OpenCV','r')
+        self.assertEqual(r['object'],'images');self.assertEqual(r['technology'],['OpenCV'])
+    def test_purpose_constraint_qualifier(self):
+        r=relationship('Use PostgreSQL for retrieval without Redis; preferred','r')
+        self.assertTrue(r['purpose']);self.assertTrue(r['constraint']);self.assertIn('preferred',r['qualifier'])
+    def test_multiple_technologies(self):
+        r=relationship('Build APIs using Python and PostgreSQL','r')
+        self.assertEqual(r['technology'],['Python','PostgreSQL']);self.assertEqual(r['object'],'APIs')
+    def test_shared_action_binds_next_object_not_last(self):
+        d=RequirementDecomposer().decompose(InformationNeed(NeedType.JOB_REQUIREMENT,'Built and deployed containerized services on GCP and implemented SQLite backups.','r'))
+        self.assertTrue(any(c.text=='Built services.' for c in d.components))
+        self.assertFalse(any('GCP' in c.text and 'SQLite' in c.text for c in d.components))
+        self.assertFalse(any(c.text.startswith('Built SQLite') for c in d.components))
+        self.assertTrue(all(c.semantic_relationship['parent_requirement_id']=='r' for c in d.components))
+    def test_compound_recovery_retains_retrieval_relationship_identity(self):
+        from resume_pipeline.component_review import component_requirement
+        text='Built and deployed containerized services on GCP and implemented SQLite backups.'
+        r=dict(requirement_id='r',text=text)
+        c=component_requirement(r,'Deployed containerized services on a classroom VM.')
+        self.assertEqual(c['text'],'containerized services');self.assertEqual(c['coverage'],'PARTIAL_COMPONENT')
+        dec=RequirementDecomposer().decompose(InformationNeed(NeedType.JOB_REQUIREMENT,text,'r'))
+        self.assertIn(c['selected_relationship']['relationship_id'],[x.semantic_relationship['relationship_id'] for x in dec.components])
+        self.assertEqual(c['full_requirement'],text);self.assertIsNone(relationship(text,'r')['object'])
+    def test_negation_preserved(self):
+        text='Build APIs without Flask and do not deploy on AWS.'
+        d=RequirementDecomposer().decompose(InformationNeed(NeedType.JOB_REQUIREMENT,text,'r'))
+        self.assertEqual([c.text for c in d.components],[text])
+    def test_relationship_identity_is_not_keyword_bag(self):
+        a=relationship('Build images using Python','r');b=relationship('Build Python using images','r')
+        self.assertNotEqual(a['relationship_id'],b['relationship_id']);self.assertNotEqual(a['object'],b['object'])
+    def test_every_combined_license_dimension_is_required(self):
+        base=dict(candidate_match=True,provenance_valid=True,factual_support=True,project_identity_compatible=True,requirement_semantics_compatible=True,capability_compatible=True,claim_strength_supported=True,contradicted=False,ambiguous=False,resume_worthy=True)
+        self.assertTrue(license_contract(**base)['resume_promotion'])
+        for key in base:
+            x=dict(base);x[key]=not x[key];self.assertFalse(license_contract(**x)['resume_promotion'],key)
+    def test_contradiction_quote_does_not_override_negative(self):
+        source=dict(evidence_id='s',project_label='Atlas',content='Authentication and database features have not been implemented yet.')
+        i=dict(project_label='Atlas');self.assertTrue(unresolved_negative('Built authentication and database features.',i,[source],['Atlas']))
+    def test_other_project_negative_is_not_transferred(self):
+        source=dict(evidence_id='s',project_label='Boreal',content='Authentication has not been implemented.')
+        self.assertFalse(unresolved_negative('Built authentication.',dict(project_label='Atlas'),[source],['Atlas','Boreal']))
+    def test_architecture_is_not_completed_implementation(self):
+        source=dict(evidence_id='s',project_label='Atlas',content='Authentication has not been implemented.')
+        self.assertFalse(unresolved_negative('Architected authentication flows.',dict(project_label='Atlas'),[source],['Atlas']))
+    def test_identity_retains_exact_candidate_and_span(self):
+        ref=dict(scope={'candidate_id':'a'},source_id='s',source_version=1,evidence_id='e')
+        unit=dict(text='Built an API.',start=20,end=33,source_context={'text':'Atlas | Academic project','start':0})
+        i=identity(ref,unit);self.assertEqual(i['candidate_id'],'a');self.assertEqual(i['canonical_evidence_id'],'e');self.assertEqual(i['provenance'],dict(source_version=1,start=20,end=33))
+        other=copy.deepcopy(ref);other['scope']['candidate_id']='b';self.assertNotEqual(i['entity_id'],identity(other,unit)['entity_id'])
+
+class FallbackContracts(Harness,unittest.TestCase):
+    pipeline=test_repair.IntegrationTests.pipeline
+    def test_incompatible_targets_do_not_bias_viable_content_review(self):
+        p=self.pipeline();original=p.model.generate;calls=[]
+        def generate(messages):
+            calls.append(json.loads(messages[-1]['content']))
+            return original(messages)
+        p.model.generate=generate
+        r=p.run('Implemented Python APIs.\nProcessed images using OpenCV.','A')
+        self.assertEqual(r['status'],'COMPLETE',r.get('error'))
+        reviewed=[x for x in calls if x.get('review_axis')=='CONTENT_AND_COMPONENT_RELEVANCE']
+        self.assertTrue(reviewed)
+        self.assertTrue(all('images' not in q['text'] for x in reviewed for q in x['requirements']))
+        rejected=[x for v in r['claim_reviews'] for x in v.get('links',[]) if not x['supported']]
+        self.assertTrue(any('veto before model review' in x['reason'] for x in rejected))
+        self.assertTrue(all(s.get('semantic_identity',{}).get('candidate_id')=='A' for x in calls if 'claim' in x for s in x['sources']))
+    def test_deterministic_rejections_do_not_spend_model_review_budget(self):
+        for i in range(14):self.add('design-'+str(i),'Architected PostgreSQL database connectivity for service '+str(i)+'.')
+        safe='PostgreSQL data is served through an authenticated connector.'
+        self.add('implemented-connector',safe);p=self.pipeline();calls=[]
+        class Model:
+            def token_count(self,m):return len(str(m))//4
+            def generate(self,m):
+                t=json.loads(m[-1]['content']);calls.append(t)
+                if 'claim' not in t:return {'text':json.dumps(dict(requirements=[dict(requirement_id=r['requirement_id'],label='UNKNOWN',evidence_ids=[],reason='No initial selection') for r in t['requirements']],selected_quotes=[]))}
+                obj=dict(support='SUPPORTED',event_id=t['event_id'],evidence_ids=[t['sources'][0]['evidence_id']],counterevidence_ids=[],reason='Synthetic exact connector support')
+                if t['requirements']:obj.update(eligibility='A',links=[dict(requirement_id=r['requirement_id'],supported=t['claim']==safe,reason='Database connectivity capability') for r in t['requirements']])
+                return {'text':json.dumps(obj)}
+        p.model=Model();r=p.run('Implemented PostgreSQL database connectivity.','A')
+        self.assertEqual(r['status'],'COMPLETE',r.get('error'))
+        self.assertEqual(r['fallback_pool']['review_calls'],1)
+        self.assertGreater(r['fallback_pool']['attempted_candidates'],12)
+        self.assertEqual([c['text'] for c in r['resume']['sections'][0]['claims']],[safe])
+    def test_duplicate_requirement_occurrences_retain_license_lineage(self):
+        r=self.pipeline().run('Implemented Python APIs.\nImplemented Python APIs.','A')
+        self.assertEqual(r['status'],'COMPLETE')
+        c=r['resume']['sections'][0]['claims'][0]
+        self.assertEqual(set(c['requirement_ids']),{b['requirement_id'] for b in c['licensed_relationships']})
+        self.assertEqual(len(c['requirement_relationships']),2)
+        self.assertTrue(all(b['parent_relationship']['relationship_id'] and b['component_relationship']['relationship_id'] for b in c['licensed_relationships']))
+    def test_malformed_selector_is_quarantined_before_independent_recovery(self):
+        p=self.pipeline();original=p.model.generate
+        def generate(messages):
+            task=json.loads(messages[-1]['content'])
+            if 'claim' not in task:return dict(text='{ "requirements": [ broken JSON')
+            return original(messages)
+        p.model.generate=generate;r=p.run('Implemented Python APIs.','A')
+        self.assertEqual(r['status'],'COMPLETE',r.get('error'))
+        self.assertFalse(r['initial_selection_valid']);self.assertIn('invalid model JSON',r['initial_selection_error'])
+        self.assertEqual([c['text'] for c in r['resume']['sections'][0]['claims']],['Implemented Python APIs with FastAPI.'])
+        self.assertTrue(all(v.get('semantic_contract',{}).get('resume_promotion') for v in r['claim_reviews'] if v['accepted']))
+    def test_postgresql_gets_license_despite_empty_selector(self):
+        text='Sensor data is served from PostgreSQL via an authenticated Python connector.'
+        self.add('postgres-project',text)
+        p=self.pipeline();calls=[]
+        class Model:
+            def token_count(self,m):return len(str(m))//4
+            def generate(self,m):
+                task=json.loads(m[-1]['content']);calls.append(task)
+                if 'claim' not in task:
+                    return {'text':json.dumps(dict(requirements=[dict(requirement_id=r['requirement_id'],label='UNSUPPORTED',evidence_ids=[],reason='Selector declined') for r in task['requirements']],selected_quotes=[]))}
+                okay=task['claim']==text
+                obj=dict(support='SUPPORTED' if okay else 'UNSUPPORTED',event_id=task['event_id'],evidence_ids=[task['sources'][0]['evidence_id']] if okay else [],counterevidence_ids=[],reason='Independent synthetic connector support')
+                if task['requirements']:obj.update(eligibility='A',links=[dict(requirement_id=r['requirement_id'],supported=okay,reason='Database connectivity only; no production-scale claim') for r in task['requirements']])
+                return {'text':json.dumps(obj)}
+        p.model=Model();result=p.run('Implemented PostgreSQL connectivity.','A')
+        self.assertEqual(result['status'],'COMPLETE',result.get('error'))
+        self.assertEqual([c['text'] for c in result['resume']['sections'][0]['claims']],[text])
+        self.assertTrue(any(t.get('claim')==text for t in calls))
+        self.assertFalse(any(t.get('selection_mode')=='fallback' for t in calls))
+    def test_rejection_in_one_entity_does_not_suppress_another(self):
+        from resume_pipeline.semantic_policy import ranked_candidates
+        from resume_pipeline.licensing import event_identity
+        text='Built a Python retrieval pipeline.'
+        ref=dict(scope={'candidate_id':'A'},source_id='s',source_version=1,evidence_id='e',origin='candidate_supplied')
+        a=dict(text=text,start=20,end=53,source_context={'text':'Atlas | project','start':0})
+        b=dict(text=text,start=120,end=153,source_context={'text':'Boreal | project','start':100})
+        units={'a':dict(reference=ref,allowed_quotes=[a]),'b':dict(reference=ref,allowed_quotes=[b])}
+        review=dict(accepted=False,support='CONTRADICTED',eligibility='F',event_id=event_identity(ref,a),quote=dict(evidence_id='a',quote=text,requirement_ids=['r']))
+        rows=ranked_candidates(units,{'r':{'a','b'}},['a','b'],[dict(requirement_id='r',text='Built Python retrieval.')],[review],[],set())
+        self.assertEqual([r['evidence_id'] for r in rows],['b'])
+    def test_discovery_query_does_not_preempt_independent_licensing(self):
+        from resume_pipeline.semantic_policy import ranked_candidates
+        ref=dict(scope={'candidate_id':'A'},source_id='s',source_version=1,evidence_id='e',origin='candidate_supplied')
+        unit=dict(text='Implemented PostgreSQL API routes.',start=0,end=34,source_context=None)
+        rows=ranked_candidates({'e':dict(reference=ref,allowed_quotes=[unit])},{'image':{'e'},'database':set()},['e'],[dict(requirement_id='image',text='Process images.'),dict(requirement_id='database',text='Implemented PostgreSQL API routes.')],[],[],set())
+        self.assertEqual(rows[0]['retrieved_for'],['image']);self.assertEqual(set(rows[0]['requirement_ids']),{'image','database'})

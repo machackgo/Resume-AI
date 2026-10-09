@@ -1,0 +1,161 @@
+{
+  "knowledge_base_version": "stage4c0-research-v1",
+  "research_date": "2026-09-29",
+  "domain": "ats",
+  "scope_note": "Evidence-supported guidance is separated from conservative inference and explicit product requirements.",
+  "principles": [
+    {
+      "principle_id": "ATS01",
+      "version": "1.0.0",
+      "principle": "Keep resume content as selectable text with conventional sections and explicit fields.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S02",
+          "source_url": "https://hire.lever.co/developer/documentation"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": "Summary, Skills, Experience, Projects, Education, Certifications; only include applicable sections.",
+      "observable_check": "Structured text fields are present; no fact depends on an image or decorative glyph.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ATS02",
+      "version": "1.0.0",
+      "principle": "Use predictable linear content order; avoid encoding column or text-box relationships into generated text.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S27",
+          "source_url": "https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": "Single logical reading order.",
+      "observable_check": "Artifact has ordered sections and entries.",
+      "exceptions_or_limits": [
+        "Correctly tagged columns can be accessible; parser behavior remains vendor-specific."
+      ]
+    },
+    {
+      "principle_id": "ATS03",
+      "version": "1.0.0",
+      "principle": "Keep organization, title and date fields consistent and independently identifiable.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S02",
+          "source_url": "https://hire.lever.co/developer/documentation"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Exact structured identity/date matching.",
+      "exceptions_or_limits": [
+        "Do not append corporate suffixes or expand ambiguous job titles unless evidence supports them."
+      ]
+    },
+    {
+      "principle_id": "ATS04",
+      "version": "1.0.0",
+      "principle": "Align relevant terminology only when candidate evidence entails the term.",
+      "provenance": [
+        {
+          "source_id": "S07",
+          "source_url": "https://capd.mit.edu/resources/career-toolkit-crafting-an-effective-resume/"
+        },
+        {
+          "source_id": "S10",
+          "source_url": "https://careerservices.fas.harvard.edu/ai-resumes-and-cover-letters/"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Supported terms only; adjacent technology is not an alias.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ATS05",
+      "version": "1.0.0",
+      "principle": "Treat parser compatibility and recruiter relevance as separate dimensions; never promise a universal ATS score.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S02",
+          "source_url": "https://hire.lever.co/developer/documentation"
+        },
+        {
+          "source_id": "S21",
+          "source_url": "https://careers.microsoft.com/v2/global/en/hiring-tips"
+        }
+      ],
+      "evidence_kind": "conservative_inference",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "No universal pass guarantee or opaque ATS percentage.",
+      "exceptions_or_limits": []
+    },
+    {
+      "principle_id": "ATS06",
+      "version": "1.0.0",
+      "principle": "Use platform-specific file constraints only when the target system is known.",
+      "provenance": [
+        {
+          "source_id": "S01",
+          "source_url": "https://support.greenhouse.io/hc/en-us/articles/200989175-Unsuccessful-resume-parse"
+        },
+        {
+          "source_id": "S26",
+          "source_url": "https://help.usajobs.gov/faq/application/documents/resume/what-to-include"
+        }
+      ],
+      "evidence_kind": "source_supported",
+      "confidence": "high",
+      "scope": "context_dependent",
+      "conservative_default": null,
+      "observable_check": "Renderer applies explicit destination requirements, not one global limit.",
+      "exceptions_or_limits": [
+        "Greenhouse documents 2.5 MB parsing limit; USAJOBS documents 5 MB upload limit. They describe different systems and operations."
+      ]
+    },
+    {
+      "principle_id": "ATS07",
+      "version": "1.0.0",
+      "principle": "No hidden keywords or unsupported skill insertion is an acceptable optimization.",
+      "provenance": [
+        {
+          "source_id": "S16",
+          "source_url": "https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-and-professional-conduct.pdf"
+        }
+      ],
+      "evidence_kind": "research_informed_product_rule",
+      "confidence": "high",
+      "scope": "universal_product_rule",
+      "conservative_default": null,
+      "observable_check": "Every candidate-specific keyword has grounding; all visible content matches emitted content.",
+      "exceptions_or_limits": []
+    }
+  ]
+}

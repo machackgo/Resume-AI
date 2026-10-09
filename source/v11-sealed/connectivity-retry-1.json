@@ -1,0 +1,5 @@
+{
+  "time": "2026-10-08T12:49:02.980551+00:00",
+  "exit": 255,
+  "stderr": "ssh: connect to host turing.wpi.edu port 22: Operation timed out\n"
+}

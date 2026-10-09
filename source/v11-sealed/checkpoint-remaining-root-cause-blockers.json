@@ -1,0 +1,19 @@
+[
+  {
+    "category": "OTHER",
+    "root_cause": "Network connectivity failed during result collection: Turing TCP/22 timed out on every resolved endpoint, then unrelated public DNS controls also failed. GlobalProtect UI reported Connected; VPN settings were not changed.",
+    "evidence": [
+      "turing-connectivity-interruption.json",
+      "connectivity-retry-1.json",
+      "connectivity-retry-2.json",
+      "network-control-probes.json"
+    ],
+    "blocks": [
+      "Fresh S07 output collection and independent audit",
+      "Historical gate completion",
+      "Full unchanged full-v7 fresh rerun and independent audit",
+      "Post-completion remote frozen/input verification",
+      "Final archive upload and remote SHA-256 verification"
+    ]
+  }
+]

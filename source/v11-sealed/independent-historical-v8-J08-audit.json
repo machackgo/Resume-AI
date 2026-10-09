@@ -1,0 +1,22 @@
+{
+  "case": "J08",
+  "raw_sha256": "ea8a6d9c180eacb262c0877337c32f2a41e41b6a1a31f8220a9714c062295045",
+  "historical_failure_reproduced": false,
+  "claims": [
+    {
+      "claim_id": "resume_claim_fe6dffbea3e4e1462dae3218e73463be25268569dd75921f596fa3a1997dbd26",
+      "factual_class": "SUPPORTED",
+      "content_class": "VALID NARROW BULLET",
+      "identity_class": "CORRECT PROJECT/EVENT",
+      "capability_class": "COMPATIBLE",
+      "relationship_class": "SUPPORTED",
+      "source_id": "source_55a62021dbece37aedfd029f09d7a23888854ea2f882340955ff0d0f52bb6f49",
+      "span": [
+        1559,
+        1761
+      ],
+      "rationale": "Exact candidate resume VeriBridge section supports architecture of named product flows; this does not assert their completed implementation. Final license covers only Next.js/TypeScript use in VeriBridge. QA and built-route links are vetoed before review. Generic frontend-folder configuration is explicitly rejected. Positive supporting references are both tied to the VeriBridge source section; other project windows cannot supply positive support. Dotted object text and original relationship are now intact."
+    }
+  ],
+  "case_passed": true
+}
