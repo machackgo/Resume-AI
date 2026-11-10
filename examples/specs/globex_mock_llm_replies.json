@@ -1,0 +1,30 @@
+{
+ "_note": "SYNTHETIC canned model replies used by the demo's mock LLM. Attempt 1 deliberately breaks the rules so the validator-feedback loop is visible; attempt 2 is the corrected spec.",
+ "attempts": [
+  {"slug": "Globex_AppliedAIEngineer",
+   "summary": "Applied AI engineer who improved retrieval accuracy by 37% and shipped retrieval systems used by 5,000 users.",
+   "skills": [["Languages", "Python, SQL"], ["Machine learning", "RAG, LoRA, fine-tuning"]],
+   "experience": [["LAB", ["L1", "L2"]], ["INTERN", ["I1", "P1"]]],
+   "letter_heading": "Globex Data Systems — Applied AI Engineer, New Grad, Remote",
+   "cover_letter": ["I want to build retrieval assistants at Globex.", "I built a hybrid retrieval pipeline.", "I deployed services on Kubernetes."],
+   "outreach": {"email": "Subject: Applied AI Engineer\n\nHello, I build cited retrieval systems.", "linkedin_connection": "Hello, I build cited retrieval systems.", "linkedin_followup": "Thank you for connecting."}},
+  {"slug": "Globex_AppliedAIEngineer",
+   "summary": "MS Computer Science student who builds cited retrieval systems: a hybrid BM25 and embedding pipeline with its own evaluation harness, and a FastAPI classification service backed by PostgreSQL.",
+   "skills": [["Languages and data", "Python, SQL, PostgreSQL"], ["Retrieval and evaluation", "RAG, embeddings, evals"],
+              ["Backend", "FastAPI, pytest, CI/CD, Git"], ["LLM work (ongoing)", "LLM, agents, LoRA, fine-tuning"]],
+   "experience": [["LAB", ["L1", "L2", "L3"]], ["INTERN", ["I1", "I2"]]],
+   "projects": [["OSS", ["O1"]], ["THESIS", ["T1"]]],
+   "letter_heading": "Globex Data Systems — Applied AI Engineer, New Grad, Remote",
+   "cover_letter": [
+     "Your team builds retrieval-augmented assistants over internal documentation and measures their quality, which is the work I have been doing in the Lakeside NLP Lab.",
+     "In the lab I built a hybrid retrieval pipeline that fuses BM25 and embedding search with reciprocal rank fusion over 4,000 forum posts, and every answer cites its source span. I also wrote the evaluation harness, 120 hand-labelled questions scored on recall@5 and citation accuracy, so each change is measured on the same set.",
+     "During my internship at Fictional Freight Co. I built a FastAPI service backed by PostgreSQL that routes support tickets into 9 queues, with pytest coverage and a CI gate. My ongoing thesis work extends this toward an agent that rejects any sentence without a retrieved citation.",
+     "I would welcome the chance to discuss how this experience fits the role."],
+   "answers": [["What is your desired salary?", "FLAG FOR CANDIDATE"],
+               ["Expected graduation date", "May 2027"]],
+   "outreach": {"email": "Subject: Applied AI Engineer, New Grad\n\nHello, I build cited retrieval systems with their own evaluation harness and would value a short conversation about the role.",
+                "linkedin_connection": "Hello, I build cited retrieval systems and evaluation harnesses and am interested in the Applied AI Engineer role.",
+                "linkedin_followup": "Thank you for connecting. I would value ten minutes to learn how your team measures retrieval quality."},
+   "open_items": ["Answer the salary question yourself."]}
+ ]
+}

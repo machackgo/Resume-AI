@@ -1,0 +1,6 @@
+[
+  {"source_type":"website","source_key":"portfolio","uri":"https://example.invalid/portfolio","title":"Synthetic portfolio capture","text":"Built a Python service.","locator":{"kind":"website.v1","attributes":{"url":"https://example.invalid/portfolio","section":"Projects"}}},
+  {"source_type":"github_repository","source_key":"repository","uri":"https://example.invalid/repo","title":"Synthetic repository capture","text":"apiVersion: apps/v1\nkind: Deployment\n","locator":{"kind":"github.v1","attributes":{"repository":"https://example.invalid/repo","commit":"0123456789012345678901234567890123456789","file":"deploy/app.yaml","line_start":1,"line_end":2}}},
+  {"source_type":"pdf_document","source_key":"certificate","uri":"https://example.invalid/certificate.pdf","title":"Synthetic PDF normalized text","text":"Completed introductory container coursework.","locator":{"kind":"pdf.v1","attributes":{"document_id":"synthetic-certificate","page":1}}},
+  {"source_type":"veribridge_report","source_key":"report","uri":"https://example.invalid/reports/synthetic-001","title":"Synthetic report; not authenticated","text":"Built a Python service.","locator":{"kind":"veribridge.v1","attributes":{"report_id":"synthetic-001","section":"Build summary"}}}
+]

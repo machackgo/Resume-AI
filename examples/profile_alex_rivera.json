@@ -1,0 +1,61 @@
+{
+ "schema_version": 2,
+ "_note": "SYNTHETIC profile. Alex Rivera, every organisation, and every fact below are fictional and exist only to exercise the code.",
+ "header": {"name": "Alex Rivera", "location": "Springfield, USA", "phone": "(555) 010-0199",
+            "email": "alex.rivera@example.com", "github": "code.example.org/alex-rivera", "website": "alex-rivera.example.org"},
+ "education": [
+  {"school": "Lakeside Institute of Technology", "place": "Springfield, USA", "degree": "Master of Science, Computer Science",
+   "dates": "Sep 2025 - May 2027 (expected)", "detail": "Focus: information retrieval and NLP",
+   "coursework": "Information Retrieval, Machine Learning, Natural Language Processing", "status": "IN_PROGRESS", "source": "synthetic"}
+ ],
+ "roles": {
+  "LAB": {"title": "Graduate Research Assistant", "org": "Lakeside NLP Lab", "place": "Springfield, USA", "dates": "Sep 2025 - Present", "status": "VERIFIED", "source": "synthetic: lab repository"},
+  "INTERN": {"title": "Software Engineering Intern", "org": "Fictional Freight Co.", "place": "Springfield, USA", "dates": "Jun 2025 - Aug 2025", "status": "VERIFIED", "source": "synthetic: offer letter and repository"},
+  "OSS": {"title": "tinyrank (open-source library)", "org": "Personal project", "place": "", "dates": "2025", "status": "VERIFIED", "source": "synthetic: public repository"},
+  "THESIS": {"title": "MS thesis: evidence-grounded summarisation", "org": "Lakeside Institute of Technology", "place": "", "dates": "Ongoing", "status": "IN_PROGRESS", "source": "synthetic: candidate statement"}
+ },
+ "items": {
+  "L1": {"role": "LAB", "status": "VERIFIED", "source": "synthetic: lab repository README and commit history", "tags": ["RAG", "NLP"],
+         "text": "Built a hybrid retrieval pipeline (BM25 plus sentence-embedding search, fused with reciprocal rank fusion) over 4,000 community-forum posts, with every answer citing the source post and character span."},
+  "L2": {"role": "LAB", "status": "VERIFIED", "source": "synthetic: evaluation scripts in lab repository", "tags": ["EVAL"],
+         "text": "Wrote an evaluation harness with 120 hand-labelled questions that reports recall@5 and citation accuracy for each retrieval configuration."},
+  "L3": {"role": "LAB", "status": "ATTESTED", "source": "synthetic: candidate statement", "tags": ["SWE"],
+         "text": "Presented weekly experiment results to the lab group and kept a reproducible experiment log in Git."},
+  "I1": {"role": "INTERN", "status": "VERIFIED", "source": "synthetic: internship repository", "tags": ["SWE", "ML"],
+         "text": "Built a FastAPI service that classifies inbound support tickets into 9 queues using a scikit-learn model, backed by PostgreSQL."},
+  "I2": {"role": "INTERN", "status": "ATTESTED", "source": "synthetic: candidate statement", "tags": ["SWE"],
+         "text": "Added pytest unit and integration tests and a GitHub Actions pipeline that blocks merges on failing tests."},
+  "O1": {"role": "OSS", "status": "VERIFIED", "source": "synthetic: public repository", "tags": ["RAG", "SWE"],
+         "text": "Published tinyrank, a small Python library for BM25 and reciprocal rank fusion with typed results and 95 unit tests."},
+  "T1": {"role": "THESIS", "status": "IN_PROGRESS", "source": "synthetic: candidate statement", "tags": ["LLM", "AGENT"],
+         "text": "Building an evidence-grounded summarisation agent that drafts answers with an open-weight LLM and rejects any sentence without a retrieved citation (ongoing)."},
+  "T2": {"role": "THESIS", "status": "IN_PROGRESS", "source": "synthetic: candidate statement", "tags": ["LLM", "FT"],
+         "text": "Fine-tuning a small open-weight model with LoRA adapters for citation formatting (ongoing)."},
+  "P1": {"role": "THESIS", "status": "PLANNED", "source": "synthetic: candidate statement", "tags": ["RL"],
+         "text": "Planned: reinforcement learning from human feedback experiments for citation faithfulness."},
+  "D1": {"role": "INTERN", "status": "DISPUTED", "source": "synthetic: third-party summary vs repository (repository shows a single Docker host)", "tags": [],
+         "text": "Deployed the ticket classifier on Kubernetes across three regions."}
+ },
+ "skills": {
+  "python": ["VERIFIED", ["L1", "I1", "O1"]], "sql": ["VERIFIED", ["I1"]], "postgresql": ["VERIFIED", ["I1"]],
+  "fastapi": ["VERIFIED", ["I1"]], "scikit-learn": ["VERIFIED", ["I1"]], "machine learning": ["VERIFIED", ["I1"]],
+  "nlp": ["VERIFIED", ["L1"]], "rag": ["VERIFIED", ["L1", "O1"]], "embeddings": ["VERIFIED", ["L1"]],
+  "evals": ["VERIFIED", ["L2"]], "model evaluation": ["VERIFIED", ["L2"]],
+  "pytest": ["ATTESTED", ["I2"]], "ci/cd": ["ATTESTED", ["I2"]], "git": ["ATTESTED", ["L3"]],
+  "llm": ["IN_PROGRESS", ["T1"]], "agents": ["IN_PROGRESS", ["T1"]], "tool calling": ["IN_PROGRESS", ["T1"]],
+  "fine-tuning": ["IN_PROGRESS", ["T2"]], "lora": ["IN_PROGRESS", ["T2"]], "pytorch": ["IN_PROGRESS", ["T2"]],
+  "reinforcement learning": ["PLANNED", ["P1"]], "rlhf": ["PLANNED", ["P1"]]
+ },
+ "banned_patterns": [
+  "\\bkubernetes\\b", "\\bk8s\\b", "\\bspark\\b", "\\bc\\+\\+", "\\bphd\\b", "\\bled a team\\b", "\\bmanaged (a|the) team\\b",
+  "\\brlhf\\b", "\\bdistributed training\\b", "\\bmulti-node\\b", "\\baward", "\\bcertif", "\\brevenue\\b",
+  "\\b\\d[\\d,]* (users|customers)\\b", "\\bstate-of-the-art results?\\b", "\\boutperform", "\\bpublication", "\\bpublished (a )?paper"
+ ],
+ "gaps": ["kubernetes", "c++", "spark", "distributed training", "java", "go", "rust", "tensorflow"],
+ "hard_gaps": ["kubernetes", "c++", "spark", "distributed training"],
+ "allowed_numbers": ["2025", "2026", "2027"],
+ "writing_rules": [
+  "Use the education block exactly as given; graduation is expected May 2027.",
+  "Never answer eligibility, salary or demographic questions; answer FLAG FOR CANDIDATE."
+ ]
+}
